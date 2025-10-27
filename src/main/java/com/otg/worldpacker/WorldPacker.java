@@ -8,12 +8,8 @@ import java.util.Enumeration;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.io.InputStream;
-import java.util.Arrays;
 import java.util.*;
 
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.util.Properties;
 import java.io.*;
 import java.net.*;
 
