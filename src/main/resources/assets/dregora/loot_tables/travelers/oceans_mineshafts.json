@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "traveler_mineshafts_map",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Happy Times Industries\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"x:-14198 z:-7854\"],LocName:\"rldregora.oceans_mineshafts.filled_map.name\",LocLore:[\"rldregora.oceans_mineshafts.filled_map.lore.0\",\"rldregora.oceans_mineshafts.filled_map.lore.1\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Decorations:{id:+,rot:180,type:26,x:-14198,z:-7854}}"
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "traveler_mineshafts_book",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"x:-14198 z:-7854\",Lore:[\"Valley of the grand treasure mines, beware your head!\"],LocName:\"rldregora.oceans_mineshafts.book.name\",LocLore:[\"rldregora.oceans_mineshafts.book.lore\"]}}"
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

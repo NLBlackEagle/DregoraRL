@@ -1,0 +1,411 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Spawns with -1 Luck",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:switch/milk_switch",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "name": "harbor",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.secrets_ocean.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.secrets_ocean.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.secrets_ocean.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.secrets_ocean.page.4\\\"}]\"
+                ],
+                title:\"Secrets of the Ocean\",
+                locTitle:\"rldregora.harbor.secrets_ocean.title\",
+                author:\"A Traveler\",
+                locAuthor:\"rldregora.harbor.secrets_ocean.author\",
+                display:{Lore:[\"Signed by The Traveler\"],LocLore:[\"rldregora.harbor.secrets_ocean.lore\"]}
+              }"
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.pirates.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.pirates.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.pirates.page.3\\\"}]\"
+                ],
+                title:\"Pirates!\",
+                locTitle:\"rldregora.harbor.pirates.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.harbor.pirates.author\",
+                display:{Lore:[\"At night they came\"],LocLore:[\"rldregora.harbor.pirates.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.let_sail.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.let_sail.page.2\\\"}]\"
+                ],
+                title:\"Let us set sail\",
+                locTitle:\"rldregora.harbor.let_sail.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.harbor.let_sail.author\",
+                display:{Lore:[\"Reclaiming the world.\"],LocLore:[\"rldregora.harbor.let_sail.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.corrupted_chapter.page.3\\\"}]\"
+                ],
+                title:\"Corrupted Charter\",
+                locTitle:\"rldregora.harbor.corrupted_chapter.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.harbor.corrupted_chapter.author\",
+                display:{Lore:[\"Taken by the Red Cloaks.\"],LocLore:[\"rldregora.harbor.corrupted_chapter.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.sword_deep.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.sword_deep.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.sword_deep.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.sword_deep.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.harbor.sword_deep.page.5\\\"}]\"
+                ],
+                title:\"Sword of the Deep\",
+                locTitle:\"rldregora.harbor.sword_deep.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.harbor.sword_deep.author\",
+                display:{Lore:[\"What lies under the waves.\"],LocLore:[\"rldregora.harbor.sword_deep.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "lucky_totem",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["offhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["offhand"]},
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "treasure": false
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "name": "harbor_sword",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Sword of the Deep\",Lore:[\"a heavy, magical sword that packs a punch\"],LocName:\"rldregora.harbor.sword_of_deep.name\",LocLore:[\"rldregora.harbor.sword_of_deep.lore\"]}}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": {"min": 0.2, "max": 1.8},"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackKnockback", "name": "More Knockback", "amount": {"min": 0.1, "max": 0.2}, "operation": "addition", "slot": ["mainhand"]},
+                {"attribute": "generic.movementSpeed", "name": "Less Movement Speed", "amount": {"min": -0.1, "max": -0.2}, "operation": "addition", "slot": ["mainhand"]}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "harbor_sword",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Anchor\",Lore:[\"This sword seems to be too heavy to have been made from just iron.\"],LocName:\"rldregora.harbor.anchor.name\",LocLore:[\"rldregora.harbor.anchor.lore\"]}}"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:17,lvl:5},{id:19,lvl:2},{id:20,lvl:2},{id:33,lvl:3}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 5,
+              "treasure": false
+            }
+          ],
+          "weight": 0,
+          "quality": 2
+        }
+      ]
+    },
+    {
+      "name": "harbor_loot",
+      "rolls": {
+        "min": 5,
+        "max": 15
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "fishingmadebetter:fishing_rod_wood",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.50,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.50,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.50,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:flower_pot",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:crafting_table",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chest",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:dark_oak_boat",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:spruce_boat",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:jungle_boat",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:birch_boat",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:web",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ladder",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:fish",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 2,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 3,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

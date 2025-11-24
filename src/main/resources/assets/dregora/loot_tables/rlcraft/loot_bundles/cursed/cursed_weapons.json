@@ -1,0 +1,1535 @@
+{
+  "type": "minecraft:chest",
+  "CustomName": "Cursed Chest",
+  "pools": [
+    {
+      "name": "Cursed Weapon Chest",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "spartanfire:katana_dragonbone",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"The Muramasa\",Lore:[\"The§kre is§r a presence insi§kde th§re Katana...\",\"\",\"§4When in fake hand:\",\"§9+5% Attack Self\",\"§9+5% Attack Damage\",\"§9+10% Max Death\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.cursed_weapons.katana_dragonbone1.name\",LocLore:[\"rldregora.cursed_weapons.katana_dragonbone1.lore.0\",\" \",\"rldregora.cursed_weapons.katana_dragonbone1.lore.1\",\"rldregora.cursed_weapons.katana_dragonbone1.lore.2\",\"rldregora.cursed_weapons.katana_dragonbone1.lore.3\",\"rldregora.cursed_weapons.katana_dragonbone1.lore.4\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"The Ominous Blade\",Lore:[\"§kThi§rs Kat§kana§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in some hand:\",\"§9+3 Max Health\",\"§9+5% Fly Speed\",\"§9+10% Agility\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.cursed_weapons.katana_dragonbone2.name\",LocLore:[\"rldregora.cursed_weapons.katana_dragonbone2.lore.0\",\" \",\"rldregora.cursed_weapons.katana_dragonbone2.lore.1\",\"rldregora.cursed_weapons.katana_dragonbone2.lore.2\",\"rldregora.cursed_weapons.katana_dragonbone2.lore.3\",\"rldregora.cursed_weapons.katana_dragonbone2.lore.4\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"The Cursed Blade\",Lore:[\"Upon thi§ks Ka§tana lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Self Damage\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0Beware for by touching this thy may open Pandora's box\"],LocName:\"rldregora.cursed_weapons.katana_dragonbone3.name\",LocLore:[\"rldregora.cursed_weapons.katana_dragonbone3.lore.0\",\" \",\"rldregora.cursed_weapons.katana_dragonbone3.lore.1\",\"rldregora.cursed_weapons.katana_dragonbone3.lore.2\",\"rldregora.cursed_weapons.katana_dragonbone3.lore.3\",\"rldregora.cursed_weapons.katana_dragonbone3.lore.4\",\"rldregora.cursed_armor.pandora9.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.5,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:demonic_broadsword",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"§0Ancient Broadsword\",Lore:[\"Cursed be its wielder.\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§0+5% Death\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.cursed_weapons.demonic_broadsword1.name\",LocLore:[\"rldregora.cursed_weapons.demonic_broadsword1.lore.0\",\" \",\"rldregora.cursed_weapons.demonic_broadsword1.lore.1\",\"rldregora.cursed_weapons.demonic_broadsword1.lore.2\",\"rldregora.cursed_weapons.demonic_broadsword1.lore.3\",\"rldregora.cursed_weapons.demonic_broadsword1.lore.4\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"§0Ancient Broadsword\",Lore:[\"Damned be its wielder.\",\"\",\"§4When in main hand:\",\"§9+3 Max Health\",\"§9+5% Deathly Crash Speed\",\"§9+10% Agility\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_weapons.demonic_broadsword2.name\",LocLore:[\"rldregora.cursed_weapons.demonic_broadsword2.lore.0\",\" \",\"rldregora.cursed_weapons.demonic_broadsword2.lore.1\",\"rldregora.cursed_weapons.demonic_broadsword2.lore.2\",\"rldregora.cursed_weapons.demonic_broadsword2.lore.3\",\"rldregora.cursed_weapons.demonic_broadsword2.lore.4\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"§0Ancient Broadsword\",Lore:[\"Death awaits its wielder.\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Luck\",\"§9+10 Fake Health\",\"§0+100% Fraud\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.cursed_weapons.demonic_broadsword3.name\",LocLore:[\"rldregora.cursed_weapons.demonic_broadsword3.lore.0\",\" \",\"rldregora.cursed_weapons.demonic_broadsword3.lore.1\",\"rldregora.cursed_weapons.demonic_broadsword3.lore.2\",\"rldregora.cursed_weapons.demonic_broadsword3.lore.3\",\"rldregora.cursed_weapons.demonic_broadsword3.lore.4\",\"rldregora.cursed_weapons.demonic_broadsword3.lore.5\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 10,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:frost_broadsword",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"§0Broadsword of Withering Cold\",Lore:[\"Omae Wa Mou Shindeiru.\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0+100% Fraud\",\"§0aordnaP %81\"],LocName:\"rldregora.cursed_weapons.frost_broadsword1.name\",LocLore:[\"rldregora.cursed_weapons.frost_broadsword1.lore.0\",\" \",\"rldregora.cursed_weapons.frost_broadsword1.lore.1\",\"rldregora.cursed_weapons.frost_broadsword1.lore.2\",\"rldregora.cursed_weapons.frost_broadsword1.lore.3\",\"rldregora.cursed_weapons.frost_broadsword1.lore.4\",\"rldregora.cursed_weapons.frost_broadsword1.lore.5\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"§0Sword of Cursed Ice\",Lore:[\"There is no warmth within this sword.\",\"\",\"§4When in main hand:\",\"§9+3 Max Health\",\"§9+5% Fly Speed\",\"§9+10% Tripping Death\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.cursed_weapons.frost_broadsword2.name\",LocLore:[\"rldregora.cursed_weapons.frost_broadsword2.lore.0\",\" \",\"rldregora.cursed_weapons.frost_broadsword2.lore.1\",\"rldregora.cursed_weapons.frost_broadsword2.lore.2\",\"rldregora.cursed_weapons.frost_broadsword2.lore.3\",\"rldregora.cursed_weapons.frost_broadsword2.lore.4\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.7,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 7,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "spartandefiled:halberd_umbrium",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Possessed Rebuked Halberd\",Lore:[\"The§kre is§r a presence insi§kde th§re Halberd...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Self\",\"§9+10% Max Health\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.cursed_weapons.halberd_umbrium1.name\",LocLore:[\"rldregora.cursed_weapons.halberd_umbrium1.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_umbrium1.lore.1\",\"rldregora.cursed_weapons.halberd_umbrium1.lore.2\",\"rldregora.cursed_weapons.halberd_umbrium1.lore.3\",\"rldregora.cursed_weapons.halberd_umbrium1.lore.4\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Accursed Rebuked Halberd\",Lore:[\"§kThi§rs Halb§kerd§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Max Health\",\"§9+5% Fly Speed\",\"§9+10% Agility\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.cursed_weapons.halberd_umbrium2.name\",LocLore:[\"rldregora.cursed_weapons.halberd_umbrium2.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_umbrium2.lore.1\",\"rldregora.cursed_weapons.halberd_umbrium2.lore.2\",\"rldregora.cursed_weapons.halberd_umbrium2.lore.3\",\"rldregora.cursed_weapons.halberd_umbrium2.lore.4\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Damned Rebuked Halberd\",Lore:[\"Upon thi§ks Hal§rberd lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Eagle'd\",\"§9-100% Luck\",\"§9+100% Attack Speed\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.cursed_weapons.halberd_umbrium3.name\",LocLore:[\"rldregora.cursed_weapons.halberd_umbrium3.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_umbrium3.lore.1\",\"rldregora.cursed_weapons.halberd_umbrium3.lore.2\",\"rldregora.cursed_weapons.halberd_umbrium3.lore.3\",\"rldregora.cursed_weapons.halberd_umbrium3.lore.4\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deplored Rebuked Halberd\",Lore:[\"A sinister aura envelops this Halberd!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§9-10% Fear\",\"§0+100% Fraud\",\"§0Beware for by touching this thy may open Pandora's box\"],LocName:\"rldregora.cursed_weapons.halberd_umbrium4.name\",LocLore:[\"rldregora.cursed_weapons.halberd_umbrium4.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_umbrium4.lore.1\",\"rldregora.cursed_weapons.halberd_umbrium4.lore.2\",\"rldregora.cursed_weapons.halberd_umbrium4.lore.3\",\"rldregora.cursed_weapons.halberd_umbrium4.lore.4\",\"rldregora.cursed_weapons.halberd_umbrium4.lore.5\",\"rldregora.cursed_armor.pandora9.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Reviled Rebuked Halberd\",Lore:[\"A beautiful Halberd, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Good Game Resistance\",\"§9+10% Fake Looting\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.cursed_weapons.halberd_umbrium5.name\",LocLore:[\"rldregora.cursed_weapons.halberd_umbrium5.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_umbrium5.lore.1\",\"rldregora.cursed_weapons.halberd_umbrium5.lore.2\",\"rldregora.cursed_weapons.halberd_umbrium5.lore.3\",\"rldregora.cursed_weapons.halberd_umbrium5.lore.4\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rebuked Umbrium Halberd\",Lore:[\"This Halberd comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Bye Movement Speed\",\"§9+10% Fake Enemy Regeneration\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_weapons.halberd_umbrium6.name\",LocLore:[\"rldregora.cursed_weapons.halberd_umbrium6.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_umbrium6.lore.1\",\"rldregora.cursed_weapons.halberd_umbrium6.lore.2\",\"rldregora.cursed_weapons.halberd_umbrium6.lore.3\",\"rldregora.cursed_weapons.halberd_umbrium6.lore.4\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 10.5,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "spartandefiled:spear_umbrium",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Possessed Umbrium Spear\",Lore:[\"The§kre is§r a presence insi§kde th§re Spear...\",\"\",\"§4When in main hand:\",\"§9+5% Bye Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.cursed_weapons.spear_umbrium1.name\",LocLore:[\"rldregora.cursed_weapons.spear_umbrium1.lore.0\",\" \",\"rldregora.cursed_weapons.spear_umbrium1.lore.1\",\"rldregora.cursed_weapons.spear_umbrium1.lore.2\",\"rldregora.cursed_weapons.spear_umbrium1.lore.3\",\"rldregora.cursed_weapons.spear_umbrium1.lore.4\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Accursed Umbrium Spear\",Lore:[\"§kThi§rs Spe§kar§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Less Health\",\"§9+5% Fly Speed\",\"§9+10% Agility Counter\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_weapons.spear_umbrium2.name\",LocLore:[\"rldregora.cursed_weapons.spear_umbrium2.lore.0\",\" \",\"rldregora.cursed_weapons.spear_umbrium2.lore.1\",\"rldregora.cursed_weapons.spear_umbrium2.lore.2\",\"rldregora.cursed_weapons.spear_umbrium2.lore.3\",\"rldregora.cursed_weapons.spear_umbrium2.lore.4\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Damned Umbrium Spear\",Lore:[\"Upon thi§ks Sp§rear lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Anti Luck\",\"§9+100% Attack Speed\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.cursed_weapons.spear_umbrium3.name\",LocLore:[\"rldregora.cursed_weapons.spear_umbrium3.lore.0\",\" \",\"rldregora.cursed_weapons.spear_umbrium3.lore.1\",\"rldregora.cursed_weapons.spear_umbrium3.lore.2\",\"rldregora.cursed_weapons.spear_umbrium3.lore.3\",\"rldregora.cursed_weapons.spear_umbrium3.lore.4\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deplored Umbrium Spear\",Lore:[\"A sinister aura envelops this Spear!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§9-100% Capable\",\"§0aordnaP %81\"],LocName:\"rldregora.cursed_weapons.spear_umbrium4.name\",LocLore:[\"rldregora.cursed_weapons.spear_umbrium4.lore.0\",\" \",\"rldregora.cursed_weapons.spear_umbrium4.lore.1\",\"rldregora.cursed_weapons.spear_umbrium4.lore.2\",\"rldregora.cursed_weapons.spear_umbrium4.lore.3\",\"rldregora.cursed_weapons.spear_umbrium4.lore.4\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Reviled Umbrium Spear\",Lore:[\"A beautiful Spear, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\",\"§0+100% Attack Self\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.cursed_weapons.spear_umbrium5.name\",LocLore:[\"rldregora.cursed_weapons.spear_umbrium5.lore.0\",\" \",\"rldregora.cursed_weapons.spear_umbrium5.lore.1\",\"rldregora.cursed_weapons.spear_umbrium5.lore.2\",\"rldregora.cursed_weapons.spear_umbrium5.lore.3\",\"rldregora.cursed_weapons.spear_umbrium5.lore.4\",\"rldregora.cursed_weapons.spear_umbrium5.lore.5\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rebuked Umbrium Spear\",Lore:[\"This Spear comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration\",\"§0+100% Regret\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.cursed_weapons.spear_umbrium6.name\",LocLore:[\"rldregora.cursed_weapons.spear_umbrium6.lore.0\",\" \",\"rldregora.cursed_weapons.spear_umbrium6.lore.1\",\"rldregora.cursed_weapons.spear_umbrium6.lore.2\",\"rldregora.cursed_weapons.spear_umbrium6.lore.3\",\"rldregora.cursed_weapons.spear_umbrium6.lore.4\",\"rldregora.cursed_weapons.spear_umbrium6.lore.5\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.3,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6.5,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "spartandefiled:saber_umbrium",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Possessed Umbrium Saber\",Lore:[\"The§kre is§r a presence insi§kde th§re Saber...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Fake Health\",\"§0+100% Lies\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.cursed_weapons.saber_umbrium1.name\",LocLore:[\"rldregora.cursed_weapons.saber_umbrium1.lore.0\",\" \",\"rldregora.cursed_weapons.saber_umbrium1.lore.1\",\"rldregora.cursed_weapons.saber_umbrium1.lore.2\",\"rldregora.cursed_weapons.saber_umbrium1.lore.3\",\"rldregora.cursed_weapons.saber_umbrium1.lore.4\",\"rldregora.cursed_weapons.saber_umbrium1.lore.5\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Accursed Umbrium Saber\",Lore:[\"§kThi§rs Sab§ker§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Max Health\",\"§9+5% Fly Speed\",\"§9+10% Agility\",\"§0+100% Don't Equip!\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.cursed_weapons.saber_umbrium2.name\",LocLore:[\"rldregora.cursed_weapons.saber_umbrium2.lore.0\",\" \",\"rldregora.cursed_weapons.saber_umbrium2.lore.1\",\"rldregora.cursed_weapons.saber_umbrium2.lore.2\",\"rldregora.cursed_weapons.saber_umbrium2.lore.3\",\"rldregora.cursed_weapons.saber_umbrium2.lore.4\",\"rldregora.cursed_weapons.saber_umbrium2.lore.5\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Damned Umbrium Saber\",Lore:[\"Upon thi§ks Sa§rber lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0+100% Nope!\",\"§0Beware for by touching this thy may open Pandora's box\"],LocName:\"rldregora.cursed_weapons.saber_umbrium3.name\",LocLore:[\"rldregora.cursed_weapons.saber_umbrium3.lore.0\",\" \",\"rldregora.cursed_weapons.saber_umbrium3.lore.1\",\"rldregora.cursed_weapons.saber_umbrium3.lore.2\",\"rldregora.cursed_weapons.saber_umbrium3.lore.3\",\"rldregora.cursed_weapons.saber_umbrium3.lore.4\",\"rldregora.cursed_weapons.saber_umbrium3.lore.5\",\"rldregora.cursed_armor.pandora9.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deplored Umbrium Saber\",Lore:[\"A sinister aura envelops this Saber!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§9100% Fear §0Eagle\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.cursed_weapons.saber_umbrium4.name\",LocLore:[\"rldregora.cursed_weapons.saber_umbrium4.lore.0\",\" \",\"rldregora.cursed_weapons.saber_umbrium4.lore.1\",\"rldregora.cursed_weapons.saber_umbrium4.lore.2\",\"rldregora.cursed_weapons.saber_umbrium4.lore.3\",\"rldregora.cursed_weapons.saber_umbrium4.lore.4\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Reviled Umbrium Saber\",Lore:[\"A beautiful Saber, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\",\"§0+100% Blame Eagle\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_weapons.saber_umbrium5.name\",LocLore:[\"rldregora.cursed_weapons.saber_umbrium5.lore.0\",\" \",\"rldregora.cursed_weapons.saber_umbrium5.lore.1\",\"rldregora.cursed_weapons.saber_umbrium5.lore.2\",\"rldregora.cursed_weapons.saber_umbrium5.lore.3\",\"rldregora.cursed_weapons.saber_umbrium5.lore.4\",\"rldregora.cursed_weapons.saber_umbrium5.lore.5\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rebuked Umbrium Saber\",Lore:[\"This Saber comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration\",\"§0+69% Check When In Main Hand Is Red!\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.cursed_weapons.saber_umbrium6.name\",LocLore:[\"rldregora.cursed_weapons.saber_umbrium6.lore.0\",\" \",\"rldregora.cursed_weapons.saber_umbrium6.lore.1\",\"rldregora.cursed_weapons.saber_umbrium6.lore.2\",\"rldregora.cursed_weapons.saber_umbrium6.lore.3\",\"rldregora.cursed_weapons.saber_umbrium6.lore.4\",\"rldregora.cursed_weapons.saber_umbrium6.lore.5\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "spartanweaponry:halberd_diamond",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Possessed Diamond Halberd\",Lore:[\"The§kre is§r a presence insi§kde th§re Halberd...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage §0Fails\",\"§9+10% Max Health\",\"§0aordnaP %81\"],LocName:\"rldregora.cursed_weapons.halberd_diamond1.name\",LocLore:[\"rldregora.cursed_weapons.halberd_diamond1.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_diamond1.lore.1\",\"rldregora.cursed_weapons.halberd_diamond1.lore.2\",\"rldregora.cursed_weapons.halberd_diamond1.lore.3\",\"rldregora.cursed_weapons.halberd_diamond1.lore.4\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Accursed Diamond Halberd\",Lore:[\"§kThi§rs Halb§kerd§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Max Health\",\"§9+5% Fly Speed\",\"§9+10% Agility §0Fails\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.cursed_weapons.halberd_diamond2.name\",LocLore:[\"rldregora.cursed_weapons.halberd_diamond2.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_diamond2.lore.1\",\"rldregora.cursed_weapons.halberd_diamond2.lore.2\",\"rldregora.cursed_weapons.halberd_diamond2.lore.3\",\"rldregora.cursed_weapons.halberd_diamond2.lore.4\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Damned Diamond Halberd\",Lore:[\"Upon thi§ks Hal§rberd lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage §0Denial\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.cursed_weapons.halberd_diamond3.name\",LocLore:[\"rldregora.cursed_weapons.halberd_diamond3.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_diamond3.lore.1\",\"rldregora.cursed_weapons.halberd_diamond3.lore.2\",\"rldregora.cursed_weapons.halberd_diamond3.lore.3\",\"rldregora.cursed_weapons.halberd_diamond3.lore.4\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deplored Diamond Halberd\",Lore:[\"A sinister aura envelops this Halberd!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§9-10% Fear\",\"§0+69% Check When In Main Hand Is Red!\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.cursed_weapons.halberd_diamond4.name\",LocLore:[\"rldregora.cursed_weapons.halberd_diamond4.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_diamond4.lore.1\",\"rldregora.cursed_weapons.halberd_diamond4.lore.2\",\"rldregora.cursed_weapons.halberd_diamond4.lore.3\",\"rldregora.cursed_weapons.halberd_diamond4.lore.4\",\"rldregora.cursed_weapons.halberd_diamond4.lore.5\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Reviled Diamond Halberd\",Lore:[\"A beautiful Halberd, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockback §0On Your Head!\",\"§9+10% Looting\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.cursed_weapons.halberd_diamond5.name\",LocLore:[\"rldregora.cursed_weapons.halberd_diamond5.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_diamond5.lore.1\",\"rldregora.cursed_weapons.halberd_diamond5.lore.2\",\"rldregora.cursed_weapons.halberd_diamond5.lore.3\",\"rldregora.cursed_weapons.halberd_diamond5.lore.4\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rebuked Diamond Halberd\",Lore:[\"This Halberd comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration §0Troll\",\"§9+100% Eagle Thinks This Is Fun!\",\"§0Beware for by touching this thy may open Pandora's box\"],LocName:\"rldregora.cursed_weapons.halberd_diamond6.name\",LocLore:[\"rldregora.cursed_weapons.halberd_diamond6.lore.0\",\" \",\"rldregora.cursed_weapons.halberd_diamond6.lore.1\",\"rldregora.cursed_weapons.halberd_diamond6.lore.2\",\"rldregora.cursed_weapons.halberd_diamond6.lore.3\",\"rldregora.cursed_weapons.halberd_diamond6.lore.4\",\"rldregora.cursed_weapons.halberd_diamond6.lore.5\",\"rldregora.cursed_armor.pandora9.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 12,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "spartanweaponry:glaive_diamond",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Possessed Diamond Glaive\",Lore:[\"The§kre is§r a presence insi§kde th§re Glaive...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% Attack Damage\",\"§9+10% Max Health §0Troll\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.cursed_weapons.glaive_diamond1.name\",LocLore:[\"rldregora.cursed_weapons.glaive_diamond1.lore.0\",\" \",\"rldregora.cursed_weapons.glaive_diamond1.lore.1\",\"rldregora.cursed_weapons.glaive_diamond1.lore.2\",\"rldregora.cursed_weapons.glaive_diamond1.lore.3\",\"rldregora.cursed_weapons.glaive_diamond1.lore.4\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Accursed Diamond Glaive\",Lore:[\"§kThi§rs Glai§kve§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Fake Health\",\"§9+5% Fly Speed\",\"§9+10% Agility\",\"§0No way to Un-Curse this!\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_weapons.glaive_diamond2.name\",LocLore:[\"rldregora.cursed_weapons.glaive_diamond2.lore.0\",\" \",\"rldregora.cursed_weapons.glaive_diamond2.lore.1\",\"rldregora.cursed_weapons.glaive_diamond2.lore.2\",\"rldregora.cursed_weapons.glaive_diamond2.lore.3\",\"rldregora.cursed_weapons.glaive_diamond2.lore.4\",\"rldregora.cursed_weapons.glaive_diamond2.lore.5\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Damned Diamond Glaive\",Lore:[\"Upon thi§ks Glai§rve lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Lucky §0Lies\",\"§9+100% Attack Speed\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.cursed_weapons.glaive_diamond3.name\",LocLore:[\"rldregora.cursed_weapons.glaive_diamond3.lore.0\",\" \",\"rldregora.cursed_weapons.glaive_diamond3.lore.1\",\"rldregora.cursed_weapons.glaive_diamond3.lore.2\",\"rldregora.cursed_weapons.glaive_diamond3.lore.3\",\"rldregora.cursed_weapons.glaive_diamond3.lore.4\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deplored Diamond Glaive\",Lore:[\"A sinister aura envelops this Glaive!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic §0Lies!\",\"§9-10% Fear\",\"§0aordnaP %81\"],LocName:\"rldregora.cursed_weapons.glaive_diamond4.name\",LocLore:[\"rldregora.cursed_weapons.glaive_diamond4.lore.0\",\" \",\"rldregora.cursed_weapons.glaive_diamond4.lore.1\",\"rldregora.cursed_weapons.glaive_diamond4.lore.2\",\"rldregora.cursed_weapons.glaive_diamond4.lore.3\",\"rldregora.cursed_weapons.glaive_diamond4.lore.4\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Reviled Diamond Glaive\",Lore:[\"A beautiful Glaive, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockballs Resistance §0I Would Not Test This...\",\"§9+10% Looting\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.cursed_weapons.glaive_diamond5.name\",LocLore:[\"rldregora.cursed_weapons.glaive_diamond5.lore.0\",\" \",\"rldregora.cursed_weapons.glaive_diamond5.lore.1\",\"rldregora.cursed_weapons.glaive_diamond5.lore.2\",\"rldregora.cursed_weapons.glaive_diamond5.lore.3\",\"rldregora.cursed_weapons.glaive_diamond5.lore.4\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rebuked Diamond Glaive\",Lore:[\"This Glaive comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Regeneration §0To Full Health After You Die!\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.cursed_weapons.glaive_diamond6.name\",LocLore:[\"rldregora.cursed_weapons.glaive_diamond6.lore.0\",\" \",\"rldregora.cursed_weapons.glaive_diamond6.lore.1\",\"rldregora.cursed_weapons.glaive_diamond6.lore.2\",\"rldregora.cursed_weapons.glaive_diamond6.lore.3\",\"rldregora.cursed_weapons.glaive_diamond6.lore.4\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 11,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "spartanfire:rapier_desert_venom",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Possessed Desert Stinger Rapier\",Lore:[\"The§kre is§r a presence insi§kde th§re Rapier...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Yourself!\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.cursed_weapons.rapier_desert_venom1.name\",LocLore:[\"rldregora.cursed_weapons.rapier_desert_venom1.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_desert_venom1.lore.1\",\"rldregora.cursed_weapons.rapier_desert_venom1.lore.2\",\"rldregora.cursed_weapons.rapier_desert_venom1.lore.3\",\"rldregora.cursed_weapons.rapier_desert_venom1.lore.4\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Accursed Desert Stinger Rapier\",Lore:[\"§kThi§rs Rapie§kr§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Max Health\",\"§9+5% Fly Speed\",\"§9+10% Agility §0Fails\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.cursed_weapons.rapier_desert_venom2.name\",LocLore:[\"rldregora.cursed_weapons.rapier_desert_venom2.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_desert_venom2.lore.1\",\"rldregora.cursed_weapons.rapier_desert_venom2.lore.2\",\"rldregora.cursed_weapons.rapier_desert_venom2.lore.3\",\"rldregora.cursed_weapons.rapier_desert_venom2.lore.4\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Damned Desert Stinger Rapier\",Lore:[\"Upon thi§ks Rap§rier lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage §0Fails\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0Beware for by touching this thy may open Pandora's box\"],LocName:\"rldregora.cursed_weapons.rapier_desert_venom3.name\",LocLore:[\"rldregora.cursed_weapons.rapier_desert_venom3.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_desert_venom3.lore.1\",\"rldregora.cursed_weapons.rapier_desert_venom3.lore.2\",\"rldregora.cursed_weapons.rapier_desert_venom3.lore.3\",\"rldregora.cursed_weapons.rapier_desert_venom3.lore.4\",\"rldregora.cursed_armor.pandora9.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deplored Desert Stinger Rapier\",Lore:[\"A sinister aura envelops this Rapier!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic §0Rickroll\",\"§9-10% Fear §0This Weapon!\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.cursed_weapons.rapier_desert_venom4.name\",LocLore:[\"rldregora.cursed_weapons.rapier_desert_venom4.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_desert_venom4.lore.1\",\"rldregora.cursed_weapons.rapier_desert_venom4.lore.2\",\"rldregora.cursed_weapons.rapier_desert_venom4.lore.3\",\"rldregora.cursed_weapons.rapier_desert_venom4.lore.4\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Reviled Desert Stinger Rapier\",Lore:[\"A beautiful Rapier, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockballs 3000!\",\"§9+10% Looting §0Lies\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_weapons.rapier_desert_venom5.name\",LocLore:[\"rldregora.cursed_weapons.rapier_desert_venom5.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_desert_venom5.lore.1\",\"rldregora.cursed_weapons.rapier_desert_venom5.lore.2\",\"rldregora.cursed_weapons.rapier_desert_venom5.lore.3\",\"rldregora.cursed_weapons.rapier_desert_venom5.lore.4\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rebuked Desert Stinger Rapier\",Lore:[\"This Rapier comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed §0Towards Death!\",\"§9+10% Regeneration\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.cursed_weapons.rapier_desert_venom6.name\",LocLore:[\"rldregora.cursed_weapons.rapier_desert_venom6.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_desert_venom6.lore.1\",\"rldregora.cursed_weapons.rapier_desert_venom6.lore.2\",\"rldregora.cursed_weapons.rapier_desert_venom6.lore.3\",\"rldregora.cursed_weapons.rapier_desert_venom6.lore.4\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.4,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "spartanfire:greatsword_jungle_venom",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Possessed Jungle Stinger Greatsword\",Lore:[\"The§kre is§r a presence insi§kde th§re Greatsword...\",\"\",\"§4When in fake hand:\",\"§9+5% Anti Speed\",\"§9+5% Attack Damage\",\"§9+10% Less Health\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.cursed_weapons.greatsword_jungle_venom1.name\",LocLore:[\"rldregora.cursed_weapons.greatsword_jungle_venom1.lore.0\",\" \",\"rldregora.cursed_weapons.greatsword_jungle_venom1.lore.1\",\"rldregora.cursed_weapons.greatsword_jungle_venom1.lore.2\",\"rldregora.cursed_weapons.greatsword_jungle_venom1.lore.3\",\"rldregora.cursed_weapons.greatsword_jungle_venom1.lore.4\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Accursed Jungle Stinger Greatsword\",Lore:[\"§kThi§rs Greatsw§kord§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Max Health\",\"§9+5% Fly Speed §0You Fools!\",\"§9+10% Agility\",\"§0It's Fake!\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_weapons.greatsword_jungle_venom2.name\",LocLore:[\"rldregora.cursed_weapons.greatsword_jungle_venom2.lore.0\",\" \",\"rldregora.cursed_weapons.greatsword_jungle_venom2.lore.1\",\"rldregora.cursed_weapons.greatsword_jungle_venom2.lore.2\",\"rldregora.cursed_weapons.greatsword_jungle_venom2.lore.3\",\"rldregora.cursed_weapons.greatsword_jungle_venom2.lore.4\",\"rldregora.cursed_weapons.greatsword_jungle_venom2.lore.5\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Damned Jungle Stinger Greatsword\",Lore:[\"Upon thi§ks Great§rsword lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Attack Damage\",\"§9+100% Luck\",\"§0+100% Emotional Damage\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.cursed_weapons.greatsword_jungle_venom3.name\",LocLore:[\"rldregora.cursed_weapons.greatsword_jungle_venom3.lore.0\",\" \",\"rldregora.cursed_weapons.greatsword_jungle_venom3.lore.1\",\"rldregora.cursed_weapons.greatsword_jungle_venom3.lore.2\",\"rldregora.cursed_weapons.greatsword_jungle_venom3.lore.3\",\"rldregora.cursed_weapons.greatsword_jungle_venom3.lore.4\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deplored Jungle Stinger Greatsword\",Lore:[\"A sinister aura envelops this Greatsword!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§9-10% Fear §0The Eagle And His Stunts!\",\"§0aordnaP %81\"],LocName:\"rldregora.cursed_weapons.greatsword_jungle_venom4.name\",LocLore:[\"rldregora.cursed_weapons.greatsword_jungle_venom4.lore.0\",\" \",\"rldregora.cursed_weapons.greatsword_jungle_venom4.lore.1\",\"rldregora.cursed_weapons.greatsword_jungle_venom4.lore.2\",\"rldregora.cursed_weapons.greatsword_jungle_venom4.lore.3\",\"rldregora.cursed_weapons.greatsword_jungle_venom4.lore.4\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Reviled Jungle Stinger Greatsword\",Lore:[\"A beautiful Greatsword, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Damage\",\"§9+5% Knockballs Buff\",\"§9+10% Looting\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.cursed_weapons.greatsword_jungle_venom5.name\",LocLore:[\"rldregora.cursed_weapons.greatsword_jungle_venom5.lore.0\",\" \",\"rldregora.cursed_weapons.greatsword_jungle_venom5.lore.1\",\"rldregora.cursed_weapons.greatsword_jungle_venom5.lore.2\",\"rldregora.cursed_weapons.greatsword_jungle_venom5.lore.3\",\"rldregora.cursed_weapons.greatsword_jungle_venom5.lore.4\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rebuked Jungle Stinger Greatsword\",Lore:[\"This Greatsword comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Debuff\",\"§9+10% Regeneration\",\"§0Eagle Troll!\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.cursed_weapons.greatsword_jungle_venom6.name\",LocLore:[\"rldregora.cursed_weapons.greatsword_jungle_venom6.lore.0\",\" \",\"rldregora.cursed_weapons.greatsword_jungle_venom6.lore.1\",\"rldregora.cursed_weapons.greatsword_jungle_venom6.lore.2\",\"rldregora.cursed_weapons.greatsword_jungle_venom6.lore.3\",\"rldregora.cursed_weapons.greatsword_jungle_venom6.lore.4\",\"rldregora.cursed_weapons.greatsword_jungle_venom6.lore.5\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "iceandfire:myrmex_desert_sword_venom",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Possessed Stinger Sword\",Lore:[\"The§kre is§r a presence insi§kde th§ris Sword...\",\"\",\"§4When in main hand:\",\"§9+5% Attack Speed\",\"§9+5% No Attack Damage\",\"§9+10% Max Health\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.cursed_weapons.myrmex_desert_sword_venom1.name\",LocLore:[\"rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.0\",\" \",\"rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.1\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.2\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.3\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom1.lore.4\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Accursed Stinger Sword\",Lore:[\"§kThi§rs Swo§krd§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Max Death\",\"§9+5% Fly Speed\",\"§9+10% Agility\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_weapons.myrmex_desert_sword_venom2.name\",LocLore:[\"rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.0\",\" \",\"rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.1\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.2\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.3\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom2.lore.4\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Damned Stinger Sword\",Lore:[\"Upon thi§ks S§rword lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Negative Yes.\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.cursed_weapons.myrmex_desert_sword_venom3.name\",LocLore:[\"rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.0\",\" \",\"rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.1\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.2\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.3\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom3.lore.4\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deplored Stinger Sword\",Lore:[\"A sinister aura envelops this Sword!\",\"\",\"§4When in main hand:\",\"§9+1 Agility\",\"§9+5 Magic\",\"§91000% Sus\",\"§0aordnaP %81\"],LocName:\"rldregora.cursed_weapons.myrmex_desert_sword_venom4.name\",LocLore:[\"rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.0\",\" \",\"rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.1\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.2\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.3\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom4.lore.4\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Reviled Stinger Sword\",Lore:[\"A beautiful Sword, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Sussyberian Heritage\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.cursed_weapons.myrmex_desert_sword_venom5.name\",LocLore:[\"rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.0\",\" \",\"rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.1\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.2\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.3\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom5.lore.4\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rebuked Stinger Sword\",Lore:[\"This Sword comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Mentalberian Herritage\",\"§9+10% Regeneration\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.cursed_weapons.myrmex_desert_sword_venom6.name\",LocLore:[\"rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.0\",\" \",\"rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.1\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.2\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.3\",\"rldregora.cursed_weapons.myrmex_desert_sword_venom6.lore.4\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.6,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 5,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "spartanfire:staff_desert_venom",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Possessed Quarterstaff\",Lore:[\"The§kre is§r a presence insi§kde th§re Quarterstaff...\",\"\",\"§4When in main hand:\",\"§9+5% Return To Mentalberian When Lost\",\"§9+5% Attack Damage\",\"§9+10% Max Health\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.cursed_weapons.staff_desert_venom1.name\",LocLore:[\"rldregora.cursed_weapons.staff_desert_venom1.lore.0\",\" \",\"rldregora.cursed_weapons.staff_desert_venom1.lore.1\",\"rldregora.cursed_weapons.staff_desert_venom1.lore.2\",\"rldregora.cursed_weapons.staff_desert_venom1.lore.3\",\"rldregora.cursed_weapons.staff_desert_venom1.lore.4\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Accursed Quarterstaff\",Lore:[\"§kThi§rs Quartersta§kff§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Min Health\",\"§9+5% Fly Speed\",\"§9+10% Jump Scare\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.cursed_weapons.staff_desert_venom2.name\",LocLore:[\"rldregora.cursed_weapons.staff_desert_venom2.lore.0\",\" \",\"rldregora.cursed_weapons.staff_desert_venom2.lore.1\",\"rldregora.cursed_weapons.staff_desert_venom2.lore.2\",\"rldregora.cursed_weapons.staff_desert_venom2.lore.3\",\"rldregora.cursed_weapons.staff_desert_venom2.lore.4\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Damned Quarterstaff\",Lore:[\"Upon thi§ks Quarters§rtaff lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Shivaxi'd\",\"§9+100% Heaven'd\",\"§9+100% Eagle'd\",\"§0Beware for by touching this thy may open Pandora's box\"],LocName:\"rldregora.cursed_weapons.staff_desert_venom3.name\",LocLore:[\"rldregora.cursed_weapons.staff_desert_venom3.lore.0\",\" \",\"rldregora.cursed_weapons.staff_desert_venom3.lore.1\",\"rldregora.cursed_weapons.staff_desert_venom3.lore.2\",\"rldregora.cursed_weapons.staff_desert_venom3.lore.3\",\"rldregora.cursed_weapons.staff_desert_venom3.lore.4\",\"rldregora.cursed_armor.pandora9.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deplored Quarterstaff\",Lore:[\"A sinister aura envelops this Quarterstaff!\",\"\",\"§4When in main hand:\",\"§9+1 Agility Fails\",\"§9+5 Magic Gone!\",\"§9-10% Fear\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.cursed_weapons.staff_desert_venom4.name\",LocLore:[\"rldregora.cursed_weapons.staff_desert_venom4.lore.0\",\" \",\"rldregora.cursed_weapons.staff_desert_venom4.lore.1\",\"rldregora.cursed_weapons.staff_desert_venom4.lore.2\",\"rldregora.cursed_weapons.staff_desert_venom4.lore.3\",\"rldregora.cursed_weapons.staff_desert_venom4.lore.4\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Reviled Quarterstaff\",Lore:[\"A beautiful Quarterstaff, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Attack Fails\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.cursed_weapons.staff_desert_venom5.name\",LocLore:[\"rldregora.cursed_weapons.staff_desert_venom5.lore.0\",\" \",\"rldregora.cursed_weapons.staff_desert_venom5.lore.1\",\"rldregora.cursed_weapons.staff_desert_venom5.lore.2\",\"rldregora.cursed_weapons.staff_desert_venom5.lore.3\",\"rldregora.cursed_weapons.staff_desert_venom5.lore.4\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rebuked Quarterstaff\",Lore:[\"This Quarterstaff comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Slowed\",\"§9+10% Degeneration\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.cursed_weapons.staff_desert_venom6.name\",LocLore:[\"rldregora.cursed_weapons.staff_desert_venom6.lore.0\",\" \",\"rldregora.cursed_weapons.staff_desert_venom6.lore.1\",\"rldregora.cursed_weapons.staff_desert_venom6.lore.2\",\"rldregora.cursed_weapons.staff_desert_venom6.lore.3\",\"rldregora.cursed_weapons.staff_desert_venom6.lore.4\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 6,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "spartanweaponry:rapier_iron",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Possessed Rapier\",Lore:[\"The§kre is§r a presence insi§kde th§re Rapier...\",\"\",\"§4When in main hand:\",\"§9+5% Kotlin Language\",\"§9+5% Attack Damage\",\"§9+10% Eagle Scripted\",\"§0aordnaP %81\"],LocName:\"rldregora.cursed_weapons.rapier_iron1.name\",LocLore:[\"rldregora.cursed_weapons.rapier_iron1.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_iron1.lore.1\",\"rldregora.cursed_weapons.rapier_iron1.lore.2\",\"rldregora.cursed_weapons.rapier_iron1.lore.3\",\"rldregora.cursed_weapons.rapier_iron1.lore.4\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Accursed Rapier\",Lore:[\"§kThi§rs Rapi§ker§r will §kbe y§rou§kr en§rd!\",\"\",\"§4When in main hand:\",\"§9+3 Untested Script\",\"§9+5% Fly Speed\",\"§9+10% Corrupted\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.cursed_weapons.rapier_iron2.name\",LocLore:[\"rldregora.cursed_weapons.rapier_iron2.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_iron2.lore.1\",\"rldregora.cursed_weapons.rapier_iron2.lore.2\",\"rldregora.cursed_weapons.rapier_iron2.lore.3\",\"rldregora.cursed_weapons.rapier_iron2.lore.4\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Damned Rapier\",Lore:[\"Upon thi§ks R§rapier lies a §khe§ravy curs§ke...\",\"\",\"§4When in main hand:\",\"§9+100% Failed Damage\",\"§9+100% Luck\",\"§9+100% Attack Speed\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.cursed_weapons.rapier_iron3.name\",LocLore:[\"rldregora.cursed_weapons.rapier_iron3.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_iron3.lore.1\",\"rldregora.cursed_weapons.rapier_iron3.lore.2\",\"rldregora.cursed_weapons.rapier_iron3.lore.3\",\"rldregora.cursed_weapons.rapier_iron3.lore.4\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deplored Rapier\",Lore:[\"A sinister aura envelops this Rapier!\",\"\",\"§4When in main hand:\",\"§9+1 Failed Agility\",\"§9+5 Magic\",\"§9-10% Anti Fear\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.cursed_weapons.rapier_iron4.name\",LocLore:[\"rldregora.cursed_weapons.rapier_iron4.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_iron4.lore.1\",\"rldregora.cursed_weapons.rapier_iron4.lore.2\",\"rldregora.cursed_weapons.rapier_iron4.lore.3\",\"rldregora.cursed_weapons.rapier_iron4.lore.4\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Reviled Rapier\",Lore:[\"A beautiful Rapier, engraved with malicious intent.\",\"\",\"§4When in main hand:\",\"§9+1 Cursed\",\"§9+5% Knockback Resistance\",\"§9+10% Looting\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.cursed_weapons.rapier_iron5.name\",LocLore:[\"rldregora.cursed_weapons.rapier_iron5.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_iron5.lore.1\",\"rldregora.cursed_weapons.rapier_iron5.lore.2\",\"rldregora.cursed_weapons.rapier_iron5.lore.3\",\"rldregora.cursed_weapons.rapier_iron5.lore.4\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rebuked Rapier\",Lore:[\"This Rapier comes with a twist\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Movement Speed\",\"§9+10% Degeneration\",\"§0Beware for by touching this thy may open Pandora's box\"],LocName:\"rldregora.cursed_weapons.rapier_iron6.name\",LocLore:[\"rldregora.cursed_weapons.rapier_iron6.lore.0\",\" \",\"rldregora.cursed_weapons.rapier_iron6.lore.1\",\"rldregora.cursed_weapons.rapier_iron6.lore.2\",\"rldregora.cursed_weapons.rapier_iron6.lore.3\",\"rldregora.cursed_weapons.rapier_iron6.lore.4\",\"rldregora.cursed_armor.pandora9.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 2.4,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 2.5,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

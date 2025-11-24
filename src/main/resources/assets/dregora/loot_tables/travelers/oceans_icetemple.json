@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "traveler_icetemple_map",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Temple of Winter\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:14273 z:7038\"],LocName:\"rldregora.oceans_icetemple.filled_map.name\",LocLore:[\"rldregora.oceans_icetemple.filled_map.lore.0\",\"rldregora.oceans_icetemple.filled_map.lore.1\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Decorations:{id:+,rot:180,type:26,x:14273,z:7038}}"
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "traveler_icetemple_book",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"x:14273 z:7038\",Lore:[\"Spikes crossing at four points, as deadly as the careless adventurer.\"],LocName:\"rldregora.oceans_icetemple.book.name\",LocLore:[\"rldregora.oceans_icetemple.book.lore\"]}}"
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "name": "Steel Armor",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Did you really had to do that?\",LocName:\"rldregora.seemore.paper.name\"}}"
+            },
+            {"function": "enchant_with_levels","levels": 10}
+          ]
+        }
+      ]
+    }
+  ]
+}

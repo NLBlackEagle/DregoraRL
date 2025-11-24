@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "Polarized Stone",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "xat:polarized_stone",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Simple Loot Spawns",
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/pixie",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/scarecrow",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/parasite",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/foglet",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/silverfish",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/witch",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/vindicator",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/zombie",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/wasp",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/pirate",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/avaton",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/banshee",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/beast",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/forsaken",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/ghoul",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/if_cockatrice",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/knight",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/lich",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/mummy",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/thrall",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/unburied",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/weta",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/zombiefrozen",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:entities/spawn_eggs/zombiemushroom",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}
+

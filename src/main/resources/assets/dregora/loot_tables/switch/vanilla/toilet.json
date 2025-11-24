@@ -1,0 +1,181 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "toilet_loot",
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:skull",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner: fonnymunkey, display:{Name:\"FM2\",Lore:[\"...Skibidi.\"],LocName:\"rldregora.toilet.skibidi.name\",LocLore:[\"rldregora.toilet.skibidi.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 3
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 80,
+              "treasure": true
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a Brick, is it?\",Lore:[\"Fossilized.. Brick! Or...? Uhmm lets not think about that...\"],LocName:\"rldregora.toilet.brick1.name\",LocLore:[\"rldregora.toilet.brick1.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a big brick!\",Lore:[\"A brick from unknown origin. It appears to be fossilized. Why does it smell so funky though?\"],LocName:\"rldregora.toilet.brick2.name\",LocLore:[\"rldregora.toilet.brick2.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a Brick... Right..?\",Lore:[\"When you see it...\"],LocName:\"rldregora.toilet.brick3.name\",LocLore:[\"rldregora.toilet.brick3.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"That is a Brick... Right..?\",Lore:[\"Someone left a Brick here...\"],LocName:\"rldregora.toilet.brick4.name\",LocLore:[\"rldregora.toilet.brick4.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:skull",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Reeking Skull \u2620\",Lore:[\"This skull deserved better...\"],LocName:\"rldregora.toilet.skull1.name\",LocLore:[\"rldregora.toilet.skull1.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Stinky Skull \u2620\",Lore:[\"It reeks...\"],LocName:\"rldregora.toilet.skull2.name\",LocLore:[\"rldregora.toilet.skull2.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Smelly Skull \u2622\",Lore:[\"Yugh....\"],LocName:\"rldregora.toilet.skull3.name\",LocLore:[\"rldregora.toilet.skull3.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 2
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Turd \u2622\",Lore:[\"This has gone Nuclear!\"],LocName:\"rldregora.toilet.dirt1.name\",LocLore:[\"rldregora.toilet.dirt1.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Discharge \u203c\u2716\",Lore:[\"Yugh! Never heard of flushing!?\"],LocName:\"rldregora.toilet.dirt2.name\",LocLore:[\"rldregora.toilet.dirt2.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:mushroom_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Suspicious Soup From a Ancient Toilet \u2622\",Lore:[\"Yeah...\"],LocName:\"rldregora.toilet.mushroom_stew.name\",LocLore:[\"rldregora.toilet.mushroom_stew.lore\"]}}"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stained_hardened_clay",
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 12
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Brown Smelly Substance \u2620\",Lore:[\"Why am i even looking in here?!\u2622\u2573\u2716\"],LocName:\"rldregora.toilet.brown_dye1.name\",LocLore:[\"rldregora.toilet.brown_dye1.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Brown Smelly Substance \u2622\",Lore:[\"That is disgusting!\u26a0\u2620\"],LocName:\"rldregora.toilet.brown_dye2.name\",LocLore:[\"rldregora.toilet.brown_dye2.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Brown Smelly Substance \u2620\",Lore:[\"Enough toilet looting for me!\u2620\"],LocName:\"rldregora.toilet.brown_dye3.name\",LocLore:[\"rldregora.toilet.brown_dye3.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Brown Smelly Substance \u2622\",Lore:[\"What else did I expect?\u203c\u2612\"],LocName:\"rldregora.toilet.brown_dye4.name\",LocLore:[\"rldregora.toilet.brown_dye4.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Brown Smelly Substance \u2620\",Lore:[\"Ohh noo!\u2622\u2620 Nope, I am out!\u26a0\u2612\"],LocName:\"rldregora.toilet.brown_dye5.name\",LocLore:[\"rldregora.toilet.brown_dye5.lore\"]}}"
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cooked_fish",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Brown Fish \u2620\",Lore:[\"It came from a toilet...\"],LocName:\"rldregora.toilet.adv_fish1.name\",LocLore:[\"rldregora.toilet.adv_fish1.lore\"]}}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "tag": "{display:{Name:\"Potion of Mystery Content\",Lore:[\"Probably not Apple Juice...\"],LocName:\"rldregora.toilet.mystery_content.name\",LocLore:[\"rldregora.toilet.mystery_content.lore\"]},CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}],Hideflags:32,CustomPotionColor:11122688}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "tag": "{display:{Name:\"Potion of Apple Juice?\",Lore:[\"Looks like apple juice right?\"],LocName:\"rldregora.toilet.potion_apple.name\",LocLore:[\"rldregora.toilet.potion_apple.lore\"]},CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}], Hideflags:32, CustomPotionColor:11122688}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "conditions": [{"condition": "random_chance","chance": 0.2}],
+              "tag": "{display:{Name:\"Rebranded Apple Juice\",Lore:[\"The attached note says it is\",\"Rebranded Apple Juice...\"],LocName:\"rldregora.toilet.rebranded_apple.name\",LocLore:[\"rldregora.toilet.rebranded_apple.lore.0\",\"rldregora.toilet.rebranded_apple.lore.1\"]},CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}], Hideflags:32, CustomPotionColor:11122688}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "conditions": [{"condition": "random_chance","chance": 0.1}],
+              "tag": "{display:{Name:\"Rebranded Apple Juice\",Lore:[\"The attached note says it is\",\"Rebranded Apple Juice...\",\"This one is signed by Kekistani?\"],LocName:\"rldregora.toilet.rebranded_apple.name\",LocLore:[\"rldregora.toilet.rebranded_apple.lore.0\",\"rldregora.toilet.rebranded_apple.lore.1\",\"rldregora.toilet.rebranded_apple.lore.2\"]},CustomPotionEffects:[{Id:9,Duration:900},{Id:19,Duration:900}], Hideflags:32, CustomPotionColor:11122688}"
+            }
+          ],
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

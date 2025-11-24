@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:chest",
+  "CustomName": "Cursed Potion Chest",
+  "pools": [
+    {
+      "name": "Cursed Potion Chest",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Lingering Potion of Immortality\",Lore:[\"\u00A7r\u00A79Immortality (~)     \u00A70\u231a\",\"\",\"\u00A75When Applied:\",\"\u00A79Immortality\"],LocName:\"rldregora.cursed_potion_16.potion_immortality_ling.name\",LocLore:[\"rldregora.cursed_potion_16.potion_immortality.lore.0\",\" \",\"rldregora.cursed_potion_16.potion_immortality.lore.1\",\"rldregora.cursed_potion_16.potion_immortality.lore.2\"]},CustomPotionEffects:[{Id:27,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:15,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:17,Duration:99999999,ShowParticles:0b,ShowIcon:0b},{Id:14,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:4,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:9,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:11,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:2,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:13,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:18,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b}], CustomPotionColor:0, HideFlags:32}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Splash Potion of Immortality\",Lore:[\"\u00A7r\u00A79Immortality (~)     \u00A70\u231a\",\"\",\"\u00A75When Applied:\",\"\u00A79Immortality\"],LocName:\"rldregora.cursed_potion_16.potion_immortality_splash.name\",LocLore:[\"rldregora.cursed_potion_16.potion_immortality.lore.0\",\" \",\"rldregora.cursed_potion_16.potion_immortality.lore.1\",\"rldregora.cursed_potion_16.potion_immortality.lore.2\"]},CustomPotionEffects:[{Id:72,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:27,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:15,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:17,Duration:99999999,ShowParticles:0b,ShowIcon:0b},{Id:14,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:4,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:9,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:11,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:2,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:13,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:18,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b}], CustomPotionColor:0, HideFlags:32}"
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Potion of Immortality\",Lore:[\"\u00A7r\u00A79Immortality (~)     \u00A70\u231a\",\"\",\"\u00A75When Applied:\",\"\u00A79Immortality\"],LocName:\"rldregora.cursed_potion_16.potion_immortality.name\",LocLore:[\"rldregora.cursed_potion_16.potion_immortality.lore.0\",\" \",\"rldregora.cursed_potion_16.potion_immortality.lore.1\",\"rldregora.cursed_potion_16.potion_immortality.lore.2\"]},CustomPotionEffects:[{Id:27,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:15,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:17,Duration:99999999,ShowParticles:0b,ShowIcon:0b},{Id:14,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:4,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:9,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:11,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:2,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:13,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b},{Id:18,Duration:99999999,Amplifier:99,ShowParticles:0b,ShowIcon:0b}], CustomPotionColor:0, HideFlags:32}"
+            }
+          ],
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

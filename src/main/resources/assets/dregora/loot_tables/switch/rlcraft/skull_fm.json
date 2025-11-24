@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "toilet_skull",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:skull",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner: fonnymunkey, display:{Name:\"FM2\",Lore:[\"...Skibidi.\"],LocName:\"rldregora.toilet.skibidi.name\",LocLore:[\"rldregora.toilet.skibidi.lore\"]}}"
+            },
+            {"function": "minecraft:set_data", "data": 3},
+            {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedblastprotection", "somanyenchantments:advancedknockback", "somanyenchantments:subjectbiology", "somanyenchantments:advancedpower", "somanyenchantments:advancedpunch"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast", "mujmajnkraftsbettersurvival:highjump", "mujmajnkraftsbettersurvival:fling", "mujmajnkraftsbettersurvival:rapidfire", "mujmajnkraftsbettersurvival:multishot", "defiledlands:destructive", "somanyenchantments:innerberserk", "spartanweaponry:propulsion", "spartanweaponry:supercharge", "defiledlands:sharpshooter", "spartanweaponry:rapid_load"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast", "mujmajnkraftsbettersurvival:highjump", "mujmajnkraftsbettersurvival:fling", "mujmajnkraftsbettersurvival:rapidfire", "mujmajnkraftsbettersurvival:multishot", "defiledlands:destructive", "somanyenchantments:innerberserk", "spartanweaponry:propulsion", "spartanweaponry:supercharge", "defiledlands:sharpshooter", "spartanweaponry:rapid_load"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast", "mujmajnkraftsbettersurvival:highjump", "mujmajnkraftsbettersurvival:fling", "mujmajnkraftsbettersurvival:rapidfire", "mujmajnkraftsbettersurvival:multishot", "defiledlands:destructive", "somanyenchantments:innerberserk", "spartanweaponry:propulsion", "spartanweaponry:supercharge", "defiledlands:sharpshooter", "spartanweaponry:rapid_load"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast", "mujmajnkraftsbettersurvival:highjump", "mujmajnkraftsbettersurvival:fling", "mujmajnkraftsbettersurvival:rapidfire", "mujmajnkraftsbettersurvival:multishot", "defiledlands:destructive", "somanyenchantments:innerberserk", "spartanweaponry:propulsion", "spartanweaponry:supercharge", "defiledlands:sharpshooter", "spartanweaponry:rapid_load"]}
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

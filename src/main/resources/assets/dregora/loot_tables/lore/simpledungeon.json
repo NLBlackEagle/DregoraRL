@@ -1,0 +1,299 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Spawns with -1 Luck",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:switch/milk_switch",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "name": "simpledungeon",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.the_origin2.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.the_origin2.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.the_origin2.page.3\\\"}]\"
+                ],
+                title:\"The Origin Part 2\",
+                locTitle:\"rldregora.simpledungeon.the_origin2.title\",
+                author:\"Luthor\",
+                locAuthor:\"rldregora.simpledungeon.the_origin2.author\",
+                display:{Lore:[\"Luthor\u0027s research - Part 2\"],LocLore:[\"rldregora.simpledungeon.the_origin2.lore\"]}
+              }"
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.aberrant_behavior.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.aberrant_behavior.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.aberrant_behavior.page.3\\\"}]\"
+                ],
+                title:\"Aberrant Behavior\",
+                locTitle:\"rldregora.simpledungeon.aberrant_behavior.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.simpledungeon.aberrant_behavior.author\",
+                display:{Lore:[\"A research note, regarding the corrupted.\"],LocLore:[\"rldregora.simpledungeon.aberrant_behavior.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.6\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.7\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.8\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.9\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.10\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.11\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.12\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.13\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.14\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.15\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.16\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.17\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.18\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.19\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.basics_electricity.page.20\\\"}]\"
+                ],
+                title:\"Basics of Electricity\",
+                locTitle:\"rldregora.simpledungeon.basics_electricity.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.simpledungeon.basics_electricity.author\",
+                display:{Lore:[\"The entire book \",\"seems to be written in gibberish. Or does it tell the truth?\"],LocLore:[\"rldregora.simpledungeon.basics_electricity.lore.0\",\"rldregora.simpledungeon.basics_electricity.lore.1\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.project_icarus.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.project_icarus.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.project_icarus.page.3\\\"}]\"
+                ],
+                title:\"Project Icarus\",
+                locTitle:\"rldregora.simpledungeon.project_icarus.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.simpledungeon.project_icarus.author\",
+                display:{Lore:[\"This book contains information regarding project Icarus,\",\" the predecessor of the Dregorian Voyager. \",\"The summary gives a some explanation on it\u0027s origin\"],LocLore:[\"This book contains information regarding project Icarus,\",\"rldregora.simpledungeon.project_icarus.lore.1\",\"rldregora.simpledungeon.project_icarus.lore.2\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.maintenance.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.maintenance.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.simpledungeon.maintenance.page.3\\\"}]\"
+                ],
+                title:\"Maintenance Book\",
+                locTitle:\"rldregora.simpledungeon.maintenance.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.simpledungeon.maintenance.author\",
+                display:{Lore:[\"A Ancient Mechanic\u0027s Guide\"],LocLore:[\"rldregora.simpledungeon.maintenance.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "lucky_totem",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["offhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["offhand"]},
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "treasure": false
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "name": "simpledungeon_loot",
+      "rolls": {
+        "min": 5,
+        "max": 15
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 9
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.8
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:rabbit_hide",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:map",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bowl",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:record_wait",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:skull",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:web",
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}
+

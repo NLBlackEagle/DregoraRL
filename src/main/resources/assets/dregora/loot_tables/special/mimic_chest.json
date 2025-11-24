@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Spawns with -1 Luck",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:switch/milk_switch",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "name": "cursed_loot",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:rlcraft/rlcraft_infuse_cursed",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/cursed_loot",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "name": "mimic_chest",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:dregorarl/loot/epic_loot",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/simple_dungeon",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:dregorarl/loot/rare_loot",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:dregorarl/loot/common_loot",
+          "weight": 15
+        }
+      ]
+    }
+  ]
+}
+

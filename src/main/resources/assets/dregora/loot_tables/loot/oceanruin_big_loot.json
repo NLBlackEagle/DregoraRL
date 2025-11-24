@@ -1,0 +1,470 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "traveler_chest",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:travelers/ocean_main",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "common_loot",
+      "rolls": {
+        "min": 5,
+        "max": 15
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 10\"],LocName:\"rldregora.moderncity_epic_loot.golden_disk.name\",LocLore:[\"rldregora.moderncity_epic_loot.golden_disk.lore\"],LocLoreArg:[\"10\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 20\"],LocName:\"rldregora.moderncity_epic_loot.golden_disk.name\",LocLore:[\"rldregora.moderncity_epic_loot.golden_disk.lore\"],LocLoreArg:[\"20\"]}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 50\"],LocName:\"rldregora.moderncity_epic_loot.golden_disk.name\",LocLore:[\"rldregora.moderncity_epic_loot.golden_disk.lore\"],LocLoreArg:[\"50\"]}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Small Golden Disk\",Lore:[\"There\u0027s a number written on the small disk, it says 100\"],LocName:\"rldregora.moderncity_epic_loot.golden_disk.name\",LocLore:[\"rldregora.moderncity_epic_loot.golden_disk.lore\"],LocLoreArg:[\"100\"]}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 5,
+              "treasure": false
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 5,
+              "treasure": false
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "treasure": false
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "fishingmadebetter:fishing_rod_wood",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rotting Fishing Rod\",LocName:\"rldregora.oceanruin_big_loot.rotting_rod.name\"}}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.05,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 5,
+              "treasure": false
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 5,
+              "treasure": false
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "treasure": false
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lapis_block",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tallgrass",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Sea Grass\",Lore:[\"Sea Worthy Grass!\"],LocName:\"rldregora.oceanruin_big_loot.sea_grass.name\",LocLore:[\"rldregora.oceanruin_big_loot.sea_grass.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:double_plant",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Sea Grass\",Lore:[\"Sea Worthy Grass!\"],LocName:\"rldregora.oceanruin_big_loot.sea_grass.name\",LocLore:[\"rldregora.oceanruin_big_loot.sea_grass.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 3
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:mossy_cobblestone",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "minecraft:flint",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:clock",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ender_pearl",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:prismarine_crystals",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:prismarine_shard",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:flower_pot",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Ancient Pottery\",Lore:[\"Beautifully Decorated\"],LocName:\"rldregora.oceanruin_big_loot.ancient_pottery.name\",LocLore:[\"rldregora.oceanruin_big_loot.pottery.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Fragile Pottery\",Lore:[\"Beautifully Decorated\"],LocName:\"rldregora.oceanruin_big_loot.fragile_pottery.name\",LocLore:[\"rldregora.oceanruin_big_loot.pottery.lore\"]}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Old Pottery\",Lore:[\"Beautifully Decorated\"],LocName:\"rldregora.oceanruin_big_loot.old_pottery.name\",LocLore:[\"rldregora.oceanruin_big_loot.pottery.lore\"]}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.05,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 5,
+              "treasure": false,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rusted Iron Axe\",LocName:\"rldregora.oceanruin_big_loot.iron_axe1.name\"}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Decaying Iron Axe\",LocName:\"rldregora.oceanruin_big_loot.iron_axe2.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Crumblibg Iron Axe\",LocName:\"rldregora.oceanruin_big_loot.iron_axe3.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Eroding Iron Axe\",LocName:\"rldregora.oceanruin_big_loot.iron_axe4.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Oxidized Iron Axe\",LocName:\"rldregora.oceanruin_big_loot.iron_axe5.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deteriorating Iron Axe\",LocName:\"rldregora.oceanruin_big_loot.iron_axe6.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_hoe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.05,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Rusted Iron Hoe\",LocName:\"rldregora.oceanruin_big_loot.iron_hoe1.name\"}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Decaying Iron Hoe\",LocName:\"rldregora.oceanruin_big_loot.iron_hoe2.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Crumblibg Iron Hoe\",LocName:\"rldregora.oceanruin_big_loot.iron_hoe3.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Eroding Iron Hoe\",LocName:\"rldregora.oceanruin_big_loot.iron_hoe4.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Oxidized Iron Hoe\",LocName:\"rldregora.oceanruin_big_loot.iron_hoe5.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deteriorating Iron Hoe\",LocName:\"rldregora.oceanruin_big_loot.iron_hoe6.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 5,
+              "treasure": false,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.05,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Crumbling Stone Axe\",LocName:\"rldregora.oceanruin_big_loot.stone_axe1.name\"}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Decaying Stone Axe\",LocName:\"rldregora.oceanruin_big_loot.stone_axe2.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Broken Stone Axe\",LocName:\"rldregora.oceanruin_big_loot.stone_axe3.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Fragile Stone Axe\",LocName:\"rldregora.oceanruin_big_loot.stone_axe4.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Deteriorating Stone Axe\",LocName:\"rldregora.oceanruin_big_loot.stone_axe5.name\"}}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 5,
+              "treasure": false,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/loot_leather/leather_common",
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/loot_ocean_potion/ocean_potion_main",
+          "weight": 9
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "traveler_iceships_map",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Frozen Ships\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:7576 z:12204\"],LocName:\"rldregora.oceans_iceships.filled_map.name\",LocLore:[\"rldregora.oceans_iceships.filled_map.lore.0\",\"rldregora.oceans_iceships.filled_map.lore.1\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Decorations:{id:+,rot:180,type:26,x:7576,z:12204}}"
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "traveler_iceships_book",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"x:7576 z:12204\",Lore:[\"Ocasionally along the shore frozen death awaits.\"],LocName:\"rldregora.oceans_iceships.book.name\",LocLore:[\"rldregora.oceans_iceships.book.lore\"]}}"
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

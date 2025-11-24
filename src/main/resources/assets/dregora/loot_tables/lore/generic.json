@@ -1,0 +1,847 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Spawns with -1 Luck",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:switch/milk_switch",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "name": "generic",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_blight1.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_blight1.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_blight1.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_blight1.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_blight1.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_blight1.page.6\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_blight1.page.7\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_blight1.page.8\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_blight1.page.9\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_blight1.page.10\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_blight1.page.11\\\"}]\"
+                ],
+                title:\"The Blight - Chapter 1\",
+                locTitle:\"rldregora.generic.the_blight1.title\",
+                author:\"Dregorian\",
+                locAuthor:\"rldregora.generic.the_blight1.author\",
+                display:{Lore:[\"From before the world was named Dregora, the ancient times.\"],LocLore:[\"rldregora.generic.the_blight1.lore\"]}
+              }"
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.6\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.7\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.8\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.9\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.10\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.11\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.12\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.13\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dregorian_demise.page.14\\\"}]\"
+                ],
+                title:\"Dregorian\u0027s Demise - Chapter 2\",
+                locTitle:\"rldregora.generic.dregorian_demise.title\",
+                author:\"Dregorian\",
+                locAuthor:\"rldregora.generic.dregorian_demise.author\",
+                display:{Lore:[\"A Distant Hope...\"],LocLore:[\"rldregora.generic.dregorian_demise.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_arrival.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_arrival.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_arrival.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_arrival.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_arrival.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_arrival.page.6\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_arrival.page.7\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.the_arrival.page.8\\\"}]\"
+                ],
+                title:\"The Arrival - Chapter 3\",
+                locTitle:\"rldregora.generic.the_arrival.title\",
+                author:\"Dregorian\",
+                locAuthor:\"rldregora.generic.the_arrival.author\",
+                display:{Lore:[\"Red, like the evening sun.\"],LocLore:[\"rldregora.generic.the_arrival.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dead_world.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dead_world.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dead_world.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dead_world.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dead_world.page.5\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dead_world.page.6\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dead_world.page.7\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.dead_world.page.8\\\"}]\"
+                ],
+                title:\"A Dead World - Chapter 4\",
+                locTitle:\"rldregora.generic.dead_world.title\",
+                author:\"Dregorian\",
+                locAuthor:\"rldregora.generic.dead_world.author\",
+                display:{Lore:[\"The sound of nothing as the true king of what once was our Earth.\"],LocLore:[\"rldregora.generic.dead_world.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.new_world.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.new_world.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.new_world.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.new_world.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.generic.new_world.page.5\\\"}]\"
+                ],
+                title:\"A New World - Chapter 5\",
+                locTitle:\"rldregora.generic.new_world.title\",
+                author:\"Dregorian\",
+                locAuthor:\"rldregora.generic.new_world.author\",
+                display:{Lore:[\"Welcome to Dregora\"],LocLore:[\"rldregora.generic.new_world.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "lucky_totem",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["offhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["offhand"]},
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "treasure": false
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "name": "generic_loot",
+      "rolls": {
+        "min": 5,
+        "max": 15
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:dye",
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 8
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:long_regeneration\"}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:long_night_vision\"}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:poison\"}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:fire_resistance\"}"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:slowness\"}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:luck\"}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:long_water_breathing\"}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.75,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 15,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.9
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.2
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_hoe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.2
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stone_shovel",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 5,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.6
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 5,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.6
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stone_pickaxe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 5,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.6
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_shovel",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:flint_and_steel",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:web",
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "minecraft:flower_pot",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:string",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:redstone_block",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:coal_block",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:reeds",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}
+

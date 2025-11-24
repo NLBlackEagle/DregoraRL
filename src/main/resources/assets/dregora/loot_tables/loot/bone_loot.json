@@ -1,0 +1,231 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Spawns with -1 Luck",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:switch/milk_switch",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "name": "common_loot",
+      "rolls": {
+        "min": 3,
+        "max": 13
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:skull",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Skull of Luck\",Lore:[\"Holding this in your off-hand gives you a boost of luck.\"],LocName:\"rldregora.bone_loot.skull.name\",LocLore:[\"rldregora.bone_loot.skull.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.luck",
+                  "name": "More Knockback",
+                  "amount": {
+                    "min": 0.01,
+                    "max": 0.2
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "offhand"
+                  ]
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 200
+        }
+      ]
+    },
+    {
+      "name": "common_loot",
+      "rolls": {
+        "min": 3,
+        "max": 13
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Helm of Resentment\",Lore:[\"This headpiece comes with a surprise\"],LocName:\"rldregora.bone_loot.iron_helmet.name\",LocLore:[\"rldregora.bone_loot.iron_helmet.lore\"]}}"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:100,Unbreakable:1,HideFlags:1}"
+            },
+            {"function": "enchant_randomly", "enchantments": ["minecraft:thorns"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:projectile_protection"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:binding_curse"]},
+            {"function": "enchant_randomly", "enchantments": ["minecraft:unbreaking"]},
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "More Knockback",
+                  "amount": {
+                    "min": 0.03,
+                    "max": 0.05
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "head"
+                  ]
+                },
+                {
+                  "attribute": "generic.maxHealth",
+                  "name": "Less Health",
+                  "amount": {
+                    "min": 1.0,
+                    "max": 2.0
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "head"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wooden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Sleeper Sword\",Lore:[\"This training sword packs more of\",\"a punch it should be able to\",\"handle\"],LocName:\"rldregora.bone_loot.wooden_sword.name\",LocLore:[\"rldregora.bone_loot.wooden_sword.lore.0\",\"rldregora.bone_loot.wooden_sword.lore.1\",\"rldregora.bone_loot.wooden_sword.lore.2\"]}}"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:999,HideFlags:3}"
+            },
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:fire_aspect", "levels": 1},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:smite", "levels": 5},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:sharpness", "levels": 5},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:knockback", "levels": 2},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:looting", "levels": 3},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:sweeping", "levels": 5},
+            {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:vanishing_curse", "levels": 1},
+            {
+              "function": "set_damage",
+              "damage": 0.01
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "More Knockback",
+                  "amount": {
+                    "min": 3,
+                    "max": 6
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "mainhand"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:dye",
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 8
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 7,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:skull",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "treasure": false,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:deadbush",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "minecraft:string",
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "minecraft:web",
+          "weight": 30
+        }
+      ]
+    }
+  ]
+}
+

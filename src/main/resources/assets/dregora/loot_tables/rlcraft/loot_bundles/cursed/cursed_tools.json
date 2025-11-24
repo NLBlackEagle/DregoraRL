@@ -1,0 +1,793 @@
+{
+  "type": "minecraft:chest",
+  "CustomName": "Cursed Chest",
+  "pools": [
+    {
+      "name": "Cursed Tools Chest",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "defiledlands:umbrium_pickaxe",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Lustfull BloodPick\",Lore:[\"It feeds on more then stone.\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Speed\",\"§9+10% Dig Die\",\"\",\"§0It's a lie...\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe1.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe1.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.pickaxe1.lore.1\",\"rldregora.rlcraft.cursed_tools.pickaxe1.lore.2\",\"rldregora.rlcraft.cursed_tools.pickaxe1.lore.3\",\" \",\"rldregora.rlcraft.cursed_tools.pickaxe1.lore.4\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Tormented Splitter\",Lore:[\"Splitting, Cracking, Dividing...\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+12% Dig Speed\",\"§9+1 Max Death\",\"\",\"§0It's a lie...\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe2.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe2.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.pickaxe2.lore.1\",\"rldregora.rlcraft.cursed_tools.pickaxe2.lore.2\",\"rldregora.rlcraft.cursed_tools.pickaxe2.lore.3\",\" \",\"rldregora.rlcraft.cursed_tools.pickaxe2.lore.4\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Battleworn Gurlet\",Lore:[\"It has seen one too many deaths.\",\"\",\"§4When in main hand:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something hehe..\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe3.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe3.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.pickaxe3.lore.1\",\"rldregora.rlcraft.cursed_tools.pickaxe3.lore.2\",\"rldregora.rlcraft.cursed_tools.pickaxe3.lore.3\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Malicious Clever\",Lore:[\"You can precieve its malicious intent...\",\"\",\"§4When in main hand:\",\"§9+12% strength\",\"§9+8% Dig Your Grave\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe4.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe4.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.pickaxe4.lore.1\",\"rldregora.rlcraft.cursed_tools.pickaxe4.lore.2\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Hollow Cracker\",Lore:[\"Cracking is what it does.\",\"\",\"§4When in main hand:\",\"§9+16% Dig Speed\",\"\",\"§0It's a lie...\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe5.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe5.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.pickaxe5.lore.1\",\"rldregora.rlcraft.cursed_tools.pickaxe5.lore.2\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Remorseful Pickaxe\",Lore:[\"It wont just go after stone...\",\"\",\"§4When in main hand:\",\"§9+12% Highway to Hell!!\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe6.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe6.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.pickaxe6.lore.1\",\"rldregora.rlcraft.cursed_tools.pickaxe6.lore.2\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Greedy Hank\",Lore:[\"Makes you wonder, where is hank?\",\"\",\"§4When in main hand:\",\"§9+5% Dig Speed\",\"§9+10% Speed\",\"§0+10% Lie!\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe7.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe7.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.pickaxe7.lore.1\",\"rldregora.rlcraft.cursed_tools.pickaxe7.lore.2\",\"rldregora.rlcraft.cursed_tools.pickaxe7.lore.3\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"The Eternal Miner\",Lore:[\"With stone it feeds.\",\"\",\"§4When in main hand:\",\"§9+2 Max Health\",\"§9+10% Speed\",\"§9+10% Dig Slow\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe8.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe8.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.pickaxe8.lore.1\",\"rldregora.rlcraft.cursed_tools.pickaxe8.lore.2\",\"rldregora.rlcraft.cursed_tools.pickaxe8.lore.3\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "notreepunching:pickaxe/flint",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Lustfull BloodPick\",Lore:[\"It feeds on more then stone.\",\"\",\"§4When in main hand:\",\"§9+1 Anti Luck\",\"§9+5% Speed\",\"§9+10% Dig Speed\",\"§0+10% Death\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe1.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe1.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe1.lore.1\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe1.lore.2\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe1.lore.3\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe1.lore.4\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Tormented Splitter\",Lore:[\"Splitting, Cracking, Dividing...\",\"\",\"§4When in main hand:\",\"§9+1 UnLuck\",\"§9+12% Dig Speed\",\"§9+1 Max Death\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe2.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe2.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe2.lore.1\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe2.lore.2\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe2.lore.3\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Battleworn Gurlet\",Lore:[\"It has seen one too many deaths.\",\"\",\"§4When in main hand:\",\"§9+20% Deadly Speed\",\"§9+1 Something\",\"§9+1 Something\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe3.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe3.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe3.lore.1\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe3.lore.2\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe3.lore.3\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Malicious Clever\",Lore:[\"You can precieve its malicious intent...\",\"\",\"§4When in main hand:\",\"§9+12% Fake Strength\",\"§9+8% Dig Speed\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe4.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe4.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe4.lore.1\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe4.lore.2\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Hollow Cracker\",Lore:[\"Cracking is what it does.\",\"\",\"§4When in main hand:\",\"§9+16% Dig Underneath\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe5.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe5.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe5.lore.1\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Remorseful Pickaxe\",Lore:[\"It wont just go after stone...\",\"\",\"§4When in main hand:\",\"§9+12% Kinetic Speed End\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe6.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe6.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe6.lore.1\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Greedy Hank\",Lore:[\"Makes you wonder, where is hank?\",\"\",\"§4When in main hand:\",\"§9+5% Getting Rekt\",\"§9+10% Speed\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe7.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe7.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe7.lore.1\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe7.lore.2\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"The Eternal Miner\",Lore:[\"With stone it feeds.\",\"\",\"§4When in main hand:\",\"§9+2 Max Health\",\"§9+10% Speed\",\"§9+10% Dig Speed\",\"§0+10% Lies!\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe8.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe8.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe8.lore.1\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe8.lore.2\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe8.lore.3\",\"rldregora.rlcraft.cursed_tools.flint_pickaxe8.lore.4\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 2.5,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "iceandfire:myrmex_jungle_pickaxe",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Lustfull BloodPick\",Lore:[\"It feeds on more then stone.\",\"\",\"§4When in main hand:\",\"§9+1 Rickroll\",\"§9+5% Speed\",\"§9+10% Dig Speed\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe1.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe1.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe1.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe1.lore.2\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe1.lore.3\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Tormented Splitter\",Lore:[\"Splitting, Cracking, Dividing...\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+12% Dig Speed\",\"§9+1 Less Health\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe2.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe2.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe2.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe2.lore.2\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe2.lore.3\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Battleworn Gurlet\",Lore:[\"It has seen one too many deaths.\",\"\",\"§4When in main hand:\",\"§9+20% Speed\",\"§9+1 Nothing\",\"§9+1 Something\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe3.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe3.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe3.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe3.lore.2\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe3.lore.3\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Malicious Clever\",Lore:[\"You can precieve its malicious intent...\",\"\",\"§4When in main hand:\",\"§9+12% Fake Promises...\",\"§9+8% Dig Speed\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe4.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe4.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe4.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe4.lore.2\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Hollow Cracker\",Lore:[\"Cracking is what it does.\",\"\",\"§4When in main hand:\",\"§9+16% Dig Speed\",\"§0+10% Death\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe5.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe5.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe5.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe5.lore.2\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Remorseful Pickaxe\",Lore:[\"It wont just go after stone...\",\"\",\"§4When in main hand:\",\"§9+12% Speed\",\"§0+10% You Die\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe6.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe6.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe6.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe6.lore.2\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Greedy Hank\",Lore:[\"Makes you wonder, where is hank?\",\"\",\"§4When in main hand:\",\"§9+5% Dig Speed\",\"§9+10% Speed\",\"§0+10% Slow Death\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe7.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe7.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe7.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe7.lore.2\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe7.lore.3\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"The Eternal Miner\",Lore:[\"With stone it feeds.\",\"\",\"§4When in main hand:\",\"§9+2 Max Health\",\"§9+10% Speed\",\"§9+10% Diggerdy Down Death Upon Thou\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.rlcraft.cursed_tools.pickaxe8.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.pickaxe8.lore.0\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe8.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe8.lore.2\",\"rldregora.rlcraft.cursed_tools.myrmex_pickaxe8.lore.3\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 3,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "iceandfire:troll_weapon.axe",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Lustfull BloodAxe\",Lore:[\"It feeds on more then wood.\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Anti Speed\",\"§9+10% Dig, Dig.. Take the Risk\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.rlcraft.cursed_tools.axe1.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe1.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe1.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe1.lore.2\",\"rldregora.rlcraft.cursed_tools.troll_axe1.lore.3\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Tormented Splitter\",Lore:[\"Splitting, Cracking, Dividing...\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+12% Dig Speed\",\"§9+1 Half... Or Worse Health\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.axe2.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe2.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe2.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe2.lore.2\",\"rldregora.rlcraft.cursed_tools.troll_axe2.lore.3\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Battleworn Hatchet\",Lore:[\"It has seen one too many deaths.\",\"\",\"§4When in main hand:\",\"§9+20% Speed\",\"§9+1 Something\",\"§9+1 Something Deathly...\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.axe3.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe3.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe3.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe3.lore.2\",\"rldregora.rlcraft.cursed_tools.troll_axe3.lore.3\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Malicious Clever\",Lore:[\"You can precieve its malicious intent...\",\"\",\"§4When in main hand:\",\"§9+12% §0No §9Strength\",\"§9+8% Dig Speed\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_tools.axe4.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe4.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe4.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe4.lore.2\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Hollow Cracker\",Lore:[\"Cracking is what it does.\",\"\",\"§4When in main hand:\",\"§9+16% §0No §9Dig Speed\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_tools.axe5.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe5.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe5.lore.1\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Remorseful Axe\",Lore:[\"It wont just go after wood...\",\"\",\"§4When in main hand:\",\"§9+12% Speedy §0Death!\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.rlcraft.cursed_tools.axe6.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe6.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe6.lore.1\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Greedy Hank\",Lore:[\"Makes you wonder, where is hank?\",\"\",\"§4When in main hand:\",\"§9+5% Dig Speed\",\"§9+10% Speed\",\"§9+10% Lies, Lot's Of Lies!\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.rlcraft.cursed_tools.axe7.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe7.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe7.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe7.lore.2\",\"rldregora.rlcraft.cursed_tools.troll_axe7.lore.3\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"The Eternal Chopper\",Lore:[\"With wood it feeds.\",\"\",\"§4When in main hand:\",\"§9+2 Max Health\",\"§9+10% Speed\",\"§9+10% Dig Your End\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.rlcraft.cursed_tools.axe8.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe8.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.troll_axe8.lore.1\",\"rldregora.rlcraft.cursed_tools.troll_axe8.lore.2\",\"rldregora.rlcraft.cursed_tools.troll_axe8.lore.3\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 0.5,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 10,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "betternether:cincinnasite_axe_diamond",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Lustfull BloodAxe\",Lore:[\"It feeds on more then wood.\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Speed\",\"§9+10% Dig Down Death\",\"§0Beware for by touching this thy may open Pandora's box\"],LocName:\"rldregora.rlcraft.cursed_tools.axe1.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe1.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe1.lore.1\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe1.lore.2\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe1.lore.3\",\"rldregora.cursed_armor.pandora9.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Tormented Splitter\",Lore:[\"Splitting, Cracking, Dividing...\",\"\",\"§4When in main hand:\",\"§0-9§9+1 Luck\",\"§9+12% Dig Speed\",\"§91% Max Health!\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.rlcraft.cursed_tools.axe2.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe2.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe2.lore.1\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe2.lore.2\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe2.lore.3\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Battleworn Hatchet\",Lore:[\"It has seen one too many deaths.\",\"\",\"§4When in main hand:\",\"§9+20% No Speed\",\"§9+1 Something\",\"§9+666 Something\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.axe3.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe3.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe3.lore.1\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe3.lore.2\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe3.lore.3\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Malicious Clever\",Lore:[\"You can precieve its malicious intent...\",\"\",\"§4When in main hand:\",\"§9+12% Weak Ass!\",\"§9+8% Dig Speed\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.axe4.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe4.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe4.lore.1\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe4.lore.2\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Hollow Cracker\",Lore:[\"Cracking is what it does.\",\"\",\"§4When in any hand:\",\"§9+16% You'll Die!\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_tools.axe5.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe5.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe5.lore.1\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Remorseful Axe\",Lore:[\"It wont just go after wood...\",\"\",\"§4When in main hand:\",\"§9+12% Speed\",\"§0+100% Anti Trust!\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_tools.axe6.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe6.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe6.lore.1\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe6.lore.2\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Greedy Hank\",Lore:[\"Makes you wonder, where is hank?\",\"\",\"§4When in main hand:\",\"§9+5% Dig Speed\",\"§9+10% Speed\",\"§0Definitely Do Not Wear!\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.rlcraft.cursed_tools.axe7.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe7.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe7.lore.1\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe7.lore.2\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe7.lore.3\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"The Eternal Chopper\",Lore:[\"With wood it feeds.\",\"\",\"§4When in main hand:\",\"§9+2 Max Health\",\"§9+10% Speed\",\"§9+10% Game Over\",\"§0Upon this item may rest the curse that grants curses...\"],LocName:\"rldregora.rlcraft.cursed_tools.axe8.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe8.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe8.lore.1\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe8.lore.2\",\"rldregora.rlcraft.cursed_tools.cincin_dia_axe8.lore.3\",\"rldregora.cursed_armor.pandora7.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1.2,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 4,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "spartanfire:battleaxe_desert",
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Lustfull BloodAxe\",Lore:[\"It feeds on more then wood.\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+5% Speed\",\"§9+10% Dig Your Grave\",\"§0Within may reside the curse that grants curses\"],LocName:\"rldregora.rlcraft.cursed_tools.axe1.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe1.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe1.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe1.lore.2\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe1.lore.3\",\"rldregora.cursed_armor.pandora8.lore\"]},HideFlags:3}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Tormented Splitter\",Lore:[\"Splitting, Cracking, Dividing...\",\"\",\"§4When in main hand:\",\"§9+1 Luck\",\"§9+12% Corruption!\",\"§9+1 Fake Health\",\"§0Beware for by touching this thy may open Pandora's box\"],LocName:\"rldregora.rlcraft.cursed_tools.axe2.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe2.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe2.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe2.lore.2\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe2.lore.3\",\"rldregora.cursed_armor.pandora9.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Battleworn Hatchet\",Lore:[\"It has seen one too many deaths.\",\"\",\"§4When in main hand:\",\"§9+20% Speed\",\"§9+1 Something §Bad\",\"§9+1 Something\",\"§0aordnaP evah dluoC\"],LocName:\"rldregora.rlcraft.cursed_tools.axe3.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe3.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe3.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe3.lore.2\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe3.lore.3\",\"rldregora.cursed_armor.pandora1.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Malicious Clever\",Lore:[\"You can precieve its malicious intent...\",\"\",\"§4When in main hand:\",\"§9+12% Strength §0Fail\",\"§9+8% Dig Speed\",\"§0nihtiw tser yam aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.axe4.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe4.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe4.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe4.lore.2\",\"rldregora.cursed_armor.pandora2.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Hollow Cracker\",Lore:[\"Cracking is what it does.\",\"\",\"§4When in main hand:\",\"§9+16% Dig Speed\",\"§0+100% Skill Issue\",\"§0uoy steerg aordnaP\"],LocName:\"rldregora.rlcraft.cursed_tools.axe5.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe5.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe5.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe5.lore.2\",\"rldregora.cursed_armor.pandora3.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Remorseful Axe\",Lore:[\"It wont just go after wood...\",\"\",\"§4When in main hand:\",\"§9+12% Tripping Speed\",\"§0-90% Something Due To Tripping.\",\"§0aordnaP %81\"],LocName:\"rldregora.rlcraft.cursed_tools.axe6.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe6.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe6.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe6.lore.2\",\"rldregora.cursed_armor.pandora4.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Greedy Hank\",Lore:[\"Makes you wonder, where is hank?\",\"\",\"§4When in main hand:\",\"§9+5% Dig Speed\",\"§9+10% Speedy §0Death\",\"§0arodnaP tser yam tnempiuqe thine nopU\"],LocName:\"rldregora.rlcraft.cursed_tools.axe7.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe7.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe7.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe7.lore.2\",\"rldregora.cursed_armor.pandora5.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"The Eternal Chopper\",Lore:[\"With wood it feeds.\",\"\",\"§4When in main hand:\",\"§9+2 Max Health\",\"§9+10% Speed\",\"§9+10% Dig Your End!\",\"§0nihtiw ediser yam aordnaP rof areweB\"],LocName:\"rldregora.rlcraft.cursed_tools.axe8.name\",LocLore:[\"rldregora.rlcraft.cursed_tools.axe8.lore\",\" \",\"rldregora.cursed.modifiers.mainhand\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe8.lore.1\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe8.lore.2\",\"rldregora.rlcraft.cursed_tools.myrmex_battleaxe8.lore.3\",\"rldregora.cursed_armor.pandora6.lore\"]},HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "somanyenchantments:curseofpossession"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "charm:harming_curse",
+                "charm:clumsiness_curse",
+                "charm:haunting_curse",
+                "charm:rusting_curse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:curseofholding",
+                "somanyenchantments:curseofinaccuracy",
+                "somanyenchantments:curseofvulnerability"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:instability",
+                "mujmajnkraftsbettersurvival:heavy",
+                "somanyenchantments:pandorascurse"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:rusted",
+                "somanyenchantments:inefficient",
+                "somanyenchantments:bluntness",
+                "somanyenchantments:cursededge"
+              ]
+            },
+            {
+              "function": "enchant_randomly",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "enchantments": [
+                "somanyenchantments:heavyweight",
+                "somanyenchantments:unpredictable",
+                "somanyenchantments:powerless",
+                "somanyenchantments:curseofdecay"
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.attackSpeed","name": "attackSpeed","amount": 1,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.attackDamage","name": "attackDamage","amount": 7.4,"operation": "addition","slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.2,"max": 0.2},"operation": "multiply_total","slot": ["mainhand"]},
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -10,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.2,"max": 0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "maxHealth","amount": {"min": -0.05,"max": -0.1},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,866 @@
+{
+  "type": "minecraft:chest",
+  "CustomName": "Cursed Chest",
+  "pools": [
+    {
+      "name": "Cursed Tool Chest",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Chain Helmet\",LocName:\"rldregora.cursed_armor.chainmail_helmet1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Chain Helmet of Binding\",LocName:\"rldregora.cursed_armor.chainmail_helmet2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Chain Helmet\",LocName:\"rldregora.cursed_armor.chainmail_helmet3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Chain Helmet of Binding\",LocName:\"rldregora.cursed_armor.chainmail_helmet4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:5,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Chain Helmet\",LocName:\"rldregora.cursed_armor.chainmail_helmet5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:6,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Chain Helmet of Attachment\",LocName:\"rldregora.cursed_armor.chainmail_helmet6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Chain Suit\",LocName:\"rldregora.cursed_armor.chainmail_chestplate1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Chain Torso of Binding\",LocName:\"rldregora.cursed_armor.chainmail_chestplate2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Chain Gear\",LocName:\"rldregora.cursed_armor.chainmail_chestplate3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Chain Garb of Binding\",LocName:\"rldregora.cursed_armor.chainmail_chestplate4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Chain Costume\",LocName:\"rldregora.cursed_armor.chainmail_chestplate5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Chain Guard of Attachment\",LocName:\"rldregora.cursed_armor.chainmail_chestplate6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Chain Chaps\",LocName:\"rldregora.cursed_armor.chainmail_leggings1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Chain Gaiters of Binding\",LocName:\"rldregora.cursed_armor.chainmail_leggings2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Chain Putts\",LocName:\"rldregora.cursed_armor.chainmail_leggings3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Chain Stockings of Isolophobia\",LocName:\"rldregora.cursed_armor.chainmail_leggings4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Chain Buskins\",LocName:\"rldregora.cursed_armor.chainmail_leggings5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Chain Throusers of Non Seclusion\",LocName:\"rldregora.cursed_armor.chainmail_leggings6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Chain Clogs\",LocName:\"rldregora.cursed_armor.chainmail_boots1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Chain Slippers of Binding\",LocName:\"rldregora.cursed_armor.chainmail_boots2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Chain Pumps\",LocName:\"rldregora.cursed_armor.chainmail_boots3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Chain Sandals of Isolophobia\",LocName:\"rldregora.cursed_armor.chainmail_boots4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Chain Hightops\",LocName:\"rldregora.cursed_armor.chainmail_boots5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Chain Cleats of Non Seclusion\",LocName:\"rldregora.cursed_armor.chainmail_boots6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Diamond Helmet\",LocName:\"rldregora.cursed_armor.diamond_helmet1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Diamond Helmet of Binding\",LocName:\"rldregora.cursed_armor.diamond_helmet2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Diamond Helmet\",LocName:\"rldregora.cursed_armor.diamond_helmet3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Diamond Helmet of Binding\",LocName:\"rldregora.cursed_armor.diamond_helmet4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:5,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Diamond Helmet\",LocName:\"rldregora.cursed_armor.diamond_helmet5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:6,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Diamond Helmet of Attachment\",LocName:\"rldregora.cursed_armor.diamond_helmet6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Diamond Suit\",LocName:\"rldregora.cursed_armor.diamond_chestplate1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Diamond Torso of Binding\",LocName:\"rldregora.cursed_armor.diamond_chestplate2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Diamond Gear\",LocName:\"rldregora.cursed_armor.diamond_chestplate3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Diamond Garb of Binding\",LocName:\"rldregora.cursed_armor.diamond_chestplate4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Diamond Costume\",LocName:\"rldregora.cursed_armor.diamond_chestplate5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Diamond Guard of Attachment\",LocName:\"rldregora.cursed_armor.diamond_chestplate6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Diamond Chaps\",LocName:\"rldregora.cursed_armor.diamond_leggings1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Diamond Gaiters of Binding\",LocName:\"rldregora.cursed_armor.diamond_leggings2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Diamond Putts\",LocName:\"rldregora.cursed_armor.diamond_leggings3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Diamond Stockings of Isolophobia\",LocName:\"rldregora.cursed_armor.diamond_leggings4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Diamond Buskins\",LocName:\"rldregora.cursed_armor.diamond_leggings5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Diamond Throusers of Non Seclusion\",LocName:\"rldregora.cursed_armor.diamond_leggings6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Diamond Clogs\",LocName:\"rldregora.cursed_armor.diamond_boots1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Diamond Slippers of Binding\",LocName:\"rldregora.cursed_armor.diamond_boots2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Diamond Pumps\",LocName:\"rldregora.cursed_armor.diamond_boots3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Diamond Sandals of Isolophobia\",LocName:\"rldregora.cursed_armor.diamond_boots4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Diamond Hightops\",LocName:\"rldregora.cursed_armor.diamond_boots5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Diamond Cleats of Non Seclusion\",LocName:\"rldregora.cursed_armor.diamond_boots6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Iron Helmet\",LocName:\"rldregora.cursed_armor.iron_helmet1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Iron Helmet of Binding\",LocName:\"rldregora.cursed_armor.iron_helmet2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Iron Helmet\",LocName:\"rldregora.cursed_armor.iron_helmet3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Iron Helmet of Binding\",LocName:\"rldregora.cursed_armor.iron_helmet4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:5,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Iron Helmet\",LocName:\"rldregora.cursed_armor.iron_helmet5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:6,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Iron Helmet of Attachment\",LocName:\"rldregora.cursed_armor.iron_helmet6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["head"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Iron Suit\",LocName:\"rldregora.cursed_armor.iron_chestplate1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Iron Torso of Binding\",LocName:\"rldregora.cursed_armor.iron_chestplate2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Iron Gear\",LocName:\"rldregora.cursed_armor.iron_chestplate3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Iron Garb of Binding\",LocName:\"rldregora.cursed_armor.iron_chestplate4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Iron Costume\",LocName:\"rldregora.cursed_armor.iron_chestplate5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Iron Guard of Attachment\",LocName:\"rldregora.cursed_armor.iron_chestplate6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["chest"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Iron Chaps\",LocName:\"rldregora.cursed_armor.iron_leggings1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Iron Gaiters of Binding\",LocName:\"rldregora.cursed_armor.iron_leggings2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Iron Putts\",LocName:\"rldregora.cursed_armor.iron_leggings3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Iron Stockings of Isolophobia\",LocName:\"rldregora.cursed_armor.iron_leggings4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Iron Buskins\",LocName:\"rldregora.cursed_armor.iron_leggings5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Iron Throusers of Non Seclusion\",LocName:\"rldregora.cursed_armor.iron_leggings6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["legs"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Iron Clogs\",LocName:\"rldregora.cursed_armor.iron_boots1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:7,lvl:4}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Iron Slippers of Binding\",LocName:\"rldregora.cursed_armor.iron_boots2.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:0,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Iron Pumps\",LocName:\"rldregora.cursed_armor.iron_boots3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:4,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Iron Sandals of Isolophobia\",LocName:\"rldregora.cursed_armor.iron_boots4.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:1,lvl:6},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Iron Hightops\",LocName:\"rldregora.cursed_armor.iron_boots5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:0,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Iron Cleats of Non Seclusion\",LocName:\"rldregora.cursed_armor.iron_boots6.name\"},ench:[{id:10,lvl:1},{id:4,lvl:1},{id:70,lvl:1},{id:0,lvl:3}],HideFlags:3}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["feet"]}
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

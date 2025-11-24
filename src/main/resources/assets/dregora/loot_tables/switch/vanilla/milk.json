@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Spawns with -1 Luck",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:milk_bucket",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Infested Milk\",Lore:[\"There are bugs crawling in the milk!!!\"],LocName:\"rldregora.milk.infested_milk.name\",LocLore:[\"rldregora.milk.infested_milk.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Spoiled Milk\",Lore:[\"The milk looks spoiled... Yugh.\"],LocName:\"rldregora.milk.spoiled_milk.name\",LocLore:[\"rldregora.milk.spoiled_milk.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Eyeball Milk\",Lore:[\"There are Eyes in the milk!!!?\"],LocName:\"rldregora.milk.eyeball_milk.name\",LocLore:[\"rldregora.milk.eyeball_milk.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Syrup Milk\",Lore:[\"Brrr Uhhll That is Disgusting!!!\"],LocName:\"rldregora.milk.syrup_milk.name\",LocLore:[\"rldregora.milk.syrup_milk.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Poisoned Milk\",Lore:[\"This milk seems poisoned!!\"],LocName:\"rldregora.milk.poisoned_milk.name\",LocLore:[\"rldregora.milk.poisoned_milk.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Moldy Milk\",Lore:[\"A green layer covers the milk.... Yeah... NOPE!\"],LocName:\"rldregora.milk.moldy_milk.name\",LocLore:[\"rldregora.milk.moldy_milk.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Spotted Milk\",Lore:[\"Black.. Brown and Green spots in the milk?\",\"Not Drinking That!\"],LocName:\"rldregora.milk.spotted_milk.name\",LocLore:[\"rldregora.milk.spotted_milk.lore.0\",\"rldregora.milk.spotted_milk.lore.1\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Bucket of White stuff\",Lore:[\"This can\u0027t be milk.. Can it?\"],LocName:\"rldregora.milk.white_stuff.name\",LocLore:[\"rldregora.milk.white_stuff.lore\"]}}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+

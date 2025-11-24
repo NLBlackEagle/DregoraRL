@@ -1,0 +1,865 @@
+{
+  "type": "minecraft:chest",
+  "CustomName": "Cursed Chest",
+  "pools": [
+    {
+      "name": "Cursed Weapon Chest",
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:Stone_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Stone Shovel\",LocName:\"rldregora.cursed_tools.stone_shovel1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Stone Shovel\",LocName:\"rldregora.cursed_tools.stone_shovel2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Stone Shovel\",LocName:\"rldregora.cursed_tools.stone_shovel3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Stone Shovel\",LocName:\"rldregora.cursed_tools.stone_shovel4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Stone Shovel\",LocName:\"rldregora.cursed_tools.stone_shovel5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Stone Shovel\",LocName:\"rldregora.cursed_tools.stone_shovel6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:Stone_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Stone Axe\",LocName:\"rldregora.cursed_tools.stone_axe1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Stone Axe\",LocName:\"rldregora.cursed_tools.stone_axe2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Stone Axe\",LocName:\"rldregora.cursed_tools.stone_axe3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Stone Axe\",LocName:\"rldregora.cursed_tools.stone_axe4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Stone Axe\",LocName:\"rldregora.cursed_tools.stone_axe5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Stone Axe\",LocName:\"rldregora.cursed_tools.stone_axe6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:Stone_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Stone Pickaxe\",LocName:\"rldregora.cursed_tools.stone_pickaxe1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Stone Pickaxe\",LocName:\"rldregora.cursed_tools.stone_pickaxe2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Stone Pickaxe\",LocName:\"rldregora.cursed_tools.stone_pickaxe3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Stone Pickaxe\",LocName:\"rldregora.cursed_tools.stone_pickaxe4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Stone Pickaxe\",LocName:\"rldregora.cursed_tools.stone_pickaxe5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Stone Pickaxe\",LocName:\"rldregora.cursed_tools.stone_pickaxe6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:Stone_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Stone Hoe\",LocName:\"rldregora.cursed_tools.stone_hoe1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Stone Hoe\",LocName:\"rldregora.cursed_tools.stone_hoe2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Stone Hoe\",LocName:\"rldregora.cursed_tools.stone_hoe3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Stone Hoe\",LocName:\"rldregora.cursed_tools.stone_hoe4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Stone Hoe\",LocName:\"rldregora.cursed_tools.stone_hoe5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Stone Hoe\",LocName:\"rldregora.cursed_tools.stone_hoe6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:Diamond_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Diamond Shovel\",LocName:\"rldregora.cursed_tools.diamond_shovel1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Diamond Shovel\",LocName:\"rldregora.cursed_tools.diamond_shovel2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Diamond Shovel\",LocName:\"rldregora.cursed_tools.diamond_shovel3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Diamond Shovel\",LocName:\"rldregora.cursed_tools.diamond_shovel4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Diamond Shovel\",LocName:\"rldregora.cursed_tools.diamond_shovel5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Diamond Shovel\",LocName:\"rldregora.cursed_tools.diamond_shovel6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:Diamond_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Diamond Axe\",LocName:\"rldregora.cursed_tools.diamond_axe1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Diamond Axe\",LocName:\"rldregora.cursed_tools.diamond_axe2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Diamond Axe\",LocName:\"rldregora.cursed_tools.diamond_axe3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Diamond Axe\",LocName:\"rldregora.cursed_tools.diamond_axe4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Diamond Axe\",LocName:\"rldregora.cursed_tools.diamond_axe5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Diamond Axe\",LocName:\"rldregora.cursed_tools.diamond_axe6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:Diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Diamond Pickaxe\",LocName:\"rldregora.cursed_tools.diamond_pickaxe1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Diamond Pickaxe\",LocName:\"rldregora.cursed_tools.diamond_pickaxe2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Diamond Pickaxe\",LocName:\"rldregora.cursed_tools.diamond_pickaxe3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Diamond Pickaxe\",LocName:\"rldregora.cursed_tools.diamond_pickaxe4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Diamond Pickaxe\",LocName:\"rldregora.cursed_tools.diamond_pickaxe5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Diamond Pickaxe\",LocName:\"rldregora.cursed_tools.diamond_pickaxe6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:Diamond_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Diamond Hoe\",LocName:\"rldregora.cursed_tools.diamond_hoe1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Diamond Hoe\",LocName:\"rldregora.cursed_tools.diamond_hoe2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Diamond Hoe\",LocName:\"rldregora.cursed_tools.diamond_hoe3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Diamond Hoe\",LocName:\"rldregora.cursed_tools.diamond_hoe4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Diamond Hoe\",LocName:\"rldregora.cursed_tools.diamond_hoe5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Diamond Hoe\",LocName:\"rldregora.cursed_tools.diamond_hoe6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Iron Shovel\",LocName:\"rldregora.cursed_tools.iron_shovel1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Iron Shovel\",LocName:\"rldregora.cursed_tools.iron_shovel2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Iron Shovel\",LocName:\"rldregora.cursed_tools.iron_shovel3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Iron Shovel\",LocName:\"rldregora.cursed_tools.iron_shovel4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Iron Shovel\",LocName:\"rldregora.cursed_tools.iron_shovel5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Iron Shovel\",LocName:\"rldregora.cursed_tools.iron_shovel6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Iron Axe\",LocName:\"rldregora.cursed_tools.iron_axe1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Iron Axe\",LocName:\"rldregora.cursed_tools.iron_axe2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Iron Axe\",LocName:\"rldregora.cursed_tools.iron_axe3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Iron Axe\",LocName:\"rldregora.cursed_tools.iron_axe4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Iron Axe\",LocName:\"rldregora.cursed_tools.iron_axe5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Iron Axe\",LocName:\"rldregora.cursed_tools.iron_axe6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Iron Pickaxe\",LocName:\"rldregora.cursed_tools.iron_pickaxe1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Iron Pickaxe\",LocName:\"rldregora.cursed_tools.iron_pickaxe2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Iron Pickaxe\",LocName:\"rldregora.cursed_tools.iron_pickaxe3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Iron Pickaxe\",LocName:\"rldregora.cursed_tools.iron_pickaxe4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Iron Pickaxe\",LocName:\"rldregora.cursed_tools.iron_pickaxe5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Iron Pickaxe\",LocName:\"rldregora.cursed_tools.iron_pickaxe6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Haunted Iron Hoe\",LocName:\"rldregora.cursed_tools.iron_hoe1.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:70,lvl:1},{id:17,lvl:8}],HideFlags:2}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Wretched Iron Hoe\",LocName:\"rldregora.cursed_tools.iron_hoe2.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:21,lvl:3},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Abominable Iron Hoe\",LocName:\"rldregora.cursed_tools.iron_hoe3.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Cursed Iron Hoe\",LocName:\"rldregora.cursed_tools.iron_hoe4.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:19,lvl:5}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Atrocious Iron Hoe\",LocName:\"rldregora.cursed_tools.iron_hoe5.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:22,lvl:5},{id:70,lvl:1}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Despicable Iron Hoe\",LocName:\"rldregora.cursed_tools.iron_hoe6.name\"},ench:[{id:71,lvl:1},{id:18,lvl:1},{id:20,lvl:1},{id:22,lvl:6}],HideFlags:2}",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.maxHealth","name": "maxHealth","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.luck","name": "luck","amount": {"min": -5,"max": -100},"operation": "addition","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armorToughness","name": "armorToughness","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "conditions": [{"condition": "random_chance","chance": 0.3}],
+              "modifiers": [
+                {"attribute": "generic.armor","name": "armor","amount": {"min": -0.5,"max": 0.05},"operation": "multiply_total","slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Spawns with -1 Luck",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:switch/milk_switch",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "name": "mayanlore",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.symbols1.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.symbols1.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.symbols1.page.3\\\"}]\"
+                ],
+                title:\"▆⬤  ▲◆▁⬟◀⬟\",
+                locTitle:\"rldregora.mayanlore.symbols1.title\",
+                author:\"⬚▚▦⬖⬖\",
+                locAuthor:\"rldregora.mayanlore.symbols1.author\",
+                display:{Lore:[\"An extremely old book containing symbols.\nA small portion has been translated.\"],LocLore:[\"rldregora.mayanlore.symbols1.lore\"]}
+              }"
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.the_prediction.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.the_prediction.page.2\\\"}]\"
+                ],
+                title:\"Ʈɦƹ ρřƹȡɨȼƮɨǿɲ\",
+                locTitle:\"rldregora.mayanlore.the_prediction.title\",
+                author:\"Ʈɦƹ ąɲȼɨƹɲƮȿ\",
+                locAuthor:\"rldregora.mayanlore.the_prediction.author\",
+                display:{Lore:[\"A prediction by the Ancients, despite being hard to read it\u0027s still somehow possible to\nmake out what the words mean.\"],LocLore:[\"rldregora.mayanlore.the_prediction.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.red_sun.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.red_sun.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.red_sun.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.red_sun.page.4\\\"}]\"
+                ],
+                title:\"тнe day oғ тнe red ѕυn\",
+                locTitle:\"rldregora.mayanlore.red_sun.title\",
+                author:\"Ʈɦƹ ąɲȼɨƹɲƮȿ\",
+                locAuthor:\"rldregora.mayanlore.red_sun.author\",
+                display:{Lore:[\"This book describes the Blight as viewed from a witness.\"],LocLore:[\"rldregora.mayanlore.red_sun.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.symbols2.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.symbols2.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.symbols2.page.3\\\"}]\"
+                ],
+                title:\"χɶραψɷτωɸɸ\",
+                locTitle:\"rldregora.mayanlore.symbols2.title\",
+                author:\"ɹχζφ\",
+                locAuthor:\"rldregora.mayanlore.symbols2.author\",
+                display:{Lore:[\"An extremely old book you can't make sense of...\"],LocLore:[\"rldregora.mayanlore.symbols2.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.book_knowledge.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.book_knowledge.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.book_knowledge.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.mayanlore.book_knowledge.page.4\\\"}]\"
+                ],
+                title:\"ΩӁԬѼ\",
+                locTitle:\"rldregora.mayanlore.book_knowledge.title\",
+                author:\"ΣΖΛΤ\",
+                locAuthor:\"rldregora.mayanlore.book_knowledge.author\",
+                display:{Lore:[\"The title written in an understandable\",\"language reveals the potential knowledge\",\"hidden within this book...\"],LocLore:[\"rldregora.mayanlore.book_knowledge.lore.0\",\"rldregora.mayanlore.book_knowledge.lore.1\",\"rldregora.mayanlore.book_knowledge.lore.2\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "lucky_totem",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["offhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["offhand"]},
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "treasure": false
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "name": "mayanlore_loot",
+      "rolls": {
+        "min": 5,
+        "max": 15
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:poison\"}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Gold Tipped Arrow\",Lore:[\"These arrows seem to be extremely old yet sturdy\",\" and flexible where required.\"],LocName:\"rldregora.mayanlore.gold_arrow.name\",LocLore:[\"rldregora.mayanlore.gold_arrow.lore.0\",\"rldregora.mayanlore.gold_arrow.lore.1\"]}}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 5
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "treasure": false
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_boots",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_horse_armor",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stone_button",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tripwire_hook",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cauldron",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:item_frame",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:flower_pot",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:skull",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:shears",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:web",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,334 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Spawns with -1 Luck",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:switch/milk_switch",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "name": "hiddenmine",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.mountains_wealth.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.mountains_wealth.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.mountains_wealth.page.3\\\"}]\"
+                ],
+                title:\"Mountains of wealth\",
+                locTitle:\"rldregora.hiddenmine.mountains_wealth.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.hiddenmine.mountains_wealth.author\",
+                display:{Lore:[\"A dusty old book containing drawnings, maps and a few words at the end...\"],LocLore:[\"rldregora.hiddenmine.mountains_wealth.lore\"]}
+              }"
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.hidden_tunnels.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.hidden_tunnels.page.2\\\"}]\"
+                ],
+                title:\"Hidden Tunnels\",
+                locTitle:\"rldregora.hiddenmine.hidden_tunnels.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.hiddenmine.hidden_tunnels.author\",
+                display:{Lore:[\"Notes on findings within the community, it contains a interesting entry.\"],LocLore:[\"rldregora.hiddenmine.hidden_tunnels.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.endless_book.page.1\\\"}]\"
+                ],
+                title:\"The Endless Book\",
+                locTitle:\"rldregora.hiddenmine.endless_book.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.hiddenmine.endless_book.author\",
+                display:{Lore:[\"A book of names on those who got lost in the darkness.\"],LocLore:[\"rldregora.hiddenmine.endless_book.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.book_calamities.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.book_calamities.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.book_calamities.page.3\\\"}]\"
+                ],
+                title:\"Book of Calamities\",
+                locTitle:\"rldregora.hiddenmine.book_calamities.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.hiddenmine.book_calamities.author\",
+                display:{Lore:[\"This old book contains a collection of disasters that befell this community, one of them goes as following;\"],LocLore:[\"rldregora.hiddenmine.book_calamities.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.hidden_map.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.hidden_map.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.hiddenmine.hidden_map.page.3\\\"}]\"
+                ],
+                title:\"The Hidden Map\",
+                locTitle:\"rldregora.hiddenmine.hidden_map.title\",
+                author:\"Librarian\",
+                locAuthor:\"entity.Villager.librarian\",
+                display:{Lore:[\"One of the three books needed to find the Hidden Library\nWhere the coordinate of Z is negative X is positive.\"],LocLore:[\"rldregora.hiddenmine.hidden_map.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "lucky_totem",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["offhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["offhand"]},
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "treasure": false
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "name": "hiddenmine_loot",
+      "rolls": {
+        "min": 5,
+        "max": 15
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:long_night_vision\"}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.50,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.50,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 15,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.3
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:flint_and_steel",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lever",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:piston",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:activator_rail",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:flint",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ladder",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:compass",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:redstone_torch",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_rail",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 1
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tnt",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gunpowder",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:web",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:torch",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}
+

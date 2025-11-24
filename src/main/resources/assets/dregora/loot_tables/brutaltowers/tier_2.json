@@ -1,0 +1,206 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Spawns with -1 Luck",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:switch/milk_switch",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "name": "Main",
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:rlcraft/rlcraft_infuse_coins_common",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:rlcraft/loot_bundles/silver_weapons",
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:brutaltowers/weapons/brutal_iron_weapons_lvl20",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:rlcraft/loot_bundles/diamond_weapons",
+          "weight": 2
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:rlcraft/loot_bundles/rlcraft_music",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:rlcraft/loot_bundles/rlcraft_potion",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "name": "simpledungeon",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/simple_dungeon",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "name": "Regular Loot",
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "spartanweaponry:dynamite",
+          "weight": 1,
+          "functions": [
+            {"function": "set_count","count": {"min": 1,"max": 3}}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "waystones:return_scroll",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "waystones:bound_scroll",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "waystones:warp_scroll",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ender_pearl",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:blaze_powder",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "iceandfire:silver_ingot",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "scalinghealth:heartdust",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "scalinghealth:healingitem",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "firstaid:morphine",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "roughtweaks:bandage",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "firstaid:bandage",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "firstaid:plaster",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"rlmixins:curse_break\",display:{Name:\"Potion of Untainted Curse Break\",LocName:\"rldregora.brutaltowers.curse_break.name\"}}"
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Enchants",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "treasure": true
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "treasure": true,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.02
+                }
+              ]
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 40,
+              "treasure": true,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.01
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

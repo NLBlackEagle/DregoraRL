@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "name": "MainLoot",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag":"
+            {
+              pages:
+              [
+                \"[{\\\"translate\\\":\\\"rldregora.berian.handbook1.page.1\\\"}]\",
+                \"[{\\\"translate\\\":\\\"rldregora.berian.handbook1.page.2\\\"}]\",
+                \"[{\\\"translate\\\":\\\"rldregora.berian.handbook1.page.3\\\"}]\"
+            ],
+              title:\"Handbook\",
+              locTitle:\"rldregora.berian.handbook1.title\",
+              author:\"Red Clan\",
+              locAuthor:\"rldregora.berian.handbook1.author\",
+              display:{Lore:[\"Protocol Transfer\"],LocLore:[\"rldregora.berian.handbook1.lore\"]}
+              }"
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+              pages:
+              [
+              \"[{\\\"translate\\\":\\\"rldregora.berian.handbook2.page.1\\\"}]\",
+              \"[{\\\"translate\\\":\\\"rldregora.berian.handbook2.page.2\\\"}]\",
+              \"[{\\\"translate\\\":\\\"rldregora.berian.handbook2.page.3\\\"}]\",
+              \"[{\\\"translate\\\":\\\"rldregora.berian.handbook2.page.4\\\"}]\"
+              ],
+              title:\"Handbook\",
+              locTitle:\"rldregora.berian.handbook2.title\",
+              author:\"Red Clan\",
+              locAuthor:\"rldregora.berian.handbook2.author\",
+              display:{Lore:[\"Protocol Transfer\"],LocLore:[\"rldregora.berian.handbook2.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

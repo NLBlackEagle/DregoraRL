@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Gandalf Staff",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "variedcommodities:wooden_staff",
+          "weight": 1,
+          "functions": [
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Gandalf's Staff\",Lore:[\"You shall not pass!\"],LocName:\"rldregora.gandalf_staff.gandalf_staff.name\",LocLore:[\"rldregora.gandalf_staff.gandalf_staff.lore\"]}}"},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:education"]},
+            {"function": "enchant_randomly", "enchantments": ["mujmajnkraftsbettersurvival:blast"]},
+            {"function": "minecraft:set_attributes", "modifiers": [{"attribute": "generic.reachDistance", "name": "reachDistance", "amount": {"min": 0, "max": 1}, "operation": "addition", "slot": ["mainhand"]}]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mana",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/unique_loot_epic/loot_bundle/mana",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

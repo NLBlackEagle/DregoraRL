@@ -1,0 +1,728 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Spawns with -1 Luck",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:switch/milk_switch",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "name": "viking",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.valhalla.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.valhalla.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.valhalla.page.3\\\"}]\"
+                ],
+                title:\"Valhalla\",
+                locTitle:\"rldregora.viking.valhalla.title\",
+                author:\"Librarian\",
+                locAuthor:\"rldregora.viking.valhalla.author\",
+                display:{Lore:[\"One of the three books needed to find the Hidden Library\",\"Z is 17.000, higher then the highest mountains.\"],LocLore:[\"rldregora.viking.valhalla.lore.0\",\"rldregora.viking.valhalla.lore.1\"]}
+              }"
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.ancient.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.ancient.page.2\\\"}]\"
+                ],
+                title:\"Book of the Ancient\",
+                locTitle:\"rldregora.viking.ancient.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.viking.ancient.author\",
+                display:{Lore:[\"A old book written in a language that is famillair but much older...\"],LocLore:[\"rldregora.viking.ancient.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.lawbook_viking.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.lawbook_viking.page.2\\\"}]\"
+                ],
+                title:\"Lawbook of Viking\",
+                locTitle:\"rldregora.viking.lawbook_viking.title\",
+                author:\"Lawmaker\",
+                locAuthor:\"rldregora.viking.lawbook_viking.author\",
+                display:{Lore:[\"This book seems to be a copy of a copy of a copy and\",\"contains a lot of words you can't make much sense off.\"],LocLore:[\"rldregora.viking.lawbook_viking.lore.0\",\"rldregora.viking.lawbook_viking.lore.1\"]},
+                generation: 2
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.trial_bravery.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.trial_bravery.page.2\\\"}]\"
+                ],
+                title:\"Trial of Bravery\",
+                locTitle:\"rldregora.viking.trial_bravery.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.viking.trial_bravery.author\",
+                display:{Lore:[\"The book records what has to be done in order to complete\",\"the trial of bravery.\"],LocLore:[\"rldregora.viking.trial_bravery.lore.0\",\"rldregora.viking.trial_bravery.lore.1\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            },
+            {
+              "function": "set_nbt",
+              "tag":"
+              {
+                pages:
+                [
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.day_ragnarok.page.1\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.day_ragnarok.page.2\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.day_ragnarok.page.3\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.day_ragnarok.page.4\\\"}]\",
+                  \"[{\\\"translate\\\":\\\"rldregora.viking.day_ragnarok.page.5\\\"}]\"
+                ],
+                title:\"Day of Ragnarok\",
+                locTitle:\"rldregora.viking.day_ragnarok.title\",
+                author:\"Unknown\",
+                locAuthor:\"rldregora.viking.day_ragnarok.author\",
+                display:{Lore:[\"This story tells about the end and beginning.\"],LocLore:[\"rldregora.viking.day_ragnarok.lore\"]}
+              }",
+              "conditions": [{"condition": "random_chance","chance": 0.3}]
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "lucky_totem",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Totem of \u00A7l\u00A76Legendary\u00A7r Luck\",Lore:[\"Noice!\"],LocName:\"rldregora.ancient.totem_luck.name\",LocLore:[\"rldregora.ancient.totem_luck.lore\"]}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["offhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["offhand"]},
+                {"attribute": "generic.luck", "name": "Luck", "amount":  {"min": 0.69, "max": 1.69}, "operation": "addition", "slot": ["mainhand"]},
+                {"attribute": "generic.maxHealth", "name": "maxHealth", "amount": {"min": -0.5, "max": -0.9}, "operation": "multiply_total", "slot": ["mainhand"]}
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_helmet",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Viking Chain Helmet\",Lore:[\"This helmet grants attack speed in trade for movement speed.\"],LocName:\"rldregora.viking.chainmail_helmet.name\",LocLore:[\"rldregora.viking.chainmail_helmet.lore\"]}}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "Less Movement Speed",
+                  "amount": {
+                    "min": -0.1,
+                    "max": -0.2
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "head"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_leggings",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Viking Chain Leggings\",Lore:[\"These leggings grants attack speed in trade for movement speed.\"],LocName:\"rldregora.viking.chainmail_leggings.name\",LocLore:[\"rldregora.viking.chainmail_leggings.lore\"]}}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "Less Movement Speed",
+                  "amount": {
+                    "min": -0.1,
+                    "max": -0.2
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "legs"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Viking Chain Chestplate\",Lore:[\"This chestplate grants attack speed in trade for movement speed.\"],LocName:\"rldregora.viking.chainmail_chestplate.name\",LocLore:[\"rldregora.viking.chainmail_chestplate.lore\"]}}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "Less Movement Speed",
+                  "amount": {
+                    "min": -0.1,
+                    "max": -0.2
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "chest"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_boots",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Viking Chain Boots\",Lore:[\"These boots grants attack speed in trade for movement speed.\"],LocName:\"rldregora.viking.chainmail_boots.name\",LocLore:[\"rldregora.viking.chainmail_boots.lore\"]}}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "Less Movement Speed",
+                  "amount": {
+                    "min": -0.1,
+                    "max": -0.2
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "feet"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 10,
+              "treasure": false
+            }
+          ],
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "name": "viking_loot",
+      "rolls": {
+        "min": 5,
+        "max": 15
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:shield",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Viking Shield\",Lore:[\"This shield increases armor toughness & knockback\",\"at the cost of attack and movement speed.\"],LocName:\"rldregora.viking.shield.name\",LocLore:[\"rldregora.viking.shield.lore.0\",\"rldregora.viking.shield.lore.1\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{Base:3,Patterns:[{Color:8,Pattern:\"dls\"},{Color:8,Pattern:\"drs\"},{Color:7,Pattern:\"cr\"},{Color:7,Pattern:\"mr\"},{Color:8,Pattern:\"mc\"},{Color:7,Pattern:\"flo\"}]}}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armorToughness",
+                  "name": "More Toughness",
+                  "amount": {
+                    "min": 0.1,
+                    "max": 0.2
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "offhand"
+                  ]
+                },
+                {
+                  "attribute": "generic.knockbackResistance",
+                  "name": "More Knockback",
+                  "amount": {
+                    "min": 0.1,
+                    "max": 0.2
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "offhand"
+                  ]
+                },
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "Less Movement Speed",
+                  "amount": {
+                    "min": -0.01,
+                    "max": -0.05
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "offhand"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Viking Axe\",Lore:[\"A typical viking axe.\"],LocName:\"rldregora.viking.iron_axe.name\",LocLore:[\"rldregora.viking.iron_axe.lore\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Viking Short Sword\",Lore:[\"A typical viking sword.\"],LocName:\"rldregora.viking.iron_sword.name\",LocLore:[\"rldregora.viking.iron_sword.lore\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.30,
+                "max": 0.95
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wooden_sword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Training Sword\",Lore:[\"There is nothing special about this sword.\"],LocName:\"rldregora.viking.wooden_sword.name\",LocLore:[\"rldregora.viking.wooden_sword.lore\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\"}"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:strong_strength\"}",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.2
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 23
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 13
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:red_mushroom",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 13
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:brown_mushroom",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 13
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:coal",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:fish",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:anvil",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:compass",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:clock",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:flint_and_steel",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:saddle",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:boat",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:wheat",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:hay_block",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bowl",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:mushroom_stew",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pumpkin_seeds",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:melon_seeds",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:torch",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:web",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}
+

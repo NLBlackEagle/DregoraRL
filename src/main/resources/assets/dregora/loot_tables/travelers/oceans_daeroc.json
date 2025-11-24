@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "traveler_daeroc_map",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"Kingdom of Daeroc\",Lore:[\"The map seems unusable apart from a set of coordinates\",\"Area Around x:-14900 z:-3800\"],LocName:\"rldregora.oceans_daeroc.filled_map.name\",LocLore:[\"rldregora.oceans_daeroc.filled_map.lore.0\",\"rldregora.oceans_daeroc.filled_map.lore.1\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Decorations:{id:+,rot:180,type:26,x:-14900,z:-3800}}"
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "traveler_daeroc_book",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:\"x:-14900 z:-3800\",Lore:[\"Capital on the hill.\"],LocName:\"rldregora.oceans_daeroc.book.name\",LocLore:[\"rldregora.oceans_daeroc.book.lore\"]}}"
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

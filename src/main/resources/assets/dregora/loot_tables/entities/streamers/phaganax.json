@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "name": "Steel Armor",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 100,
+          "functions": [
+            {"function": "enchant_with_levels","levels": 60}
+          ]
+        }
+      ]
+    }
+  ]
+}

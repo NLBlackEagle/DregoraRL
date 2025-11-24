@@ -1,0 +1,169 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "Spawns with -1 Luck",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:switch/milk_switch",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "name": "common_loot",
+      "rolls": {
+        "min": 2,
+        "max": 6
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:map",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "aquaculture:loot",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 1,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "biomesoplenty:shroompowder",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "advanced-fishing:fish",
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 40
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{FishId:\"Bonefish\",display:{LocName:\"item.fmb.advanced-fishing:fish:40.name\",Lore:[\"\u00A7rWeight: 3\",\"\u00A79\u00A7lDead\"],LocLoreArg:[\"3\",\"\"],LocLore:[\"tooltip.fishingmadebetter.fish.weight\",\"tooltip.fishingmadebetter.fish.dead\"]},FishWeight:3,FishCaughtTime:0}"
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1,
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.7
+                }
+              ]
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "biomesoplenty:ash",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "rustic:vase",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "rustic:dust_tiny_iron",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "astikorcarts:wheel",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "quark:root",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bowl",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "biomesoplenty:terrarium",
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 12
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "charm:suspicious_soup",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "notreepunching:flint_shard",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "simpledifficulty:charcoal_filter",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "biomesoplenty:jar_empty",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}
+
