@@ -94,7 +94,7 @@ SmoothingSurfaceBlock:
 
 SmoothingGroundBlock: 
 
-BO3Group: deadphar:40
+BO3Group: deadphar:50
 
 IsSpawnPoint: false
 
@@ -114,7 +114,7 @@ DoReplaceBlocks: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-WeightedBranch(0,-7,0,true,DeadPharC0R0,NORTH,50.0,0,DeadPhar_empty,NORTH,50.0,0,100.0)
+WeightedBranch(0,-7,0,true,DeadPharC0R0,NORTH,5.0,0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
