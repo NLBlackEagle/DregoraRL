@@ -22,7 +22,7 @@ BiomeRarity: 100
 
 BiomeColor: #a8cf11
 
-ReplaceToBiomeName: traverse:lush_hills
+ReplaceToBiomeName: traverse:jungle
 
 ####################
 # Isle biomes only #
@@ -397,5 +397,5 @@ SpawnAmbientCreatures: []
 
 BiomeDictId: LUSH, HILLS, SPARSE, WET
 
-InheritMobsBiomeName: traverse:lush_hills
+InheritMobsBiomeName: traverse:jungle
 
