@@ -22,7 +22,7 @@ BiomeRarity: 100
 
 BiomeColor: #98c01d
 
-ReplaceToBiomeName: traverse:lush_hills
+ReplaceToBiomeName: minecraft:mutated_plains
 
 
 ####################
@@ -464,5 +464,5 @@ SpawnAmbientCreatures: []
 
 BiomeDictId: PLAINS, LUSH, RARE
 
-InheritMobsBiomeName: minecraft:plains
+InheritMobsBiomeName: minecraft:mutated_plains
 

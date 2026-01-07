@@ -22,7 +22,7 @@ BiomeRarity: 100
 
 BiomeColor: #3f8979
 
-ReplaceToBiomeName: traverse:lush_hills
+ReplaceToBiomeName: minecraft:plains
 
 
 ####################

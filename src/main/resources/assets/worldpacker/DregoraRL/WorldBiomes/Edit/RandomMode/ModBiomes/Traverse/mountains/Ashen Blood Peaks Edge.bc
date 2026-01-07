@@ -22,7 +22,7 @@ BiomeRarity: 125
 
 BiomeColor: #4a3e40
 
-ReplaceToBiomeName: traverse:arid_highland
+ReplaceToBiomeName: traverse:cliffs
 
 ####################
 # Isle biomes only #

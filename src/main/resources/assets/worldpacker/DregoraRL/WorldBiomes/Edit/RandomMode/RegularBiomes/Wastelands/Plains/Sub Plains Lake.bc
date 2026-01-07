@@ -22,7 +22,7 @@ BiomeRarity: 100
 
 BiomeColor: #3f7e89
 
-ReplaceToBiomeName: traverse:lush_hills
+ReplaceToBiomeName: minecraft:river
 
 
 ####################
@@ -464,5 +464,5 @@ SpawnAmbientCreatures: []
 
 BiomeDictId: PLAINS, LUSH, RARE
 
-InheritMobsBiomeName: minecraft:plains
+InheritMobsBiomeName: minecraft:river
 
