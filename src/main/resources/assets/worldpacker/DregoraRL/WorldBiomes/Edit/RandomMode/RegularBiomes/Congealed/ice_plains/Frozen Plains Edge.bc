@@ -40,7 +40,7 @@ BiomeRarityWhenIsle: 97
 
 BiomeIsBorder: JotunnHeim, Boreal Forest, Defiled Snow Plains, Snowy Coniferous Forest, Glacier, Cold Desert, Alpines, Traverse Coniferous Forest, Tundra, MapleWoods, Coniferous, Frozen Mud Plains, Frozen Mud Mountain Range, Frozen Plains, Ancient Tundra, Frozen Taiga
 
-NotBorderNear: Frozen Mud Forest, Frozen Mud Mountain Summit, Frozen Mud Spikes, Frozen Plains Hills, Frozen Taiga Forest, Viking Corrupted Village, Viking Village, Defiled Snow Spikes, Traverse Glacier Spikes, AlpsLow
+NotBorderNear: Frozen Mud Forest, Frozen Mud Mountain Summit, Frozen Mud Spikes, Frozen Plains Hills, Frozen Taiga Forest, Viking Corrupted Village, Viking Village, Defiled Snow Spikes, Traverse Glacier Spikes, AlpsLow, Parasitic Taiga
 
 BiomeSizeWhenBorder: 6
 

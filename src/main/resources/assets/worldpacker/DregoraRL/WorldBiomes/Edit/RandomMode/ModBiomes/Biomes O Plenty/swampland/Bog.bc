@@ -349,7 +349,7 @@ Plant(BlueOrchid,2,100.0,0,256,GRASS,DIRT)
 Plant(RedMushroom,16,50.0,0,256,GRASS,DIRT)
 Plant(BrownMushroom,16,50.0,0,256,GRASS,DIRT)
 Plant(PUMPKIN,1,3.0,0,128,GRASS)
-Vines(50,100.0,70,80)
+#Vines(50,100.0,70,80)
 
 SmallLake(WATER,4,1.0,8,119)
 Ore(AIR,30,50,100.0,60,80,LEAVES)

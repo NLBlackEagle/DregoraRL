@@ -78,13 +78,13 @@ IsOTGPlus: false
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(-1,1,0,contenttweaker:bone_pile)
+Block(-1,1,0,contenttweaker:bone_pile:0)
 Block(0,1,0,quark:limestone:1)
 Block(0,2,0,quark:limestone:1)
-Block(0,3,0,quark:limestone_wall)
+Block(0,3,0,quark:limestone_wall:0)
 Block(0,4,0,IRON_FENCE:0)
 Block(0,5,0,IRON_FENCE:0)
-Block(1,1,1,contenttweaker:bone_pile)
+Block(1,1,1,contenttweaker:bone_pile:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

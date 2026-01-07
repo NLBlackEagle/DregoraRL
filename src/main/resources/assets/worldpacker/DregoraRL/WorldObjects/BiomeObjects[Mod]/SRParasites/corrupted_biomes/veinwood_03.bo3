@@ -1,0 +1,164 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 0
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 60
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-2,0,-4,srparasites:parasitestain)
+Block(-2,15,1,srparasites:parasitetrunk)
+Block(-1,8,0,srparasites:parasitecanister)
+Block(-1,9,0,srparasites:parasitetrunk)
+Block(-1,16,1,srparasites:parasitetrunk)
+Block(0,10,0,srparasites:parasitetrunk)
+Block(0,16,1,srparasites:parasitetrunk)
+Block(1,9,0,srparasites:parasitetrunk)
+Block(1,15,1,srparasites:parasitetrunk)
+Block(2,6,0,srparasites:parasitecanister)
+Block(2,7,0,srparasites:parasitetrunk)
+Block(2,8,-4,srparasites:parasitetrunk)
+Block(2,8,-3,srparasites:parasitecanister)
+Block(2,8,0,srparasites:parasitetrunk)
+Block(2,9,-3,srparasites:parasitetrunk)
+Block(2,9,-2,srparasites:parasitecanister)
+Block(2,9,-1,srparasites:parasitetrunk)
+Block(2,9,0,srparasites:parasitetrunk)
+Block(2,10,-2,srparasites:parasitetrunk)
+Block(2,10,0,srparasites:parasitetrunk)
+Block(2,11,0,srparasites:parasitetrunk)
+Block(2,12,0,srparasites:parasitetrunk)
+Block(2,13,0,srparasites:parasitetrunk)
+Block(2,13,1,srparasites:parasitetrunk)
+Block(2,14,1,srparasites:parasitetrunk)
+Block(2,15,1,srparasites:parasitetrunk)
+Block(2,15,2,srparasites:parasitetrunk)
+Block(2,15,4,srparasites:parasitetrunk)
+Block(2,16,1,srparasites:parasitetrunk)
+Block(2,16,3,srparasites:parasitetrunk)
+Block(2,17,1,srparasites:parasitetrunk)
+Block(2,18,1,srparasites:parasitetrunk)
+Block(2,19,1,srparasites:parasitetrunk)
+Block(3,0,0,srparasites:parasitetrunk)
+Block(3,1,0,srparasites:parasitetrunk)
+Block(3,2,0,srparasites:parasitetrunk)
+Block(3,3,0,srparasites:parasitetrunk)
+Block(3,4,0,srparasites:parasitetrunk)
+Block(3,5,0,srparasites:parasitetrunk)
+Block(3,6,0,srparasites:parasitetrunk)
+Block(3,7,0,srparasites:parasitetrunk)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(0,-1,0,Solid)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

@@ -80,7 +80,7 @@ IsOTGPlus: false
 
 Block(0,1,0,quark:world_stone_pavement:2)
 Block(0,2,0,STONE:6)
-Block(0,3,0,contenttweaker:bone_pile)
+Block(0,3,0,contenttweaker:bone_pile:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

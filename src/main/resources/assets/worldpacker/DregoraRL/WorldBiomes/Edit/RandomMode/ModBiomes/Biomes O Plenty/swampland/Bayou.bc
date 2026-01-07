@@ -28,11 +28,11 @@ ReplaceToBiomeName: biomesoplenty:bayou
 # Isle biomes only #
 ####################
 
-IsleInBiome: 
+IsleInBiome: Bog
 
-BiomeSizeWhenIsle: 3
+BiomeSizeWhenIsle: 5
 
-BiomeRarityWhenIsle: 100
+BiomeRarityWhenIsle: 98
 
 ######################
 # Border biomes only #

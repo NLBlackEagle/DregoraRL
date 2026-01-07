@@ -78,11 +78,11 @@ IsOTGPlus: false
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(0,1,0,iceandfire:chared_cobblestone)
-Block(0,2,0,iceandfire:chared_cobblestone)
+Block(0,1,0,iceandfire:chared_cobblestone:0)
+Block(0,2,0,iceandfire:chared_cobblestone:0)
 Block(0,3,0,quark:andesite_speleothem:2)
-Block(0,4,0,quark:andesite_speleothem)
-Block(0,5,0,quark:stone_andesite_wall)
+Block(0,4,0,quark:andesite_speleothem:1)
+Block(0,5,0,quark:stone_andesite_wall:0)
 Block(0,6,0,IRON_FENCE:0)
 
 #######################################################################

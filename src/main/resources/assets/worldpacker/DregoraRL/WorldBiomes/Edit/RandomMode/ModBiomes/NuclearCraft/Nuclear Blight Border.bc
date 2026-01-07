@@ -40,7 +40,7 @@ BiomeRarityWhenIsle: 97
 
 BiomeIsBorder: Nuclear Blight
 
-NotBorderNear:
+NotBorderNear: Nuclear Blight Crater, Nuclear Blight Crater Edge
 
 BiomeSizeWhenBorder: 6
 
@@ -170,12 +170,13 @@ FogThunderWeight: 0.5
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
-# |                    PamHarvestCraft Resources                    | #
+# |                      Parasititic Resources                      | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-#PamHarvestCraft Resources
-
+Grass(srparasites:parasiterubble_slabhalf:0,Grouped,10,100.0,srparasites:parasiterubble:1)
+Grass(srparasites:parasiterubble_bonestairs,Grouped,10,100.0,srparasites:parasiterubble:1)
+Ore(srparasites:parasiterubble:1,16,15,100.0,60,80,SAND,nuclearcraft:dry_earth,biomesoplenty:dried_sand)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

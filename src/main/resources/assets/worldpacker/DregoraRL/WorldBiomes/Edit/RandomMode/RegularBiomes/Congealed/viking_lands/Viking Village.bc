@@ -31,9 +31,9 @@ ReplaceToBiomeName: Viking Realm
 
 IsleInBiome: Viking Realm
 
-BiomeSizeWhenIsle: 4
+BiomeSizeWhenIsle: 5
 
-BiomeRarityWhenIsle: 97
+BiomeRarityWhenIsle: 98
 
 ######################
 # Border biomes only #

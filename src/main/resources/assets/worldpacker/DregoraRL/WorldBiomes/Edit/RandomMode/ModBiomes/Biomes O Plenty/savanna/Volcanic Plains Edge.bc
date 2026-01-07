@@ -227,7 +227,6 @@ CustomStructure(Zeppelin,100.0)
 CustomStructure(Billboard,100.0)
 CustomStructure(Bomb,100.0)
 CustomStructure(Sphere,100.0)
-CustomStructure(Greenhouse,100.0)
 
 
 

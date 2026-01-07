@@ -81,8 +81,8 @@ IsOTGPlus: false
 Block(0,1,0,quark:world_stone_pavement:2)
 Block(1,1,0,quark:world_stone_pavement:2)
 Block(1,2,0,quark:world_stone_pavement:2)
-Block(1,3,0,quark:limestone_wall)
-Block(1,4,0,quark:limestone_wall)
+Block(1,3,0,quark:limestone_wall:0)
+Block(1,4,0,quark:limestone_wall:0)
 Block(1,5,0,IRON_FENCE:0)
 
 #######################################################################

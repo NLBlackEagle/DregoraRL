@@ -80,7 +80,7 @@ IsOTGPlus: false
 
 Block(0,1,0,quark:limestone:1)
 Block(0,2,0,quark:limestone:1)
-Block(0,3,0,quark:limestone_wall)
+Block(0,3,0,quark:limestone_wall:0)
 Block(0,4,0,IRON_FENCE:0)
 
 #######################################################################

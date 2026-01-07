@@ -78,10 +78,10 @@ IsOTGPlus: false
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(0,1,0,defiledlands:vilespine)
-Block(0,2,0,defiledlands:vilespine)
-Block(0,3,0,defiledlands:vilespine)
-Block(0,0,0,defiledlands:vilespine)
+Block(0,1,0,defiledlands:vilespine:0)
+Block(0,2,0,defiledlands:vilespine:0)
+Block(0,3,0,defiledlands:vilespine:0)
+Block(0,0,0,defiledlands:vilespine:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -29,11 +29,11 @@ ReplaceToBiomeName: biomesoplenty:orchard
 # Isle biomes only #
 ####################
 
-IsleInBiome: 
+IsleInBiome: Bog
 
-BiomeSizeWhenIsle: 2
+BiomeSizeWhenIsle: 5
 
-BiomeRarityWhenIsle: 97
+BiomeRarityWhenIsle: 98
 
 ######################
 # Border biomes only #

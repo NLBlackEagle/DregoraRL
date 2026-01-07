@@ -78,8 +78,8 @@ IsOTGPlus: false
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(0,0,1,dynamictrees:rootydirt)
-Block(0,1,1,dynamictrees:junglebranch)
+Block(0,0,1,dynamictrees:rootydirt:15)
+Block(0,1,1,dynamictrees:junglebranch:0)
 Block(0,2,1,dynamictrees:leaves0:15)
 
 #######################################################################

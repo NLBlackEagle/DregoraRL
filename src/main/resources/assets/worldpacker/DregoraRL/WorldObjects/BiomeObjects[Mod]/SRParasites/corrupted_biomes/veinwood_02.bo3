@@ -1,0 +1,166 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 0
+
+Rarity: 100.0
+
+RotateRandomly: true
+
+SpawnHeight: highestSolidBlock
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 60
+
+######################
+# Extrusion settings #
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: true
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-2,0,0,srparasites:parasitetrunk)
+Block(-2,0,1,srparasites:parasitetrunk)
+Block(-2,1,0,srparasites:parasitetrunk)
+Block(-2,2,0,srparasites:parasitetrunk)
+Block(-2,3,0,srparasites:parasitetrunk)
+Block(-2,4,0,srparasites:parasitetrunk)
+Block(-2,5,0,srparasites:parasitetrunk)
+Block(-2,6,-4,srparasites:parasitecanister)
+Block(-2,6,0,srparasites:parasitetrunk)
+Block(-2,6,1,srparasites:parasitetrunk)
+Block(-2,7,-4,srparasites:parasitetrunk)
+Block(-2,7,1,srparasites:parasitetrunk)
+Block(-2,8,-3,srparasites:parasitetrunk)
+Block(-2,8,0,srparasites:parasitetrunk)
+Block(-2,8,1,srparasites:parasitetrunk)
+Block(-2,9,-2,srparasites:parasitetrunk)
+Block(-2,9,-1,srparasites:parasitetrunk)
+Block(-2,9,1,srparasites:parasitetrunk)
+Block(-2,10,1,srparasites:parasitetrunk)
+Block(-2,11,1,srparasites:parasitetrunk)
+Block(-2,11,2,srparasites:parasitetrunk)
+Block(-2,12,2,srparasites:parasitetrunk)
+Block(-2,13,2,srparasites:parasitetrunk)
+Block(-2,13,3,srparasites:parasitetrunk)
+Block(-2,14,2,srparasites:parasitetrunk)
+Block(-2,14,4,srparasites:parasitetrunk)
+Block(-2,14,5,srparasites:parasitetrunk)
+Block(-2,15,2,srparasites:parasitetrunk)
+Block(-2,16,2,srparasites:parasitetrunk)
+Block(-1,8,1,srparasites:parasitetrunk)
+Block(-1,12,7,srparasites:parasitetrunk)
+Block(-1,13,2,srparasites:parasitetrunk)
+Block(-1,13,6,srparasites:parasitetrunk)
+Block(0,8,1,srparasites:parasitecanister)
+Block(0,9,1,srparasites:parasitetrunk)
+Block(0,13,2,srparasites:parasitecanister)
+Block(0,14,2,srparasites:parasitetrunk)
+Block(1,9,0,srparasites:parasitetrunk)
+Block(1,13,3,srparasites:parasitecanister)
+Block(1,14,3,srparasites:parasitetrunk)
+Block(2,7,0,srparasites:parasitecanister)
+Block(2,8,0,srparasites:parasitetrunk)
+Block(2,13,3,srparasites:parasitetrunk)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 checks                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BlockCheck(0,-1,0,Solid)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

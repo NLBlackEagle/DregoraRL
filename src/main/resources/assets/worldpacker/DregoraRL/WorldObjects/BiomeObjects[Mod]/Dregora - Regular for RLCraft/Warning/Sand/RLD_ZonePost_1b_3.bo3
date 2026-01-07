@@ -79,8 +79,8 @@ IsOTGPlus: false
 #######################################################################
 
 Block(0,1,0,quark:limestone_speleothem:2)
-Block(0,1,1,contenttweaker:bone_pile)
-Block(0,2,0,quark:limestone_speleothem)
+Block(0,1,1,contenttweaker:bone_pile:0)
+Block(0,2,0,quark:limestone_speleothem:1)
 Block(0,3,0,IRON_FENCE:0)
 Block(0,4,0,IRON_FENCE:0)
 

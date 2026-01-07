@@ -78,9 +78,9 @@ IsOTGPlus: false
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(0,1,0,quark:stone_andesite_wall)
-Block(0,1,1,contenttweaker:bone_pile)
-Block(0,2,0,quark:stone_andesite_wall)
+Block(0,1,0,quark:stone_andesite_wall:0)
+Block(0,1,1,contenttweaker:bone_pile:0)
+Block(0,2,0,quark:stone_andesite_wall:0)
 Block(0,3,0,IRON_FENCE:0)
 
 #######################################################################

@@ -41,7 +41,7 @@ BiomeRarityWhenIsle: 100
 
 BiomeIsBorder: Dunes
 
-NotBorderNear: Spring Dunes
+NotBorderNear: Spring Dunes, Dunes High, Dunes Low
 
 BiomeSizeWhenBorder: 6
 

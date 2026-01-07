@@ -78,15 +78,15 @@ IsOTGPlus: false
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(-1,1,0,variedcommodities:tombstone)
+Block(-1,1,0,variedcommodities:tombstone:0)
 Block(-1,2,0,variedcommodities:tombstone:2)
 Block(0,1,0,STONE:6)
-Block(0,2,0,variedcommodities:tombstone)
+Block(0,2,0,variedcommodities:tombstone:0)
 Block(0,3,0,variedcommodities:tombstone:2)
-Block(1,1,0,variedcommodities:tombstone)
-Block(1,1,1,contenttweaker:bone_pile)
+Block(1,1,0,variedcommodities:tombstone:0)
+Block(1,1,1,contenttweaker:bone_pile:0)
 Block(1,2,0,variedcommodities:tombstone:1)
-Block(2,1,0,variedcommodities:tombstone)
+Block(2,1,0,variedcommodities:tombstone:0)
 Block(2,2,0,variedcommodities:tombstone:2)
 
 #######################################################################

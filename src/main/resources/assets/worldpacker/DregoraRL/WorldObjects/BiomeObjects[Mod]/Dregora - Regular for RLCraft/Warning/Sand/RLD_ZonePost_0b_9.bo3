@@ -79,9 +79,9 @@ IsOTGPlus: false
 #######################################################################
 
 Block(0,1,0,quark:world_stone_pavement:2)
-Block(0,1,1,quark:stonebrick_wall)
+Block(0,1,1,quark:stonebrick_wall:0)
 Block(0,2,0,quark:world_stone_pavement:2)
-Block(0,2,1,quark:stonebrick_wall)
+Block(0,2,1,quark:stonebrick_wall:0)
 Block(0,3,0,quark:world_stone_pavement:2)
 Block(0,3,1,IRON_FENCE:0)
 Block(1,1,0,quark:limestone:1)
