@@ -107,7 +107,7 @@ DoReplaceBlocks: true
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-RandomBlock(-8,0,4,STONE:6,null,25,quark:world_stone_pavement:2,null,25,quark:world_stone_pavement:5,null,25,quark:limestone:1,null,100)
+RandomBlock(-8,0,4,STONE:6,25,quark:world_stone_pavement:2,25,quark:world_stone_pavement:5,25,quark:limestone:1,100)
 Block(-8,1,4,COBBLE_WALL:0)
 Block(-8,2,4,COBBLE_WALL:0)
 Block(-8,3,-5,AIR:0)

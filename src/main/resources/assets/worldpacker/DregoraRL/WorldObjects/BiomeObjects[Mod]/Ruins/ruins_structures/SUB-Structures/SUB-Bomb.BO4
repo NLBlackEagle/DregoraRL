@@ -263,7 +263,7 @@ Block(2,9,-1,rustic:iron_lattice:0)
 Block(2,9,0,rustic:iron_lattice:0)
 Block(2,9,1,rustic:iron_lattice:0)
 Block(2,9,2,rustic:iron_lattice:0)
-RandomBlock(0,5,0,nuclearcraft:block_depleted_thorium:0,null,10,nuclearcraft:block_depleted_uranium:0,null,10,nuclearcraft:block_depleted_neptunium:0,null,10,nuclearcraft:block_depleted_neptunium:0,null,10,nuclearcraft:block_depleted_plutonium:0,null,10,nuclearcraft:ingot_block:3,null,10,nuclearcraft:ingot_block:4,null,10,nuclearcraft:block_depleted_thorium:0,null,30,nuclearcraft:block_depleted_uranium:0,null,30,nuclearcraft:block_depleted_neptunium:0,null,30,nuclearcraft:block_depleted_neptunium:0,null,30,nuclearcraft:block_depleted_plutonium:0,null,30,nuclearcraft:ingot_block:3,null,30,nuclearcraft:ingot_block:4,null,30,nuclearcraft:block_depleted_thorium:0,null,100)
+RandomBlock(0,5,0,nuclearcraft:block_depleted_thorium:0,10,nuclearcraft:block_depleted_uranium:0,10,nuclearcraft:block_depleted_neptunium:0,10,nuclearcraft:block_depleted_neptunium:0,10,nuclearcraft:block_depleted_plutonium:0,10,nuclearcraft:ingot_block:3,10,nuclearcraft:ingot_block:4,10,nuclearcraft:block_depleted_thorium:0,30,nuclearcraft:block_depleted_uranium:0,30,nuclearcraft:block_depleted_neptunium:0,30,nuclearcraft:block_depleted_neptunium:0,30,nuclearcraft:block_depleted_plutonium:0,30,nuclearcraft:ingot_block:3,30,nuclearcraft:ingot_block:4,30,nuclearcraft:block_depleted_thorium:0,100)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
