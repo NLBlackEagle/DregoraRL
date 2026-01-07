@@ -22,7 +22,7 @@ BiomeRarity: 100
 
 BiomeColor: #15edd4
 
-ReplaceToBiomeName: traverse:glacier_spikes
+ReplaceToBiomeName: traverse:glacier
 
 
 ####################
@@ -389,5 +389,5 @@ SpawnAmbientCreatures: []
 
 BiomeDictId: MOUNTAIN, COLD, SNOWY
 
-InheritMobsBiomeName: traverse:glacier_spikes
+InheritMobsBiomeName: traverse:glacier
 
