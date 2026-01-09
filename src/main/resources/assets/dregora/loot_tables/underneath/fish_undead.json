@@ -135,6 +135,15 @@
         },
         {
           "type": "item",
+          "name": "mod_lavacow:faminearmor_helmet",
+          "weight": 50,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.20,"max": 0.95}},
+            {"function": "enchant_with_levels","levels": 20, "treasure": true}
+          ]
+        },
+        {
+          "type": "item",
           "name": "mod_lavacow:faminearmor_boots",
           "weight": 50,
           "functions": [

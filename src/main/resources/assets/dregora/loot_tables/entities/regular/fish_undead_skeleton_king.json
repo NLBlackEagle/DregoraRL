@@ -204,6 +204,28 @@
         {
           "type": "item",
           "weight": 1,
+          "name": "mod_lavacow:faminearmor_leggings",
+          "functions":[
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "mod_lavacow:faminearmor_boots",
+          "functions":[
+            {
+              "function": "enchant_randomly",
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
           "name": "mod_lavacow:spectral_dagger",
           "functions":[
             {
