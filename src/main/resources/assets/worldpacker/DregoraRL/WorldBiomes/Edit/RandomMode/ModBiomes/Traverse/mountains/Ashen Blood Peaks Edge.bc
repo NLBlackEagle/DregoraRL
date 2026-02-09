@@ -385,5 +385,5 @@ SpawnAmbientCreatures: []
 
 BiomeDictId: HOT, DRY, SPARSE, MOUNTAIN, HILLS
 
-InheritMobsBiomeName: traverse:arid_highland
+InheritMobsBiomeName: traverse:cliffs
 
