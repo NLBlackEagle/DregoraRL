@@ -4754,7 +4754,7 @@ Block(7,29,0,STEP:5)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-WeightedBranch(-48,0,32,true,skyscraper_3x3_01,WEST,10.0,0,skyscraper_3x3_02,WEST,10.0,0,skyscraper_3x3_03,WEST,10.0,0,skyscraper_3x3_04,WEST,10.0,0,skyscraper_3x3_05,WEST,1.0,0,park_3x3_01,WEST,10.0,0,skyscraper_3x3_06,WEST,10.0,0,61)
+WeightedBranch(-32,0,32,true,skyscraper_3x3_01,WEST,10.0,0,skyscraper_3x3_02,WEST,10.0,0,skyscraper_3x3_03,WEST,10.0,0,skyscraper_3x3_04,WEST,10.0,0,skyscraper_3x3_05,WEST,1.0,0,park_3x3_01,WEST,10.0,0,skyscraper_3x3_06,WEST,10.0,0,61)
 
 WeightedBranch(0,0,-16,true,L4-M-Straigth-3CC0R2,NORTH,5.0,0,L4-M-Straigth-2CC0R1,NORTH,10.0,0,L4-M-Straigth-8CC0R7,NORTH,5.0,0,20.0)
 

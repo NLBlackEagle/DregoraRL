@@ -4754,7 +4754,7 @@ Block(7,17,8,CONCRETE:7)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-WeightedBranch(48,0,0,true,skyscraper_3x3_01,EAST,10.0,0,skyscraper_3x3_02,EAST,10.0,0,skyscraper_3x3_03,EAST,10.0,0,skyscraper_3x3_04,EAST,10.0,0,skyscraper_3x3_05,EAST,1.0,0,park_3x3_01,EAST,10.0,0,skyscraper_3x3_06,EAST,10.0,0,61)
+WeightedBranch(32,0,0,true,skyscraper_3x3_01,EAST,10.0,0,skyscraper_3x3_02,EAST,10.0,0,skyscraper_3x3_03,EAST,10.0,0,skyscraper_3x3_04,EAST,10.0,0,skyscraper_3x3_05,EAST,1.0,0,park_3x3_01,EAST,10.0,0,skyscraper_3x3_06,EAST,10.0,0,61)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
