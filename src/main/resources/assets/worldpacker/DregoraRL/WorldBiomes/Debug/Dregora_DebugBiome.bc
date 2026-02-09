@@ -86,7 +86,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # ImprovedRivers:false #
 ########################
 
-RiverBiome: Jungle Ruins Creek
+RiverBiome: Dregora_DebugBiome
 
 #######################
 # ImprovedRivers:true #
@@ -311,14 +311,20 @@ SPRUCE_WOOD_STAIRS -> COBBLESTONE_STAIRS
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-CustomStructure(f_bunker_any,100.0)
+CustomStructure(testcube,100.0)
+CustomStructure(testcube_top,100.0)
+
+#CustomStructure(SmallFactory-debug,100.0)
+#CustomStructure(pit-debug,100.0)
+
+#CustomStructure(f_bunker_any,100.0)
 
 #Structure nuclear_biome:
-CustomStructure(f_bunker_atrium,100.0)
-CustomStructure(f_bunker_mid_nuclear,100.0)
-CustomStructure(f_bunker_radio,100.0)
-CustomStructure(f_bunker_silo,100.0)
-CustomStructure(f_bunker_tunnel,100.0)
+#CustomStructure(f_bunker_atrium,100.0)
+#CustomStructure(f_bunker_mid_nuclear,100.0)
+#CustomStructure(f_bunker_radio,100.0)
+#CustomStructure(f_bunker_silo,100.0)
+#CustomStructure(f_bunker_tunnel,100.0)
 
 #CustomStructure(TowerEasy,100.0)
 #CustomStructure(Tower-edit,100.0)
@@ -556,16 +562,7 @@ CustomStructure(PirateShip,100.0)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Sapling(Oak,Tree,20.0,TreeSwamp03,5.0,TreeSwamp04,5.0,TreeSwamp06,5.0,TreeSwamp07,5.0,TreeSwamp08,5.0,TreeSwamp10,5.0,80,5.0,81,5.0,82,5.0,83,5.0,84,5.0,85,5.0,BigTree,100.0)
-Sapling(Redwood,Taiga1,20.0,pine04,5.0,pine05,5.0,pine06,5.0,pine07,5.0,pine08,5.0,pine09,5.0,pine10,5.0,ME1,5.0,ME2,5.0,ME3,5.0,ME4,5.0,52,5.0,53,5.0,Taiga2,100.0)
-Sapling(Birch,TallBirch,20.0,SA2S,5.0,SA19S,5.0,SA11S,5.0,SA11L,5.0,NA7L,5.0,NA11S,5.0,EUR3S,5.0,Birch,100.0)
-Sapling(SmallJungle,GroundBush,20.0,CocoaTree,20.0,tropicaltree_tiny_01,5.0,tropicaltree_tiny_02,5.0,tropicaltree_tiny_03,5.0,tropicaltree_tiny_04,5.0,tropicaltree_tiny_05,5.0,tropicaltree_tiny_06,5.0,tropicaltree_tiny_07,5.0,tropicaltree_tiny_08,5.0,tropicaltree_tiny_09,5.0,tropicaltree_tiny_10,5.0,CocoaTree,100.0)
-Sapling(BigJungle,JungleTree,50.0,RFGodTree01,1.0,RFGodTree02,1.0,RFMedTree01,2.0,RFMedTree02,2.0,RFMedTree03,2.0,RFTree01,4.0,RFTree05,4.0,RFTree10,4.0,RFTree15,4.0,RFTree20,4.0,RFTree25,4.0,RFTree30,4.0,RFTree35,4.0,JungleTree,100.0)
-Sapling(RedMushroom,MushroomRedWideTall,10.0,MushroomRedWide,10.0,MushroomRedSmall,10.0,MushroomRedMedium,10.0,MushroomRedDiagonal,10.0,HugeRedMushroom,100.0)
-Sapling(BrownMushroom,MushroomRedBrownSplit,10.0,MushroomBrownRedSingle,10.0,HugeMushroom,20.0,HugeBrownMushroom,100.0)
-Sapling(Acacia,Acacia,50.0,AFR3L,5.0,AFR3S,5.0,AFR5S,5.0,AFR6L,5.0,AFR8L,5.0,AFR8S,5.0,AFR9L,5.0,AFR9S,5.0,AFR10L,5.0,AFR10S,5.0,AFR11S,5.0,AFR11L,5.0,AFR12L,5.0,Acacia,100.0)
-Sapling(DarkOak,DarkOak,50.0,Dense01,5.0,Dense02,5.0,Dense03,5.0,Dense04,5.0,Dense05,5.0,Dense06,5.0,Dense07,5.0,Dense08,5.0,Dense09,5.0,Dense10,5.0,DarkOak,100.0)
-Sapling(HugeRedwood,HugeTaiga1,20.0,SpookyTree1,5.0,SpookyTree3,5.0,SpookyTree4,5.0,ME5,5.0,51,5.0,HugeTaiga2,100.0)
+
 InheritSaplingResource: false
 
 
@@ -607,9 +604,9 @@ RareBuildingType: disabled
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SpawnMonsters: [{"mob": "srparasites:sim_human", "weight": 100, "min": 1, "max": 2}, {"mob": "srparasites:incompleteform_small", "weight": 100, "min": 1, "max": 1}, {"mob": "srparasites:incompleteform_medium", "weight": 100, "min": 1, "max": 1}, {"mob": "srparasites:movingflesh", "weight": 90, "min": 1, "max": 1}, {"mob": "srparasites:crux", "weight": 90, "min": 0, "max": 1}, {"mob": "srparasites:dispatcher_si", "weight": 85, "min": 1, "max": 1}, {"mob": "srparasites:marauder", "weight": 80, "min": 1, "max": 1}]
+SpawnMonsters: []
 
-SpawnCreatures: [{"mob": "minecraft:sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "minecraft:pig", "weight": 10, "min": 4, "max": 4}, {"mob": "minecraft:chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "minecraft:cow", "weight": 8, "min": 4, "max": 4}]
+SpawnCreatures: []
 
 SpawnWaterCreatures: []
 
