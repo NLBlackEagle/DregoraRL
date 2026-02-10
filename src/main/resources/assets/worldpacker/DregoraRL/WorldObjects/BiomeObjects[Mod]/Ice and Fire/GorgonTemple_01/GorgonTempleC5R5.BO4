@@ -2584,7 +2584,7 @@ RandomBlock(-6,6,-1,charm:crate_sealed:1,../../../Chests/RLCraft/Charm/treasure/
 Block(-6,6,0,PRISMARINE:2)
 Block(-6,6,1,PRISMARINE:2)
 Block(-6,6,2,notreepunching:pottery/small_vessel)
-Block(-6,6,3,biomesoplenty:flower_0:3)
+RandomBlock(-6,6,3,biomesoplenty:flower_0:3,75,dynamictrees:sapling:0,../NBT/Special/blossomtree.nbt.nbt,100)
 Block(-6,6,4,AIR:0)
 Block(-6,6,5,AIR:0)
 Block(-6,6,6,AIR:0)
