@@ -107,16 +107,16 @@ DoReplaceBlocks: false
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(-8,0,-7,biomesoplenty:dried_sand)
-Block(-8,0,-6,biomesoplenty:dried_sand)
-Block(-8,1,-7,biomesoplenty:dried_sand)
-Block(-8,1,-6,biomesoplenty:dried_sand)
-Block(-8,2,-7,biomesoplenty:dried_sand)
-Block(-7,0,-7,biomesoplenty:dried_sand)
-Block(-7,1,-7,biomesoplenty:dried_sand)
-Block(-7,2,-7,biomesoplenty:dried_sand)
-Block(-6,0,-7,biomesoplenty:dried_sand)
-Block(-6,1,-7,biomesoplenty:dried_sand)
+Block(-8,0,-7,SANDSTONE:0)
+Block(-8,0,-6,SANDSTONE:0)
+Block(-8,1,-7,SANDSTONE:0)
+Block(-8,1,-6,SANDSTONE:0)
+Block(-8,2,-7,SANDSTONE:0)
+Block(-7,0,-7,SANDSTONE:0)
+Block(-7,1,-7,SANDSTONE:0)
+Block(-7,2,-7,SANDSTONE:0)
+Block(-6,0,-7,SANDSTONE:0)
+Block(-6,1,-7,SANDSTONE:0)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
