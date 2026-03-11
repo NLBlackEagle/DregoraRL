@@ -38,8 +38,8 @@
                   "attribute": "generic.luck",
                   "name": "More Knockback",
                   "amount": {
-                    "min": 0.01,
-                    "max": 0.2
+                    "min": 1,
+                    "max": 3
                   },
                   "operation": "addition",
                   "slot": [
