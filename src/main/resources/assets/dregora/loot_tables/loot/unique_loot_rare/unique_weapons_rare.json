@@ -10,6 +10,22 @@
           "name": "iceandfire:silver_sword",
           "weight": 1,
           "functions": [
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.04 }],
+              "tag": "{Quality:{Name:\"quality.ancient.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.15d,Operation:2}]}}"
+            },
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.03 }],
+              "tag": "{Quality:{Name:\"quality.mythic.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.magicDamage\",Amount:0.1d,Operation:2}]}}"
+            },
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.02 }],
+              "tag": "{Quality:{Name:\"quality.primordial.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.2d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.1d,Operation:2}]}}"
+            },
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.01 }],
+              "tag": "{Quality:{Name:\"quality.relic.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.2d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.magicDamage\",Amount:0.1d,Operation:2}]}}"
+            },
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Ancient Sword\",LocName:\"rldregora.unique_weapons_rare.ancient.silver_sword.name\"}}"},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Marked Sword\",LocName:\"rldregora.unique_weapons_rare.marked.silver_sword.name\"}}", "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sturdy Sword\",LocName:\"rldregora.unique_weapons_rare.sturdy.silver_sword.name\"}}", "conditions": [{"condition": "random_chance", "chance": 0.25}]},
@@ -46,6 +62,22 @@
           "name": "mujmajnkraftsbettersurvival:itemsilvernunchaku",
           "weight": 1,
           "functions": [
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.04 }],
+              "tag": "{Quality:{Name:\"quality.ancient.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.15d,Operation:2}]}}"
+            },
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.03 }],
+              "tag": "{Quality:{Name:\"quality.mythic.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.magicDamage\",Amount:0.1d,Operation:2}]}}"
+            },
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.02 }],
+              "tag": "{Quality:{Name:\"quality.primordial.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.2d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.1d,Operation:2}]}}"
+            },
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.01 }],
+              "tag": "{Quality:{Name:\"quality.relic.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.2d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.magicDamage\",Amount:0.1d,Operation:2}]}}"
+            },
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Ancient Nunchaku\",LocName:\"rldregora.unique_weapons_rare.ancient.itemsilvernunchaku.name\"}}"},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Marked Nunchaku\",LocName:\"rldregora.unique_weapons_rare.marked.itemsilvernunchaku.name\"}}", "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sturdy Nunchaku\",LocName:\"rldregora.unique_weapons_rare.sturdy.itemsilvernunchaku.name\"}}", "conditions": [{"condition": "random_chance", "chance": 0.25}]},
@@ -82,6 +114,22 @@
           "name": "mujmajnkraftsbettersurvival:itemsilverbattleaxe",
           "weight": 1,
           "functions": [
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.04 }],
+              "tag": "{Quality:{Name:\"quality.ancient.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.15d,Operation:2}]}}"
+            },
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.03 }],
+              "tag": "{Quality:{Name:\"quality.mythic.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.magicDamage\",Amount:0.1d,Operation:2}]}}"
+            },
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.02 }],
+              "tag": "{Quality:{Name:\"quality.primordial.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.2d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.1d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.1d,Operation:2}]}}"
+            },
+            {
+              "function": "minecraft:set_nbt", "conditions": [{ "condition": "random_chance", "chance": 0.01 }],
+              "tag": "{Quality:{Name:\"quality.relic.name\",Color:\"light_purple\",Slots:[\"mainhand\"],AttributeModifiers:[{Name:\"qualitytools\",AttributeName:\"generic.attackDamage\",Amount:0.2d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.digSpeed\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"generic.reachDistance\",Amount:0.5d,Operation:0},{Name:\"qualitytools\",AttributeName:\"generic.attackSpeed\",Amount:0.15d,Operation:2},{Name:\"qualitytools\",AttributeName:\"potioncore.magicDamage\",Amount:0.1d,Operation:2}]}}"
+            },
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Ancient Battleaxe\",LocName:\"rldregora.unique_weapons_rare.ancient.itemsilverbattleaxe.name\"}}"},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Marked Battleaxe\",LocName:\"rldregora.unique_weapons_rare.marked.itemsilverbattleaxe.name\"}}", "conditions": [{"condition": "random_chance", "chance": 0.25}]},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Sturdy Battleaxe\",LocName:\"rldregora.unique_weapons_rare.sturdy.itemsilverbattleaxe.name\"}}", "conditions": [{"condition": "random_chance", "chance": 0.25}]},
