@@ -140,7 +140,7 @@ potioncore:long_potion_sickness
 
 Loottable Test Strings:
 
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot_test"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"eaglemixins:test"}
 
 Todo: RLC potions maybe use splash some?
 
@@ -148,13 +148,14 @@ Todo: RLC potions maybe use splash some?
 
 /setblock ~ ~-1 ~ variedcommodities:pedestal:2 0 false {LootTable:"dregora:loot/unique_loot_epic/unique_weapons_epic"}
 
-/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/unique_loot_epic/unique_weapons_epic"}
-
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/loot_bundles/cursed_test"}
 
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:underneath/fish_undead"}
 
 /setblock ~ ~-1 ~ charm:crate_sealed 0 false {LootTable:"dregora:entities/spawn_eggs/behemoth"}
+
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/unique_loot_epic/unique_weapons_epic"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:dregorarl/loot/rare_loot"}
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
@@ -332,6 +333,10 @@ Todo: RLC potions maybe use splash some?
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/piratejunk_loot"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/rare_loot"}
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/shipjunk_loot"}
+
+
+/setblock ~ ~-1 ~ cookingforblockheads:counter_oak 0 false {LootTable:"dregora:loot/rare_loot"}
+/setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:dregorarl/loot/rare_loot"}
 
 
 /setblock ~ ~-1 ~ minecraft:chest 0 false {LootTable:"dregora:loot/loot_ocean_potion/ocean_potion_1"}
