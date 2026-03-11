@@ -34,7 +34,7 @@
           "name": "variedcommodities:mithril_chest",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Mithril Shirt\",Lore:[\"As light as a feather, and as hard as dragon scales.\"],LocName:\"rldregora.sting_mithril.mithril_shirt.name\",LocLore:[\"rldregora.sting_mithril.mithril_shirt.lore\"]}}"},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Mithril Coat\",Lore:[\"As light as a feather, and as hard as dragon scales.\"],LocName:\"rldregora.sting_mithril.mithril_shirt.name\",LocLore:[\"rldregora.sting_mithril.mithril_shirt.lore\"]}}"},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedfireprotection"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedprojectileprotection"]},
             {"function": "enchant_randomly", "enchantments": ["somanyenchantments:advancedprotection"]},
