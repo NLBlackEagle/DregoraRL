@@ -224,6 +224,22 @@
         },
         {
           "type": "item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"potioncore:slow_fall\"}"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"potioncore:strong_slow_fall\"}",
+              "conditions": [{"condition": "random_chance", "chance": 0.3}]
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "item",
           "name": "minecraft:splash_potion",
           "functions": [
             {
@@ -270,6 +286,11 @@
             {
               "function": "set_nbt",
               "tag": "{Potion:\"srparasites:repel\"}",
+              "conditions": [{"condition": "random_chance", "chance": 0.2}]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"potioncore:strong_levitation\"}",
               "conditions": [{"condition": "random_chance", "chance": 0.2}]
             },
             {
