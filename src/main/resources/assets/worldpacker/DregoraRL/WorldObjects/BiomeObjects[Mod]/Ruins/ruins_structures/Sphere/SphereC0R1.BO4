@@ -674,7 +674,7 @@ RandomBlock(-3,25,-6,CONCRETE:8,25,quark:limestone:1,25,CONCRETE:7,25,quark:iron
 RandomBlock(-2,3,-7,CONCRETE:8,25,quark:limestone:1,25,CONCRETE:7,25,quark:iron_plate:1,10,CONCRETE:8,100)
 RandomBlock(-2,3,-6,CONCRETE:8,25,quark:limestone:1,25,CONCRETE:7,25,quark:iron_plate:1,10,CONCRETE:8,100)
 Block(-2,4,-7,AIR:0)
-RandomBlock(-2,4,-6,CHEST:5,20,CHEST:5,10,CHEST:5,20,CHEST:5,50,CHEST:5,100)
+RandomBlock(-2,4,-6,CHEST:5,../../../../Chests/Loot/moderncity_junk_loot.nbt,20,CHEST:5,../../../../Chests/Loot/moderncity_rare_loot.nbt,10,CHEST:5,../../../../Chests/Loot/desert_pyramid.nbt,20,CHEST:5,../../../../Chests/RLCraft/Ruins/consumables.nbt,50,CHEST:5,../../../../Chests/RLCraft/Ruins/rubble.nbt,100)
 RandomBlock(-2,4,-5,CONCRETE:8,25,quark:limestone:1,25,CONCRETE:7,25,quark:iron_plate:1,10,CONCRETE:8,100)
 RandomBlock(-2,4,-4,CONCRETE:8,25,quark:limestone:1,25,CONCRETE:7,25,quark:iron_plate:1,10,CONCRETE:8,100)
 Block(-2,5,-7,AIR:0)

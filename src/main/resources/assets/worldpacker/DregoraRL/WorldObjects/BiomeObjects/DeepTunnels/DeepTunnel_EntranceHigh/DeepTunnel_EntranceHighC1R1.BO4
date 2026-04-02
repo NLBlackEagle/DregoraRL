@@ -6417,11 +6417,11 @@ Block(7,28,5,STEP:8)
 Block(7,28,6,STEP:8)
 Block(7,28,7,STEP:8)
 Block(7,28,8,STEP:8)
-RandomBlock(-5,23,5,AIR:0,50,CHEST:5,10,CHEST:5,35,CHEST:5,1,CHEST:5,5,CHEST:5,2,CHEST:5,2,CHEST:5,100)
-RandomBlock(-5,23,6,AIR:0,50,CHEST:5,10,CHEST:5,35,CHEST:5,1,CHEST:5,5,CHEST:5,2,CHEST:5,2,CHEST:5,100)
-RandomBlock(-4,23,-6,AIR:0,50,CHEST:3,10,CHEST:3,35,CHEST:3,1,CHEST:3,5,CHEST:3,2,CHEST:3,2,CHEST:3,100)
-RandomBlock(-3,23,-6,AIR:0,50,CHEST:3,10,CHEST:3,35,CHEST:3,1,CHEST:3,5,CHEST:3,2,CHEST:3,2,CHEST:3,100)
-RandomBlock(-1,23,7,AIR:0,50,CHEST:2,10,CHEST:2,35,CHEST:2,1,CHEST:2,5,CHEST:2,2,CHEST:2,2,CHEST:2,100)
+RandomBlock(-5,23,5,AIR,50,CHEST:5,../../../Chests/Loot/junk_loot.nbt,10,CHEST:5,../../../Chests/Loot/abandoned_mineshaft.nbt,35,CHEST:5,../../../Chests/Lore/moderncity.nbt,1,CHEST:5,../../../Chests/Loot/moderncity_common_loot.nbt,5,CHEST:5,../../../Chests/Lore/moderncity.nbt,2,CHEST:5,../../../Chests/Loot/moderncity_epic_loot.nbt,2,CHEST:5,../../../Chests/Loot/moderncity_rare_loot.nbt,100)
+RandomBlock(-5,23,6,AIR,50,CHEST:5,../../../Chests/Loot/junk_loot.nbt,10,CHEST:5,../../../Chests/Loot/abandoned_mineshaft.nbt,35,CHEST:5,../../../Chests/Lore/moderncity.nbt,1,CHEST:5,../../../Chests/Loot/moderncity_common_loot.nbt,5,CHEST:5,../../../Chests/Lore/moderncity.nbt,2,CHEST:5,../../../Chests/Loot/moderncity_epic_loot.nbt,2,CHEST:5,../../../Chests/Loot/moderncity_rare_loot.nbt,100)
+RandomBlock(-4,23,-6,AIR,50,CHEST:3,../../../Chests/Loot/junk_loot.nbt,10,CHEST:3,../../../Chests/Loot/abandoned_mineshaft.nbt,35,CHEST:3,../../../Chests/Lore/moderncity.nbt,1,CHEST:3,../../../Chests/Loot/moderncity_common_loot.nbt,5,CHEST:3,../../../Chests/Lore/moderncity.nbt,2,CHEST:3,../../../Chests/Loot/moderncity_epic_loot.nbt,2,CHEST:3,../../../Chests/Loot/moderncity_rare_loot.nbt,100)
+RandomBlock(-3,23,-6,AIR,50,CHEST:3,../../../Chests/Loot/junk_loot.nbt,10,CHEST:3,../../../Chests/Loot/abandoned_mineshaft.nbt,35,CHEST:3,../../../Chests/Lore/moderncity.nbt,1,CHEST:3,../../../Chests/Loot/moderncity_common_loot.nbt,5,CHEST:3,../../../Chests/Lore/moderncity.nbt,2,CHEST:3,../../../Chests/Loot/moderncity_epic_loot.nbt,2,CHEST:3,../../../Chests/Loot/moderncity_rare_loot.nbt,100)
+RandomBlock(-1,23,7,AIR,50,CHEST:2,../../../Chests/Loot/junk_loot.nbt,10,CHEST:2,../../../Chests/Loot/abandoned_mineshaft.nbt,35,CHEST:2,../../../Chests/Lore/moderncity.nbt,1,CHEST:2,../../../Chests/Loot/moderncity_common_loot.nbt,5,CHEST:2,../../../Chests/Lore/moderncity.nbt,2,CHEST:2,../../../Chests/Loot/moderncity_epic_loot.nbt,2,CHEST:2,../../../Chests/Loot/moderncity_rare_loot.nbt,100)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
