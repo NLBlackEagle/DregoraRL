@@ -1,5 +1,6 @@
 plugins {
     id 'eclipse'
+    id 'idea'
     id 'net.minecraftforge.gradle' version "${forge_gradle_version}"
 }
 
