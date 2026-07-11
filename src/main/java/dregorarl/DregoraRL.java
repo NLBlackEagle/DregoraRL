@@ -1,4 +1,4 @@
-package com.otg.worldpacker;
+package dregorarl;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -44,7 +44,7 @@ import org.apache.logging.log4j.Logger;
 
 
 
-public class WorldPacker
+public class DregoraRL
 {
 	public static Logger LOGGER = LogManager.getLogger("DregoraRL");
 
