@@ -35,7 +35,7 @@ import org.apache.logging.log4j.Logger;
 // 4. That's it, copy your jar file to a /mods/ directory and run the game!
 
 // Uncomment this line if your worldpack requires only OpenTerrainGenerator.
-@Mod(modid = "dregorarl", acceptableRemoteVersions = "*")
+@Mod(modid = DregoraRL.MODID, acceptableRemoteVersions = "*")
 //;required-after:biomesoplenty;required-after:baubles;required-after:coralreef;required-after:defiledlands;required-after:dynamictrees;required-after:dynamictreesbop;required-after:dynamictreesdefiledlands;required-after:dttraverse;required-after:iceandfire;required-after:llibrary;required-after:traverse;required-after:rustic;required-after:quark;required-after:charm;")
 // Uncomment and edit this line if your worldpack requires other mods or worldpacks.
 //@Mod(modid = "myworldpackid", name = "My worldpack name", version = "1.0", acceptableRemoteVersions = "*", useMetadata = true, dependencies = "required-after:openterraingenerator;required-after:otgflatlands;required-after:otgskylands;required-after:otgvoid")
@@ -46,7 +46,8 @@ import org.apache.logging.log4j.Logger;
 
 public class DregoraRL
 {
-	public static Logger LOGGER = LogManager.getLogger("DregoraRL");
+	public static final String MODID = "dregorarl";
+	public static Logger LOGGER = LogManager.getLogger(MODID);
 
 	@EventHandler
 	public void load(FMLInitializationEvent event)
