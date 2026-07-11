@@ -47,7 +47,7 @@ import org.apache.logging.log4j.Logger;
 public class DregoraRL
 {
 	public static final String MODID = "dregorarl";
-	public static Logger LOGGER = LogManager.getLogger(MODID);
+	public static final Logger LOGGER = LogManager.getLogger(MODID);
 
 	@EventHandler
 	public void load(FMLInitializationEvent event)
