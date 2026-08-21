@@ -82,7 +82,7 @@ public class DregoraRL
 
 			//Check the version within the jar file
 
-			int[] arr = new int[] {0,0,0,0};
+			int[] arr = new int[] {0,0,0,0,0,0};
 
 			InputStream iis = getClass().getClassLoader().getResourceAsStream("assets/worldpacker/" + worldName + "/version.txt");
 			if (iis != null) {
@@ -103,6 +103,9 @@ public class DregoraRL
 						}
 						if ((line != null) && (line.contains("MinorVersion"))) {
 							arr[1] = Integer.parseInt(line.split(":")[1].trim());
+						}
+						if ((line != null) && (line.contains("PatchVersion"))) {
+							arr[2] = Integer.parseInt(line.split(":")[1].trim());
 						}
 					}
 					String everything = sb.toString();
@@ -134,10 +137,13 @@ public class DregoraRL
 							line = br.readLine();
 
 							if ((line != null) && (line.contains("MajorVersion"))) {
-								arr[2] = Integer.parseInt(line.split(":")[1].trim());
+								arr[3] = Integer.parseInt(line.split(":")[1].trim());
 							}
 							if ((line != null) && (line.contains("MinorVersion"))) {
-								arr[3] = Integer.parseInt(line.split(":")[1].trim());
+								arr[4] = Integer.parseInt(line.split(":")[1].trim());
+							}
+							if ((line != null) && (line.contains("PatchVersion"))) {
+								arr[5] = Integer.parseInt(line.split(":")[1].trim());
 							}
 
 						}
@@ -149,16 +155,19 @@ public class DregoraRL
 				}
 
 				//Check if jar version is greater then installed version and if so update installed version.
-				// arr[0] = Major Internal Version | arr[1] = Minor Internal Version
-				// arr[2] = Major External Version | arr[3] = Minor External Version
+				// arr[0] = Major Internal Version | arr[1] = Minor Internal Version | arr[2] = Patch Internal Version
+				// arr[3] = Major External Version | arr[4] = Minor External Version | arr[5] = Patch External Version
 
+				boolean jarIsNewer = arr[0] > arr[3]
+						|| (arr[0] == arr[3] && arr[1] > arr[4])
+						|| (arr[0] == arr[3] && arr[1] == arr[4] && arr[2] > arr[5]);
 
-				if(arr[0] > arr[2] || (arr[0] == arr[2] && arr[1] > arr[3]) || (!Version.exists())) {
+				if(jarIsNewer || (!Version.exists())) {
 					if(!Version.exists()) {
 						LOGGER.info("Preset not detected, initiating new install, extracting world files for preset " + worldName + "...");
 					}
-					if(arr[0] > arr[2] || (arr[0] == arr[2] && arr[1] > arr[3])) {
-						LOGGER.info("More recent jar detected, will update preset " + worldName + " from version: " + arr[2] + "." + arr[3] +" to version: " + arr[0] + "." + arr[1]);
+					if(jarIsNewer) {
+						LOGGER.info("More recent jar detected, will update preset " + worldName + " from version: " + arr[3] + "." + arr[4] + "." + arr[5] + " to version: " + arr[0] + "." + arr[1] + "." + arr[2]);
 					}
 
 					//Unpack preset to directories
@@ -188,9 +197,9 @@ public class DregoraRL
 							fos.close();
 						}
 					}
-					LOGGER.info("Completed Update Progress " + worldName + " is now version " + arr[0] + "." + arr[1]);
+					LOGGER.info("Completed Update Progress " + worldName + " is now version " + arr[0] + "." + arr[1] + "." + arr[2]);
 				} else {
-					LOGGER.info("Preset " + worldName + " version " + arr[0] + "." + arr[1] + " detected, nothing to do.");
+					LOGGER.info("Preset " + worldName + " version " + arr[0] + "." + arr[1] + "." + arr[2] + " detected, nothing to do.");
 				}
 			}
 			jarFile.close();
