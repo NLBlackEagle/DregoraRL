@@ -1,4 +1,4 @@
 #DO NOT TOUCH, USED FOR VERSIONING!
-MajorVersion: 3
-MinorVersion: 9
-PatchVersion: 0
+MajorVersion: ${mod_version_major}
+MinorVersion: ${mod_version_minor}
+PatchVersion: ${mod_version_patch}

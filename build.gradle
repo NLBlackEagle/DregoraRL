@@ -30,11 +30,20 @@ dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 }
 
+def modVersionParts = "${mod_version}".tokenize('.')
+def modVersionMajor = modVersionParts[0]
+def modVersionMinor = modVersionParts[1]
+def modVersionPatch = modVersionParts.size() > 2 ? modVersionParts[2] : '0'
+
 processResources {
     inputs.property 'mod_version', "${mod_version}"
 
     filesMatching('mcmod.info') {
         expand 'mod_version': "${mod_version}"
+    }
+
+    filesMatching('assets/worldpacker/DregoraRL/version.txt') {
+        expand 'mod_version_major': modVersionMajor, 'mod_version_minor': modVersionMinor, 'mod_version_patch': modVersionPatch
     }
 }
 
