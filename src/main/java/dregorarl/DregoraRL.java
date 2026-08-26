@@ -47,7 +47,7 @@ public class DregoraRL {
 				Version versionDst;
 				try {
 					versionDst = Version.readFrom(versionDstFile.toUri().toURL());
-					if (versionDst.compareTo(versionSrc) < 0) {
+					if (versionDst.compareTo(versionSrc) >= 0) {
 						LOGGER.info("Existing world {} is up to date {} >= {}", name, versionDst, versionSrc);
 						return;
 					}
