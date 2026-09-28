@@ -305,7 +305,7 @@ Liquid(LAVA,10,100.0,8,60,STONE)
 CustomObject(MountainRock1,MountainRock3)
 CustomObject(MountainBush4,MountainBush5,MountainBush6,MountainBush7,MountainBush8)
 
-Tree(5,ColorPine05,20,ColorPine04,20,ColorPine03,20,ColorPine02,20,ColorPine01,20,Pine10,5,Pine09,5,Pine08,5,Pine07,5,Pine06,5,Pine05,5,Pine04,5,EUR14L)
+Tree(5,ColorPine05,20,ColorPine04,20,ColorPine03,20,ColorPine02,20,ColorPine01,20,Pine10,5,Pine09,5,Pine08,5,Pine07,5,Pine06,5,Pine05,5,Pine04,5)
 Tree(1,NA17L,30,MB5,30,MB4,30,MB3,30,MB2,30,MB1,30)
 Tree(1,ME4,21,ME3,30,ME2,30,ME14,29,ME13,24,ME11,24,ME1,30)
 

@@ -443,7 +443,7 @@ CustomObject(SpookyBoulderSmall,SpookyBoulderBig)
 CustomObject(plainbush1,plainbush2,plainbush3,plainbush4,plainbush5,plainbush6,plainbush7,plainbush8)
 
 Tree(100,Spooky_WaterDrip,100)
-Tree(10,Spooky_Ceiling_Plant_01,100,Spooky_Ceiling_Plant_02,100,Spooky_Ceiling_Plant_03,100,Spooky_Ceiling_Plant_04,100,Spooky_Ceiling_Plant_05)
+Tree(10,Spooky_Ceiling_Plant_01,100,Spooky_Ceiling_Plant_02,100,Spooky_Ceiling_Plant_03,100,Spooky_Ceiling_Plant_04,100,Spooky_Ceiling_Plant_05,100)
 Tree(30,Spooky_MeatSpike_01,100,Spooky_MeatSpike_02,100,Spooky_MeatSpike_03)
 
 
