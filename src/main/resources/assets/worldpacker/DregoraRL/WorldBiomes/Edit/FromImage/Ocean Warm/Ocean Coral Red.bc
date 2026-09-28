@@ -287,7 +287,7 @@ CustomStructure(f_bunker_tunnel,0.0)
 CustomStructure(CastleRuins,0.0)
 CustomStructure(DaerocVillage,0.0)
 CustomStructure(PirateBay,100.0)
-CustomStructure(Harbor,0.0,)
+CustomStructure(Harbor,0.0)
 
 #MonsterQueue
 #Everywhere Biome
