@@ -180,7 +180,7 @@ FogThunderWeight: 0.5
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Tree(1,DT_Spruce_Med_01,100,DT_Spruce_Med_02,100,DT_Spruce_Med_03,100,DT_Spruce_Med_04,100,DT_Spruce_Med_05,100,DT_Spruce_Med_06,100,DT_Spruce_Med_07,100,DT_Spruce_Med_08,100,DT_Spruce_Med_09,100,DT_Spruce_Med_10,100,DT_Spruce_Med_11,100,DT_Spruce_Med_12,100,DT_Spruce_Med_13,100,DT_Spruce_Med_14,100,DT_Spruce_Med_15,100,)
+Tree(1,DT_Spruce_Med_01,100,DT_Spruce_Med_02,100,DT_Spruce_Med_03,100,DT_Spruce_Med_04,100,DT_Spruce_Med_05,100,DT_Spruce_Med_06,100,DT_Spruce_Med_07,100,DT_Spruce_Med_08,100,DT_Spruce_Med_09,100,DT_Spruce_Med_10,100,DT_Spruce_Med_11,100,DT_Spruce_Med_12,100,DT_Spruce_Med_13,100,DT_Spruce_Med_14,100,DT_Spruce_Med_15,100)
 Tree(1,DT_BPPine_Tall_01,100,DT_BPPine_Tall_02,100,DT_BPPine_Tall_03,100,DT_BPPine_Tall_04,100,DT_BPPine_Tall_05,100,DT_BPPine_Tall_06,100,DT_BPPine_Tall_07,100,DT_BPPine_Tall_08,100,DT_BPPine_Tall_09,100,DT_BPPine_Tall_10,100,DT_BPPine_Tall_11,100,DT_BPPine_Tall_12,100,DT_BPPine_Tall_13,100,DT_BPPine_Tall_14,100,DT_BPPine_Tall_15,100)
 
 #######################################################################
