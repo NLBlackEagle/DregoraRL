@@ -400,7 +400,7 @@ Tree(10,SpookyTree1,15,SpookyTree2,15,SpookyTree3,15)
 Tree(5,SpookyTree4,5)
 Tree(1,SpookyTreeSpawner,10)
 Tree(100,SpookyJailChicken,15,SpookyJailVillager,10,SpookyJailWood,5,SpookyJailSpawner,5,SpookyJailSkeleton,10)
-Tree(10,Spooky_Ceiling_Plant_01,100,Spooky_Ceiling_Plant_02,100,Spooky_Ceiling_Plant_03,100,Spooky_Ceiling_Plant_04,100,Spooky_Ceiling_Plant_05)
+Tree(10,Spooky_Ceiling_Plant_01,100,Spooky_Ceiling_Plant_02,100,Spooky_Ceiling_Plant_03,100,Spooky_Ceiling_Plant_04,100,Spooky_Ceiling_Plant_05,100)
 Tree(100,Spooky_MeatSpike_01,100,Spooky_MeatSpike_02,100,Spooky_MeatSpike_03)
 Tree(100,Spooky-Skull-01,100,Spooky-Skull-02,100,Spooky-Skull-03,100,Spooky-Skull-04,100,Spooky-Skull-05,100,Spooky-Skull-06,100,Spooky-Skull-07,100,Spooky-Skull-08,100,Spooky-Skull-09,100)
 
