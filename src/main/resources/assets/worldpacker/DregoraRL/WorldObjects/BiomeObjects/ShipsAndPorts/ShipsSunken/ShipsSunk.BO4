@@ -114,7 +114,7 @@ DoReplaceBlocks: false
 
 
 WeightedBranch(0,-10,0,true,agil_degraded,NORTH,25.0,10,agil_degraded_updown,NORTH,20.0,10,pillager_degraded_updown,NORTH,10.0,10,pillager_degraded,NORTH,15.0,10,ShipsEmpty,NORTH,20.0,10,90.0)
-70.0)
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
