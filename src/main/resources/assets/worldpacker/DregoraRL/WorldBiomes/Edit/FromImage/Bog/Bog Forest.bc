@@ -259,7 +259,9 @@ CustomStructure(SmallFactory3,100.0)
 CustomStructure(SmallFactory4,100.0)
 CustomStructure(StoneHouse_Ruined,100.0)
 CustomStructure(StoneHouseMruined,100.0)
-CustomStructure(STP,100.0)#Structure generic:
+CustomStructure(STP,100.0)
+
+#Structure generic:
 CustomStructure(PumpkinField,100.0)
 CustomStructure(RuinedSmallFountainDiagonal,100.0)
 CustomStructure(SkeletonHeadStatue,100.0)
