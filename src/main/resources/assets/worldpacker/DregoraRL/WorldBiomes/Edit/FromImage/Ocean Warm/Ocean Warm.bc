@@ -312,7 +312,7 @@ Liquid(LAVA,10,100.0,8,60,STONE)
 Ore(SEA_LANTERN,5,15,30.0,10,12,STONE,SANDSTONE,SAND,OBSIDIAN)
 
 
-CustomStructure(ShipsSunk,60.0,structure_warm,0.2,0.05)
+CustomStructure(ShipsSunk,60.0,structure_warm,0.2)
 CustomObject(SmallDungeon)
 CustomObject(coral01,coral02,coral03,seaplant01,seaplant04,seaplant05)
 CustomObject(Ocean-ceilingstonecave_04,Ocean-ceilingstonecave_03,Ocean-ceilingstonecave_02,Ocean-ceilingstonecave_01)
