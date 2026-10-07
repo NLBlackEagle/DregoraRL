@@ -29,6 +29,76 @@
                "id":"minecraft:diamond",
                "Count":2
             }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":19
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":1,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":23
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":2,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":11
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":3,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":19
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":4,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":14
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":5,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":63
+            },
+            "buyB":{
+               "id":"minecraft:rotten_flesh",
+               "Count":64
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":7,
+               "Count":1
+            }
          }
       ]
    }

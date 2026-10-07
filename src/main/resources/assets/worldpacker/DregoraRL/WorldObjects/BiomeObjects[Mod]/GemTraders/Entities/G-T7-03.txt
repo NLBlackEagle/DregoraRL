@@ -85,6 +85,76 @@
                "id":"iron_nugget",
                "Count":5
             }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":64
+            },
+            "buyB":{
+               "id":"minecraft:beetroot_soup",
+               "Count":1
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":1,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":26
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":2,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":13
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":3,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":16
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":4,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":16
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":5,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":25
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":7,
+               "Count":1
+            }
          }
       ]
    }

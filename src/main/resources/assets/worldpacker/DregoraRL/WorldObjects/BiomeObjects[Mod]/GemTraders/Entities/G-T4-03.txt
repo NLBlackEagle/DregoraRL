@@ -37,6 +37,50 @@
                "id":"minecraft:emerald",
                "Count":2
             }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":17
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":1,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":13
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":3,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":16
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":5,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":22
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":7,
+               "Count":1
+            }
          }
       ]
    }

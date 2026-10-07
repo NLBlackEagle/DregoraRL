@@ -160,7 +160,7 @@
                "id":"variedcommodities:coin_gold",
                "Count":5
             }
-         }m
+         },
          {
             "buy":{
                "id":"variedcommodities:cleaver",

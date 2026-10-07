@@ -59,6 +59,76 @@
                "Damage":3,
                "Count":1
             }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":18
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":1,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":26
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":2,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":14
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":3,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":21
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":4,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":64
+            },
+            "buyB":{
+               "id":"minecraft:rabbit_stew",
+               "Count":1
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":5,
+               "Count":1
+            }
+         },
+         {
+            "buy":{
+               "id":"variedcommodities:coin_gold",
+               "Count":21
+            },
+            "sell":{
+               "id":"biomesoplenty:gem",
+               "Damage":7,
+               "Count":1
+            }
          }
       ]
    }
