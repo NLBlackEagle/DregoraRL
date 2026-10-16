@@ -17,7 +17,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = DregoraRL.MODID, acceptableRemoteVersions = "*")
+@Mod(modid = DregoraRL.MODID, acceptableRemoteVersions = "*", dependencies = "required-after:openterraingenerator")
 public class DregoraRL {
 
 	public static final String MODID = "dregorarl";
