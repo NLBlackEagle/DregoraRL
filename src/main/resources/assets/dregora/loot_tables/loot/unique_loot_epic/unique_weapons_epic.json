@@ -34,7 +34,7 @@
             {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:atomicdeconstructor", "levels": 10},
             {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:criticalstrike", "levels": 10},
             {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:ashdestroyer", "levels": 10},
-            {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:fieryedge", "levels": 10},
+            {"function": "rlmixins:enchant_specific", "enchantment": "somanyenchantments:fieryedge", "levels": 5},
             {"function": "rlmixins:enchant_specific", "enchantment": "minecraft:unbreaking", "levels": 10}
           ]
         },
