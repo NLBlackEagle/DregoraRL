@@ -12,6 +12,19 @@
       ]
     },
     {
+      "name": "key",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "eaglemixins:lock_key",
+          "functions": [
+            { "function": "set_nbt", "tag": "{LockId:\"brutal_shivaxi\"}" }
+          ]
+        }
+      ]
+    },
+    {
       "name": "brutal coin pool",
       "rolls": 1.0,
       "entries": [
