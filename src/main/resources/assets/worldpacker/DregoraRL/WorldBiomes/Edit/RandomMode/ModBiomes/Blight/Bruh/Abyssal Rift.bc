@@ -382,7 +382,7 @@ RareBuildingType: disabled
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SpawnMonsters: [{"mob": "lycanitesmobs:morock", "weight":1, "min":1, "max":1},{"mob": "defiledlands:host", "weight":100, "min":1, "max":1},{"mob": "minecraft:enderman", "weight":30, "min":1, "max":1},{"mob": "minecraft:wither_skeleton", "weight":90, "min":1, "max":1},{"mob": "defiledlands:shambler", "weight":90, "min":1, "max":1},{"mob": "minecraft:spider", "weight":90, "min":1, "max":1},{"mob": "iceandfire:if_troll", "weight":80, "min":1, "max":1},{"mob": "defiledlands:shambler_twisted", "weight":90, "min":1, "max":1}]
+SpawnMonsters: [{"mob": "lycanitesmobs:morock", "weight":1, "min":1, "max":1},{"mob": "defiledlands:host", "weight":100, "min":1, "max":1},{"mob": "minecraft:enderman", "weight":30, "min":1, "max":1},{"mob": "minecraft:wither_skeleton", "weight":90, "min":1, "max":1},{"mob": "minecraft:spider", "weight":90, "min":1, "max":1},{"mob": "iceandfire:if_troll", "weight":80, "min":1, "max":1},{"mob": "defiledlands:shambler_twisted", "weight":90, "min":1, "max":1}]
 
 SpawnCreatures: []
 

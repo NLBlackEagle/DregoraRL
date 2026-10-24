@@ -123,7 +123,7 @@ IsOTGPlus: false
 #  Spawns an object in the Mojang NBT structure format. For example, 
 #  MinecraftObject(0,0,0,minecraft:igloo/igloo_bottom)
 #  spawns the bottom part of an igloo.
-Block(0,0,0,MOB_SPAWNER:0,golem_boss.nbt)
+Block(0,0,0,iceandfire:monster_spawner,golem_boss.nbt)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

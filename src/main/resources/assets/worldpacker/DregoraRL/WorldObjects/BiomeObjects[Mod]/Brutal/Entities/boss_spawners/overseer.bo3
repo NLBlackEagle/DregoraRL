@@ -123,10 +123,10 @@ IsOTGPlus: false
 #  Spawns an object in the Mojang NBT structure format. For example, 
 #  MinecraftObject(0,0,0,minecraft:igloo/igloo_bottom)
 #  spawns the bottom part of an igloo.
-Block(0,0,0,MOB_SPAWNER:0,hive_overseer.nbt)
-Block(0,0,1,MOB_SPAWNER:0,hive_bogle.nbt)
-Block(0,0,2,MOB_SPAWNER:0,hive_carrier.nbt)
-Block(0,0,3,MOB_SPAWNER:0,hive_yelloweye.nbt)
+Block(0,0,0,iceandfire:monster_spawner,hive_overseer.nbt)
+Block(0,0,1,iceandfire:monster_spawner,hive_bogle.nbt)
+Block(0,0,2,iceandfire:monster_spawner,hive_carrier.nbt)
+Block(0,0,3,iceandfire:monster_spawner,hive_yelloweye.nbt)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

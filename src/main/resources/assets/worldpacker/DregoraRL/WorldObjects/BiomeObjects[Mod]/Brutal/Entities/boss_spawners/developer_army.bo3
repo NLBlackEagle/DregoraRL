@@ -125,14 +125,14 @@ IsOTGPlus: false
 #  spawns the bottom part of an igloo.
 
 
-Block(-2,0,-2,MOB_SPAWNER:0,developer_artsy.nbt)
-Block(-2,0,2,MOB_SPAWNER:0,developer_fonny.nbt)
-Block(-2,0,0,MOB_SPAWNER:0,developer_eagle.nbt)
-Block(0,0,-2,MOB_SPAWNER:0,developer_heaven.nbt)
-Block(0,0,2,MOB_SPAWNER:0,developer_kotlin.nbt)
-Block(2,0,-2,MOB_SPAWNER:0,developer_meldexun.nbt)
-Block(2,0,0,MOB_SPAWNER:0,developer_ray.nbt)
-Block(2,0,2,MOB_SPAWNER:0,developer_zero.nbt)
+Block(-2,0,-2,iceandfire:monster_spawner,developer_artsy.nbt)
+Block(-2,0,2,iceandfire:monster_spawner,developer_fonny.nbt)
+Block(-2,0,0,iceandfire:monster_spawner,developer_eagle.nbt)
+Block(0,0,-2,iceandfire:monster_spawner,developer_heaven.nbt)
+Block(0,0,2,iceandfire:monster_spawner,developer_kotlin.nbt)
+Block(2,0,-2,iceandfire:monster_spawner,developer_meldexun.nbt)
+Block(2,0,0,iceandfire:monster_spawner,developer_ray.nbt)
+Block(2,0,2,iceandfire:monster_spawner,developer_zero.nbt)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
