@@ -285,7 +285,7 @@ CustomStructure(TeleportTower_SD,0.0)
 CustomStructure(TeleportTower_GD,0.0)
 
 #GlobalStructureQueue
-CustomStructure(f_bunker_any,100.0)
+CustomStructure(f_bunker_default_any,100.0)
 CustomObject(Artifact_Mimic,Concrete_Mimic)
 CustomStructure(Herbalist,0.0)
 CustomStructure(v_bunker_start,0.0)

@@ -317,7 +317,7 @@ CustomStructure(testcube_top,100.0)
 #CustomStructure(SmallFactory-debug,100.0)
 #CustomStructure(pit-debug,100.0)
 
-#CustomStructure(f_bunker_any,100.0)
+#CustomStructure(f_bunker_default_any,100.0)
 
 #Structure nuclear_biome:
 #CustomStructure(f_bunker_atrium,100.0)
