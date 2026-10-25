@@ -29,7 +29,7 @@ ReplaceToBiomeName: srparasites:biome_parasite
 # Isle biomes only #
 ####################
 
-IsleInBiome: Snowy Coniferous Forest, Coniferous Forest, MapleWoods
+IsleInBiome: Snowy Coniferous Forest, Coniferous Forest
 
 BiomeSizeWhenIsle: 5
 
