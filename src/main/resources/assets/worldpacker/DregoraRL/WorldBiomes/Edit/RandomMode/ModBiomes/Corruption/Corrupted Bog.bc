@@ -28,7 +28,7 @@ ReplaceToBiomeName: srparasites:biome_parasite
 # Isle biomes only #
 ####################
 
-IsleInBiome: Bog
+IsleInBiome: Bog, Lush Swamp, Toxic Swamp
 
 BiomeSizeWhenIsle: 5
 

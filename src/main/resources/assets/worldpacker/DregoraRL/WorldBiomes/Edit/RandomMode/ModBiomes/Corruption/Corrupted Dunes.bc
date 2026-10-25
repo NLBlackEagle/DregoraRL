@@ -28,7 +28,7 @@ ReplaceToBiomeName: srparasites:biome_parasite
 # Isle biomes only #
 ####################
 
-IsleInBiome: Dunes, Dunes Compat
+IsleInBiome: Dunes, Dunes Compat, Traverse Badlands, Wasteland
 
 BiomeSizeWhenIsle: 5
 
