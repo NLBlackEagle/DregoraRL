@@ -312,7 +312,7 @@ Liquid(LAVA,10,100.0,8,60,STONE)
 
 CustomObject(SmallDungeon)
 CustomObject(MountainBush4,MountainBush8)
-Tree(1,OceanRock01,70,OceanRock02,70,OceanRock03,70)
+Tree(1,OceanRock01,30,OceanRock02,30,OceanRock03,30)
 
 Tree(3,brick_8,10,brick_7,10,brick_6,10,brick_5,10,brick_4,10,brick_3,10,brick_2,10,brick_1,10)
 Tree(3,big_brick_1,5,big_brick_2,5,big_brick_3,5,big_brick_8,5)
