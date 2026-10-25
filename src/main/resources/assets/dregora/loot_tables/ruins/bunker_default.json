@@ -132,22 +132,10 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"potioncore:strong_curse\",ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Poti§4§lon of Ult§e§limat§4§le Luck§e☢§r\",Lore:[\"§9Luck V (2:00)\",\"\",\"§5When Applied:\",\"§9+5 Luck:\"],LocName:\"rldregora.nuclear.ultimate_luck.name\",LocLore:[\"rldregora.nuclear.ultimate_luck.lore.0\",\" \",\"rldregora.potion.whenDrank\",\"rldregora.nuclear.ultimate_luck.lore.1\"]},CustomPotionEffects:[{Id:26,Duration:2400,Amplifier:4}],CustomPotionColor:65280,HideFlags:32}"
-            }
-          ],
-          "weight": 5
-        },
-        {
-          "type": "item",
           "name": "biomesoplenty:mushroom",
           "weight": 15,
           "functions": [
             {"function": "minecraft:set_data","data": 3},
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Mush§4§lrooms §e☢§r\",LocName:\"rldregora.nuclear.contaminated_mushrooms.name\"},HideFlags:2}"},
             {"function": "set_count","count": {"min": 1,"max": 6}}
           ]
         },
@@ -156,7 +144,6 @@
           "name": "foodexpansion:itemjelly",
           "weight": 15,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Je§4§llly §e☢§r\",LocName:\"rldregora.nuclear.contaminated_jelly.name\"},HideFlags:2}"}
           ]
         },
         {
@@ -164,7 +151,6 @@
           "name": "minecraft:brick",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Br§4§lick §e☢§r\",LocName:\"rldregora.nuclear.contaminated_brick.name\"},HideFlags:2}"}
           ]
         },
         {
@@ -172,7 +158,6 @@
           "name": "adhooks:pudge_hook",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
@@ -181,7 +166,6 @@
           "name": "adhooks:prototype_launcher",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
@@ -190,7 +174,6 @@
           "name": "adhooks:pudge_launcher",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}}
           ]
@@ -200,7 +183,6 @@
           "name": "adhooks:spear_hook",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
@@ -209,7 +191,6 @@
           "name": "adhooks:spear_launcher",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}}
           ]
@@ -219,7 +200,6 @@
           "name": "adhooks:web_hook",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
@@ -228,7 +208,6 @@
           "name": "adhooks:web_launcher",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}}
           ]
@@ -244,17 +223,13 @@
         {
           "type": "item",
           "name": "biomesoplenty:jar_empty",
-          "weight": 5,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Cont§4§lainer §e☢§r\",LocName:\"rldregora.nuclear.contaminated_container.name\"},HideFlags:2}"}
-          ]
+          "weight": 5
         },
         {
           "type": "item",
           "name": "inspirations:rope",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "minecraft:set_data","data": 0},
             {"function": "minecraft:set_data","data": 1,"conditions": [{"condition": "random_chance","chance": 0.3}]}
           ]
@@ -262,90 +237,61 @@
         {
           "type": "item",
           "name": "bountifulbaubles:flaregun",
-          "weight": 1,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"}
-          ]
+          "weight": 1
         },
         {
           "type": "item",
           "name": "bountifulbaubles:flare_red",
-          "weight": 10,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ammun§4§lition §e☢§r\",LocName:\"rldregora.nuclear.contaminated_ammunition.name\"},HideFlags:2}"}
-          ]
+          "weight": 10
         },
         {
           "type": "item",
           "name": "inspirations:barometer",
-          "weight": 1,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"}
-          ]
+          "weight": 1
         },
         {
           "type": "item",
           "name": "inspirations:photometer",
-          "weight": 1,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"}
-          ]
+          "weight": 1
         },
         {
           "type": "item",
           "name": "inspirations:redstone_charger",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}}
           ]
         },
         {
           "type": "item",
           "name": "locks:iron_lock_mechanism",
-          "weight": 5,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\",LocName:\"rldregora.nuclear.contaminated_parts.name\"},HideFlags:2}"}
-          ]
+          "weight": 5
         },
         {
           "type": "item",
           "name": "locks:wood_lock_mechanism",
-          "weight": 5,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\",LocName:\"rldregora.nuclear.contaminated_parts.name\"},HideFlags:2}"}
-          ]
+          "weight": 5
         },
         {
           "type": "item",
           "name": "locks:spring",
-          "weight": 10,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\",LocName:\"rldregora.nuclear.contaminated_parts.name\"},HideFlags:2}"}
-          ]
+          "weight": 10
         },
         {
           "type": "item",
           "name": "locks:steel_lock_mechanism",
-          "weight": 5,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Pa§4§lrts §e☢§r\",LocName:\"rldregora.nuclear.contaminated_parts.name\"},HideFlags:2}"}
-          ]
+          "weight": 5
         },
         {
           "type": "item",
           "name": "locks:key",
-          "weight": 1,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated K§4§ley §e☢§r\",LocName:\"rldregora.nuclear.contaminated_key.name\"},HideFlags:2}"}
-          ]
+          "weight": 1
         },
         {
           "type": "item",
           "name": "locks:steel_lock_pick",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
@@ -354,7 +300,6 @@
           "name": "locks:iron_lock_pick",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
@@ -363,7 +308,6 @@
           "name": "variedcommodities:wrench",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}}
           ]
@@ -373,7 +317,6 @@
           "name": "variedcommodities:crowbar",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}}
           ]
@@ -383,7 +326,6 @@
           "name": "variedcommodities:pipe_wrench",
           "weight": 1,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Anci§4§lent Arti§e§lfact §e☢§r\",LocName:\"rldregora.nuclear.contaminated_ancient_artifact.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}}
           ]
@@ -393,7 +335,6 @@
           "name": "minecraft:stone_axe",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}}
           ]
@@ -403,7 +344,6 @@
           "name": "minecraft:stone_shovel",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}}
           ]
@@ -413,7 +353,6 @@
           "name": "minecraft:chainmail_chestplate",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}}
           ]
@@ -423,7 +362,6 @@
           "name": "minecraft:chainmail_leggings",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}}
           ]
@@ -433,7 +371,6 @@
           "name": "minecraft:chainmail_boots",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}}
           ]
@@ -443,7 +380,6 @@
           "name": "minecraft:chainmail_helmet",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}}
           ]
@@ -454,7 +390,6 @@
           "weight": 1,
           "functions": [
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-H§4§lelmet §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_helmet.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
@@ -464,7 +399,6 @@
           "weight": 1,
           "functions": [
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-C§4§lhest §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_chest.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
@@ -474,7 +408,6 @@
           "weight": 1,
           "functions": [
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-B§4§lottom §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_bottom.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
@@ -484,7 +417,6 @@
           "weight": 1,
           "functions": [
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-L§4§legs §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_legs.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
@@ -492,10 +424,6 @@
           "type": "item",
           "name": "variedcommodities:coin_gold",
           "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ancient Coins §e☢§r\",LocName:\"rldregora.nuclear.contaminated_ancient_coins.name\"},HideFlags:2}"
-            },
             {"function": "set_count","count": {"min": 1,"max": 3}}
           ],
           "weight": 1
@@ -505,7 +433,6 @@
           "name": "notreepunching:knife/iron",
           "weight": 5,
           "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated T§4§lool §e☢§r\",LocName:\"rldregora.nuclear.contaminated_tool.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.95}}
           ]
