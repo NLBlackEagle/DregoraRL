@@ -43,7 +43,7 @@ BiomeIsBorder: Polluted Ocean, Polluted Sea
 
 NotBorderNear: Ocean Clear, Dead River
 
-BiomeSizeWhenBorder: 6
+BiomeSizeWhenBorder: 8
 
 
 #######################################################################
