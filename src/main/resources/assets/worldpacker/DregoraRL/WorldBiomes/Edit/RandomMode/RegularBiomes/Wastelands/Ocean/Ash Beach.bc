@@ -42,7 +42,7 @@ BiomeIsBorder: Polluted Ocean, Polluted Sea
 
 NotBorderNear: Ocean Forest, Deep Polluted Ocean, Tropics, Tropical Rainforest, Origin Island, Ocean Tropical Island, Flower Island, White Beach, Viking Corrupted Village, Viking Border, Corrupted Viking Realm, Viking Village, Viking Border F, Viking Realm, Ocean Clear, Viking Island, Viking Beach, Corrupted Dark Earth Border
 
-BiomeSizeWhenBorder: 6
+BiomeSizeWhenBorder: 8
 
 
 #######################################################################
