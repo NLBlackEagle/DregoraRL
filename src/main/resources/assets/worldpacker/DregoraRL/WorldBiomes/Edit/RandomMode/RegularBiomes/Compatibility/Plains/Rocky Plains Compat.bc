@@ -321,7 +321,7 @@ CustomStructure(EmptyCityGrid,0.0,single_skyscraper_spawner_city,0.0)
 
 CustomStructure(ruin_small_random,5.0)
 CustomStructure(DeepTunnel_EntranceLowSpecial,0.0)
-CustomStructure(f_bunker_tunnel,30.0)
+CustomStructure(f_bunker_tunnel,0.0)
 
 CustomStructure(Mineshaft,5.0,W-Mineshaft,100.0)
 
