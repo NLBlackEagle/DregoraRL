@@ -32,7 +32,7 @@ IsleInBiome: Bog, Lush Swamp, Toxic Swamp
 
 BiomeSizeWhenIsle: 5
 
-BiomeRarityWhenIsle: 96
+BiomeRarityWhenIsle: 84
 
 ######################
 # Border biomes only #
