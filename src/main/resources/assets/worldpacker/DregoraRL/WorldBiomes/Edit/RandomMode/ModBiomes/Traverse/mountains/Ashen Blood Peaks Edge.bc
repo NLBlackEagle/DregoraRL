@@ -42,7 +42,7 @@ BiomeIsBorder: Ashen Blood Peaks
 
 NotBorderNear:
 
-BiomeSizeWhenBorder: 6
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################
@@ -53,7 +53,7 @@ BiomeSizeWhenBorder: 6
 
 BiomeHeight: -1.3
 
-BiomeVolatility: 3.0
+BiomeVolatility: 1.2
 
 SmoothRadius: 20
 
