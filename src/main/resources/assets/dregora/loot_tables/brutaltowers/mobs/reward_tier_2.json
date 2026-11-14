@@ -164,6 +164,33 @@
           ]
         }
       ]
+    },
+    {
+      "name": "xp_book",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.1
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "xpbook:greater_xp_book",
+          "weight": 1,
+          "functions": [
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:55}"},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:72}","conditions": [{"condition": "random_chance","chance": 0.5}]},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:91}","conditions": [{"condition": "random_chance","chance": 0.3333}]},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:112}","conditions": [{"condition": "random_chance","chance": 0.25}]},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:135}","conditions": [{"condition": "random_chance","chance": 0.2}]},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:160}","conditions": [{"condition": "random_chance","chance": 0.1667}]},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:187}","conditions": [{"condition": "random_chance","chance": 0.1429}]},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:216}","conditions": [{"condition": "random_chance","chance": 0.125}]}
+          ]
+        }
+      ]
     }
   ]
 }

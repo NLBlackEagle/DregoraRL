@@ -106,6 +106,31 @@
           ]
         }
       ]
+    },
+    {
+      "name": "xp_book",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.1
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "xpbook:greater_xp_book",
+          "weight": 1,
+          "functions": [
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:0}"},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:7}","conditions": [{"condition": "random_chance","chance": 0.5}]},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:16}","conditions": [{"condition": "random_chance","chance": 0.3333}]},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:27}","conditions": [{"condition": "random_chance","chance": 0.25}]},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:40}","conditions": [{"condition": "random_chance","chance": 0.2}]},
+            {"function": "minecraft:set_nbt","tag": "{StoredXP:55}","conditions": [{"condition": "random_chance","chance": 0.1667}]}
+          ]
+        }
+      ]
     }
   ]
 }
