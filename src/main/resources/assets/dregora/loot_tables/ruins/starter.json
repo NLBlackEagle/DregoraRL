@@ -12,6 +12,59 @@
         }
       ]
     },
+
+
+    {
+      "name": "Soldier Outfit (rare)",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_head",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-H§4§lelmet §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_helmet.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
+            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_chest",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-C§4§lhest §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_chest.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
+            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_bottom",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-B§4§lottom §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_bottom.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
+            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_legs",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-L§4§legs §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_legs.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
+            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
+          ]
+        }
+      ]
+    },
     {
       "name": "Radiation Shielding",
       "rolls": 1,
@@ -446,46 +499,6 @@
             {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Equip§4§lment §e☢§r\",LocName:\"rldregora.nuclear.contaminated_equipment.name\"},HideFlags:2}"},
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_head",
-          "weight": 1,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-H§4§lelmet §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_helmet.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
-            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_chest",
-          "weight": 1,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-C§4§lhest §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_chest.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
-            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_bottom",
-          "weight": 1,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-B§4§lottom §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_bottom.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
-            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_legs",
-          "weight": 1,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.05d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated RAD-L§4§legs §e☢§r\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.nuclear.contaminated_RAD_legs.name\",LocLore:[\"rldregora.nuclear.contaminated_RAD_armor.lore\"]},HideFlags:2}"},
-            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
         {

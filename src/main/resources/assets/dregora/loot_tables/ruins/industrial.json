@@ -13,6 +13,57 @@
       ]
     },
     {
+      "name": "Soldier Outfit (rare)",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_head",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"RAD-Helmet\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.industrial.soldier_head.name\",LocLore:[\"rldregora.industrial.soldier_armor.lore\"]}}"},
+            {"function": "minecraft:set_attributes","modifiers": [{"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.05,"max": -0.2},"operation": "multiply_total","slot": ["head"]}]}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_chest",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"RAD-Chest\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.industrial.soldier_chest.name\",LocLore:[\"rldregora.industrial.soldier_armor.lore\"]}}"},
+            {"function": "minecraft:set_attributes","modifiers": [{"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.05,"max": -0.2},"operation": "multiply_total","slot": ["chest"]}]}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_bottom",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"RAD-Bottom\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.industrial.soldier_bottom.name\",LocLore:[\"rldregora.industrial.soldier_armor.lore\"]}}"},
+            {"function": "minecraft:set_attributes","modifiers": [{"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.05,"max": -0.2},"operation": "multiply_total","slot": ["feet"]}]}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_legs",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"RAD-Legs\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.industrial.soldier_legs.name\",LocLore:[\"rldregora.industrial.soldier_armor.lore\"]}}"},
+            {"function": "minecraft:set_attributes","modifiers": [{"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.05,"max": -0.2},"operation": "multiply_total","slot": ["legs"]}]}
+          ]
+        }
+      ]
+    },
+    {
       "name": "Hazmat Suit",
       "rolls": {
         "min": 1,
@@ -149,46 +200,6 @@
           "functions": [
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
             {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"Protective Clothing\",Lore:[\"Very, very old...\"],LocName:\"rldregora.industrial.protective_clothing.name\",LocLore:[\"rldregora.industrial.protective_clothing.lore\"]}}"}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_head",
-          "weight": 5,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"RAD-Helmet\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.industrial.soldier_head.name\",LocLore:[\"rldregora.industrial.soldier_armor.lore\"]}}"},
-            {"function": "minecraft:set_attributes","modifiers": [{"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.05,"max": -0.2},"operation": "multiply_total","slot": ["head"]}]}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_chest",
-          "weight": 5,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"RAD-Chest\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.industrial.soldier_chest.name\",LocLore:[\"rldregora.industrial.soldier_armor.lore\"]}}"},
-            {"function": "minecraft:set_attributes","modifiers": [{"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.05,"max": -0.2},"operation": "multiply_total","slot": ["chest"]}]}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_bottom",
-          "weight": 5,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"RAD-Bottom\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.industrial.soldier_bottom.name\",LocLore:[\"rldregora.industrial.soldier_armor.lore\"]}}"},
-            {"function": "minecraft:set_attributes","modifiers": [{"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.05,"max": -0.2},"operation": "multiply_total","slot": ["feet"]}]}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_legs",
-          "weight": 5,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "minecraft:set_nbt", "tag": "{display:{Name:\"RAD-Legs\",Lore:[\"Lined with lead, must be heavy...\"],LocName:\"rldregora.industrial.soldier_legs.name\",LocLore:[\"rldregora.industrial.soldier_armor.lore\"]}}"},
-            {"function": "minecraft:set_attributes","modifiers": [{"attribute": "generic.movementSpeed","name": "movementSpeed","amount": {"min": -0.05,"max": -0.2},"operation": "multiply_total","slot": ["legs"]}]}
           ]
         },
         {

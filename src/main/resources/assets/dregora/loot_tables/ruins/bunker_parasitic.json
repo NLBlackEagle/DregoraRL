@@ -13,6 +13,53 @@
       ]
     },
     {
+      "name": "Soldier Outfit (rare)",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/empty_loot",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_head",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_chest",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_bottom",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:soldier_legs",
+          "weight": 1,
+          "functions": [
+            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
+            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
+          ]
+        }
+      ]
+    },
+    {
       "name": "Ultra Rare Potion Rings",
       "rolls": 1,
       "entries": [
@@ -582,42 +629,6 @@
           "functions": [
             {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]},
             {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_head",
-          "weight": 1,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_chest",
-          "weight": 1,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_bottom",
-          "weight": 1,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
-          ]
-        },
-        {
-          "type": "item",
-          "name": "variedcommodities:soldier_legs",
-          "weight": 1,
-          "functions": [
-            {"function": "set_damage","damage": {"min": 0.1,"max": 0.9}},
-            {"function": "enchant_with_levels","levels": 40,"treasure": false,"conditions": [{"condition": "random_chance","chance": 0.2}]}
           ]
         },
         {
