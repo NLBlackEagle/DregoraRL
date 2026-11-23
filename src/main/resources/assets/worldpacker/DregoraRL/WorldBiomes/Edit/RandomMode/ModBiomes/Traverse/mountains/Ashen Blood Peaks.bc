@@ -58,7 +58,7 @@ BiomeVolatility: 2.0
 
 SmoothRadius: 20
 
-MaxAverageHeight: 20.0
+MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
 
