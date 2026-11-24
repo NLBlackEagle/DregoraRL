@@ -41,9 +41,9 @@ BiomeRarityWhenIsle: 97
 
 BiomeIsBorder: Polluted Ocean, Polluted Sea
 
-NotBorderNear: Ocean Clear, Dead River
+NotBorderNear: Ocean Clear, Dead River, Ocean Forest, Deep Polluted Ocean, Coral Reef
 
-BiomeSizeWhenBorder: 8
+BiomeSizeWhenBorder: 7
 
 
 #######################################################################
