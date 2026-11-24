@@ -43,7 +43,7 @@ BiomeIsBorder: Traverse Blood Hills
 
 NotBorderNear:
 
-BiomeSizeWhenBorder: 7
+BiomeSizeWhenBorder: 6
 
 
 #######################################################################
@@ -52,11 +52,11 @@ BiomeSizeWhenBorder: 7
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BiomeHeight: -1.6
+BiomeHeight: -1.2
 
 BiomeVolatility: 0.2
 
-SmoothRadius: 15
+SmoothRadius: 10
 
 MaxAverageHeight: 0.0
 
